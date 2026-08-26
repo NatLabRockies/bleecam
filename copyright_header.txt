@@ -1,0 +1,4 @@
+BLEECAM - Benchmarking Life Cycle Environmental, Economic, and Social Metrics
+for Critical and Advanced Minerals and Materials
+Copyright (C) 2026 Alliance for Energy Innovation, LLC
+SPDX-License-Identifier: AGPL-3.0-or-later

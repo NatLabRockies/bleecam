@@ -1,0 +1,361 @@
+time_period,loc_from,loc_to,distance_km,shipping_cost_usd_per_kg,mode,notes
+0,AU,BR,14200,0.0639,ocean,Australia (Melbourne/Perth avg) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,AU,CA,13200,0.0594,ocean,Australia (Melbourne/Perth avg) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+0,AU,CN,8900,0.0401,ocean,Australia (Melbourne/Perth avg) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,AU,EE,16500,0.0742,ocean,Australia (Melbourne/Perth avg) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,AU,JP,8200,0.0369,ocean,Australia (Melbourne/Perth avg) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,AU,MM,5800,0.0261,ocean,Australia (Melbourne/Perth avg) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,AU,MY,4100,0.025,ocean,Australia (Melbourne/Perth avg) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,AU,US,12700,0.0571,ocean,Australia (Melbourne/Perth avg) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,BR,AU,14200,0.0639,ocean,Brazil (Santos) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,BR,CA,11500,0.0518,ocean,Brazil (Santos) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+0,BR,CN,19500,0.0878,ocean,Brazil (Santos) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,BR,EE,10500,0.0473,ocean,Brazil (Santos) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,BR,JP,18500,0.0833,ocean,Brazil (Santos) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,BR,MM,18000,0.081,ocean,Brazil (Santos) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,BR,MY,17500,0.0788,ocean,Brazil (Santos) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,BR,US,9200,0.0414,ocean,Brazil (Santos) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,CA,AU,13200,0.0594,ocean,Canada (Vancouver) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,CA,BR,11500,0.0518,ocean,Canada (Vancouver) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,CA,CN,9400,0.0423,ocean,Canada (Vancouver) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,CA,EE,7200,0.0324,land/rail,Canada (Vancouver) to Estonia (Tallinn); land/rail; placeholder distance estimate — pending data team validation
+0,CA,JP,7700,0.0347,ocean,Canada (Vancouver) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,CA,MM,14000,0.063,ocean,Canada (Vancouver) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,CA,MY,14200,0.0639,ocean,Canada (Vancouver) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,CA,US,2100,0.025,coastal sea/land,Canada (Vancouver) to United States (Los Angeles / New York); coastal sea/land; placeholder distance estimate — pending data team validation
+0,CN,AU,8900,0.0401,ocean,China (Shanghai) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,CN,BR,19500,0.0878,ocean,China (Shanghai) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,CN,CA,9400,0.0423,ocean,China (Shanghai) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+0,CN,EE,9000,0.0405,ocean,China (Shanghai) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,CN,JP,2100,0.025,ocean,China (Shanghai) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,CN,MM,2200,0.025,land/rail,China (Shanghai) to Myanmar (Yangon); land/rail; placeholder distance estimate — pending data team validation
+0,CN,MY,3200,0.025,ocean,China (Shanghai) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,CN,US,9700,0.0437,ocean,China (Shanghai) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,EE,AU,16500,0.0742,ocean,Estonia (Tallinn) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,EE,BR,10500,0.0473,ocean,Estonia (Tallinn) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,EE,CA,7200,0.0324,land/rail,Estonia (Tallinn) to Canada (Vancouver); land/rail; placeholder distance estimate — pending data team validation
+0,EE,CN,9000,0.0405,ocean,Estonia (Tallinn) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,EE,JP,11500,0.0518,ocean,Estonia (Tallinn) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,EE,MM,11000,0.0495,ocean,Estonia (Tallinn) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,EE,MY,10500,0.0473,ocean,Estonia (Tallinn) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,EE,US,7800,0.0351,ocean,Estonia (Tallinn) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,JP,AU,8200,0.0369,ocean,Japan (Yokohama) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,JP,BR,18500,0.0833,ocean,Japan (Yokohama) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,JP,CA,7700,0.0347,ocean,Japan (Yokohama) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+0,JP,CN,2100,0.025,ocean,Japan (Yokohama) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,JP,EE,11500,0.0518,ocean,Japan (Yokohama) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,JP,MM,5400,0.025,ocean,Japan (Yokohama) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,JP,MY,5300,0.025,ocean,Japan (Yokohama) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,JP,US,8800,0.0396,ocean,Japan (Yokohama) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,MM,AU,5800,0.0261,ocean,Myanmar (Yangon) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,MM,BR,18000,0.081,ocean,Myanmar (Yangon) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,MM,CA,14000,0.063,ocean,Myanmar (Yangon) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+0,MM,CN,2200,0.025,land/rail,Myanmar (Yangon) to China (Shanghai); land/rail; placeholder distance estimate — pending data team validation
+0,MM,EE,11000,0.0495,ocean,Myanmar (Yangon) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,MM,JP,5400,0.025,ocean,Myanmar (Yangon) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,MM,MY,1600,0.025,ocean,Myanmar (Yangon) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+0,MM,US,14500,0.0653,ocean,Myanmar (Yangon) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,MY,AU,4100,0.025,ocean,Malaysia (Port Klang) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,MY,BR,17500,0.0788,ocean,Malaysia (Port Klang) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,MY,CA,14200,0.0639,ocean,Malaysia (Port Klang) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+0,MY,CN,3200,0.025,ocean,Malaysia (Port Klang) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,MY,EE,10500,0.0473,ocean,Malaysia (Port Klang) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,MY,JP,5300,0.025,ocean,Malaysia (Port Klang) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,MY,MM,1600,0.025,ocean,Malaysia (Port Klang) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,MY,US,14800,0.0666,ocean,Malaysia (Port Klang) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+0,US,AU,12700,0.0571,ocean,United States (Los Angeles / New York) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+0,US,BR,9200,0.0414,ocean,United States (Los Angeles / New York) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+0,US,CA,2100,0.025,coastal sea/land,United States (Los Angeles / New York) to Canada (Vancouver); coastal sea/land; placeholder distance estimate — pending data team validation
+0,US,CN,9700,0.0437,ocean,United States (Los Angeles / New York) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+0,US,EE,7800,0.0351,ocean,United States (Los Angeles / New York) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+0,US,JP,8800,0.0396,ocean,United States (Los Angeles / New York) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+0,US,MM,14500,0.0653,ocean,United States (Los Angeles / New York) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+0,US,MY,14800,0.0666,ocean,United States (Los Angeles / New York) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,AU,BR,14200,0.0639,ocean,Australia (Melbourne/Perth avg) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,AU,CA,13200,0.0594,ocean,Australia (Melbourne/Perth avg) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+1,AU,CN,8900,0.0401,ocean,Australia (Melbourne/Perth avg) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,AU,EE,16500,0.0742,ocean,Australia (Melbourne/Perth avg) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,AU,JP,8200,0.0369,ocean,Australia (Melbourne/Perth avg) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,AU,MM,5800,0.0261,ocean,Australia (Melbourne/Perth avg) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,AU,MY,4100,0.025,ocean,Australia (Melbourne/Perth avg) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,AU,US,12700,0.0571,ocean,Australia (Melbourne/Perth avg) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,BR,AU,14200,0.0639,ocean,Brazil (Santos) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,BR,CA,11500,0.0518,ocean,Brazil (Santos) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+1,BR,CN,19500,0.0878,ocean,Brazil (Santos) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,BR,EE,10500,0.0473,ocean,Brazil (Santos) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,BR,JP,18500,0.0833,ocean,Brazil (Santos) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,BR,MM,18000,0.081,ocean,Brazil (Santos) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,BR,MY,17500,0.0788,ocean,Brazil (Santos) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,BR,US,9200,0.0414,ocean,Brazil (Santos) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,CA,AU,13200,0.0594,ocean,Canada (Vancouver) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,CA,BR,11500,0.0518,ocean,Canada (Vancouver) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,CA,CN,9400,0.0423,ocean,Canada (Vancouver) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,CA,EE,7200,0.0324,land/rail,Canada (Vancouver) to Estonia (Tallinn); land/rail; placeholder distance estimate — pending data team validation
+1,CA,JP,7700,0.0347,ocean,Canada (Vancouver) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,CA,MM,14000,0.063,ocean,Canada (Vancouver) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,CA,MY,14200,0.0639,ocean,Canada (Vancouver) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,CA,US,2100,0.025,coastal sea/land,Canada (Vancouver) to United States (Los Angeles / New York); coastal sea/land; placeholder distance estimate — pending data team validation
+1,CN,AU,8900,0.0401,ocean,China (Shanghai) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,CN,BR,19500,0.0878,ocean,China (Shanghai) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,CN,CA,9400,0.0423,ocean,China (Shanghai) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+1,CN,EE,9000,0.0405,ocean,China (Shanghai) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,CN,JP,2100,0.025,ocean,China (Shanghai) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,CN,MM,2200,0.025,land/rail,China (Shanghai) to Myanmar (Yangon); land/rail; placeholder distance estimate — pending data team validation
+1,CN,MY,3200,0.025,ocean,China (Shanghai) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,CN,US,9700,0.0437,ocean,China (Shanghai) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,EE,AU,16500,0.0742,ocean,Estonia (Tallinn) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,EE,BR,10500,0.0473,ocean,Estonia (Tallinn) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,EE,CA,7200,0.0324,land/rail,Estonia (Tallinn) to Canada (Vancouver); land/rail; placeholder distance estimate — pending data team validation
+1,EE,CN,9000,0.0405,ocean,Estonia (Tallinn) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,EE,JP,11500,0.0518,ocean,Estonia (Tallinn) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,EE,MM,11000,0.0495,ocean,Estonia (Tallinn) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,EE,MY,10500,0.0473,ocean,Estonia (Tallinn) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,EE,US,7800,0.0351,ocean,Estonia (Tallinn) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,JP,AU,8200,0.0369,ocean,Japan (Yokohama) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,JP,BR,18500,0.0833,ocean,Japan (Yokohama) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,JP,CA,7700,0.0347,ocean,Japan (Yokohama) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+1,JP,CN,2100,0.025,ocean,Japan (Yokohama) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,JP,EE,11500,0.0518,ocean,Japan (Yokohama) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,JP,MM,5400,0.025,ocean,Japan (Yokohama) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,JP,MY,5300,0.025,ocean,Japan (Yokohama) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,JP,US,8800,0.0396,ocean,Japan (Yokohama) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,MM,AU,5800,0.0261,ocean,Myanmar (Yangon) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,MM,BR,18000,0.081,ocean,Myanmar (Yangon) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,MM,CA,14000,0.063,ocean,Myanmar (Yangon) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+1,MM,CN,2200,0.025,land/rail,Myanmar (Yangon) to China (Shanghai); land/rail; placeholder distance estimate — pending data team validation
+1,MM,EE,11000,0.0495,ocean,Myanmar (Yangon) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,MM,JP,5400,0.025,ocean,Myanmar (Yangon) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,MM,MY,1600,0.025,ocean,Myanmar (Yangon) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+1,MM,US,14500,0.0653,ocean,Myanmar (Yangon) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,MY,AU,4100,0.025,ocean,Malaysia (Port Klang) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,MY,BR,17500,0.0788,ocean,Malaysia (Port Klang) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,MY,CA,14200,0.0639,ocean,Malaysia (Port Klang) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+1,MY,CN,3200,0.025,ocean,Malaysia (Port Klang) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,MY,EE,10500,0.0473,ocean,Malaysia (Port Klang) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,MY,JP,5300,0.025,ocean,Malaysia (Port Klang) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,MY,MM,1600,0.025,ocean,Malaysia (Port Klang) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,MY,US,14800,0.0666,ocean,Malaysia (Port Klang) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+1,US,AU,12700,0.0571,ocean,United States (Los Angeles / New York) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+1,US,BR,9200,0.0414,ocean,United States (Los Angeles / New York) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+1,US,CA,2100,0.025,coastal sea/land,United States (Los Angeles / New York) to Canada (Vancouver); coastal sea/land; placeholder distance estimate — pending data team validation
+1,US,CN,9700,0.0437,ocean,United States (Los Angeles / New York) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+1,US,EE,7800,0.0351,ocean,United States (Los Angeles / New York) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+1,US,JP,8800,0.0396,ocean,United States (Los Angeles / New York) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+1,US,MM,14500,0.0653,ocean,United States (Los Angeles / New York) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+1,US,MY,14800,0.0666,ocean,United States (Los Angeles / New York) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,AU,BR,14200,0.0639,ocean,Australia (Melbourne/Perth avg) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,AU,CA,13200,0.0594,ocean,Australia (Melbourne/Perth avg) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+2,AU,CN,8900,0.0401,ocean,Australia (Melbourne/Perth avg) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,AU,EE,16500,0.0742,ocean,Australia (Melbourne/Perth avg) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,AU,JP,8200,0.0369,ocean,Australia (Melbourne/Perth avg) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,AU,MM,5800,0.0261,ocean,Australia (Melbourne/Perth avg) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,AU,MY,4100,0.025,ocean,Australia (Melbourne/Perth avg) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,AU,US,12700,0.0571,ocean,Australia (Melbourne/Perth avg) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,BR,AU,14200,0.0639,ocean,Brazil (Santos) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,BR,CA,11500,0.0518,ocean,Brazil (Santos) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+2,BR,CN,19500,0.0878,ocean,Brazil (Santos) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,BR,EE,10500,0.0473,ocean,Brazil (Santos) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,BR,JP,18500,0.0833,ocean,Brazil (Santos) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,BR,MM,18000,0.081,ocean,Brazil (Santos) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,BR,MY,17500,0.0788,ocean,Brazil (Santos) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,BR,US,9200,0.0414,ocean,Brazil (Santos) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,CA,AU,13200,0.0594,ocean,Canada (Vancouver) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,CA,BR,11500,0.0518,ocean,Canada (Vancouver) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,CA,CN,9400,0.0423,ocean,Canada (Vancouver) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,CA,EE,7200,0.0324,land/rail,Canada (Vancouver) to Estonia (Tallinn); land/rail; placeholder distance estimate — pending data team validation
+2,CA,JP,7700,0.0347,ocean,Canada (Vancouver) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,CA,MM,14000,0.063,ocean,Canada (Vancouver) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,CA,MY,14200,0.0639,ocean,Canada (Vancouver) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,CA,US,2100,0.025,coastal sea/land,Canada (Vancouver) to United States (Los Angeles / New York); coastal sea/land; placeholder distance estimate — pending data team validation
+2,CN,AU,8900,0.0401,ocean,China (Shanghai) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,CN,BR,19500,0.0878,ocean,China (Shanghai) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,CN,CA,9400,0.0423,ocean,China (Shanghai) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+2,CN,EE,9000,0.0405,ocean,China (Shanghai) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,CN,JP,2100,0.025,ocean,China (Shanghai) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,CN,MM,2200,0.025,land/rail,China (Shanghai) to Myanmar (Yangon); land/rail; placeholder distance estimate — pending data team validation
+2,CN,MY,3200,0.025,ocean,China (Shanghai) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,CN,US,9700,0.0437,ocean,China (Shanghai) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,EE,AU,16500,0.0742,ocean,Estonia (Tallinn) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,EE,BR,10500,0.0473,ocean,Estonia (Tallinn) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,EE,CA,7200,0.0324,land/rail,Estonia (Tallinn) to Canada (Vancouver); land/rail; placeholder distance estimate — pending data team validation
+2,EE,CN,9000,0.0405,ocean,Estonia (Tallinn) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,EE,JP,11500,0.0518,ocean,Estonia (Tallinn) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,EE,MM,11000,0.0495,ocean,Estonia (Tallinn) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,EE,MY,10500,0.0473,ocean,Estonia (Tallinn) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,EE,US,7800,0.0351,ocean,Estonia (Tallinn) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,JP,AU,8200,0.0369,ocean,Japan (Yokohama) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,JP,BR,18500,0.0833,ocean,Japan (Yokohama) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,JP,CA,7700,0.0347,ocean,Japan (Yokohama) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+2,JP,CN,2100,0.025,ocean,Japan (Yokohama) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,JP,EE,11500,0.0518,ocean,Japan (Yokohama) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,JP,MM,5400,0.025,ocean,Japan (Yokohama) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,JP,MY,5300,0.025,ocean,Japan (Yokohama) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,JP,US,8800,0.0396,ocean,Japan (Yokohama) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,MM,AU,5800,0.0261,ocean,Myanmar (Yangon) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,MM,BR,18000,0.081,ocean,Myanmar (Yangon) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,MM,CA,14000,0.063,ocean,Myanmar (Yangon) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+2,MM,CN,2200,0.025,land/rail,Myanmar (Yangon) to China (Shanghai); land/rail; placeholder distance estimate — pending data team validation
+2,MM,EE,11000,0.0495,ocean,Myanmar (Yangon) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,MM,JP,5400,0.025,ocean,Myanmar (Yangon) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,MM,MY,1600,0.025,ocean,Myanmar (Yangon) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+2,MM,US,14500,0.0653,ocean,Myanmar (Yangon) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,MY,AU,4100,0.025,ocean,Malaysia (Port Klang) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,MY,BR,17500,0.0788,ocean,Malaysia (Port Klang) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,MY,CA,14200,0.0639,ocean,Malaysia (Port Klang) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+2,MY,CN,3200,0.025,ocean,Malaysia (Port Klang) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,MY,EE,10500,0.0473,ocean,Malaysia (Port Klang) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,MY,JP,5300,0.025,ocean,Malaysia (Port Klang) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,MY,MM,1600,0.025,ocean,Malaysia (Port Klang) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,MY,US,14800,0.0666,ocean,Malaysia (Port Klang) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+2,US,AU,12700,0.0571,ocean,United States (Los Angeles / New York) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+2,US,BR,9200,0.0414,ocean,United States (Los Angeles / New York) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+2,US,CA,2100,0.025,coastal sea/land,United States (Los Angeles / New York) to Canada (Vancouver); coastal sea/land; placeholder distance estimate — pending data team validation
+2,US,CN,9700,0.0437,ocean,United States (Los Angeles / New York) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+2,US,EE,7800,0.0351,ocean,United States (Los Angeles / New York) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+2,US,JP,8800,0.0396,ocean,United States (Los Angeles / New York) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+2,US,MM,14500,0.0653,ocean,United States (Los Angeles / New York) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+2,US,MY,14800,0.0666,ocean,United States (Los Angeles / New York) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,AU,BR,14200,0.0639,ocean,Australia (Melbourne/Perth avg) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,AU,CA,13200,0.0594,ocean,Australia (Melbourne/Perth avg) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+3,AU,CN,8900,0.0401,ocean,Australia (Melbourne/Perth avg) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,AU,EE,16500,0.0742,ocean,Australia (Melbourne/Perth avg) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,AU,JP,8200,0.0369,ocean,Australia (Melbourne/Perth avg) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,AU,MM,5800,0.0261,ocean,Australia (Melbourne/Perth avg) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,AU,MY,4100,0.025,ocean,Australia (Melbourne/Perth avg) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,AU,US,12700,0.0571,ocean,Australia (Melbourne/Perth avg) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,BR,AU,14200,0.0639,ocean,Brazil (Santos) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,BR,CA,11500,0.0518,ocean,Brazil (Santos) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+3,BR,CN,19500,0.0878,ocean,Brazil (Santos) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,BR,EE,10500,0.0473,ocean,Brazil (Santos) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,BR,JP,18500,0.0833,ocean,Brazil (Santos) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,BR,MM,18000,0.081,ocean,Brazil (Santos) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,BR,MY,17500,0.0788,ocean,Brazil (Santos) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,BR,US,9200,0.0414,ocean,Brazil (Santos) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,CA,AU,13200,0.0594,ocean,Canada (Vancouver) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,CA,BR,11500,0.0518,ocean,Canada (Vancouver) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,CA,CN,9400,0.0423,ocean,Canada (Vancouver) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,CA,EE,7200,0.0324,land/rail,Canada (Vancouver) to Estonia (Tallinn); land/rail; placeholder distance estimate — pending data team validation
+3,CA,JP,7700,0.0347,ocean,Canada (Vancouver) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,CA,MM,14000,0.063,ocean,Canada (Vancouver) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,CA,MY,14200,0.0639,ocean,Canada (Vancouver) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,CA,US,2100,0.025,coastal sea/land,Canada (Vancouver) to United States (Los Angeles / New York); coastal sea/land; placeholder distance estimate — pending data team validation
+3,CN,AU,8900,0.0401,ocean,China (Shanghai) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,CN,BR,19500,0.0878,ocean,China (Shanghai) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,CN,CA,9400,0.0423,ocean,China (Shanghai) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+3,CN,EE,9000,0.0405,ocean,China (Shanghai) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,CN,JP,2100,0.025,ocean,China (Shanghai) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,CN,MM,2200,0.025,land/rail,China (Shanghai) to Myanmar (Yangon); land/rail; placeholder distance estimate — pending data team validation
+3,CN,MY,3200,0.025,ocean,China (Shanghai) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,CN,US,9700,0.0437,ocean,China (Shanghai) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,EE,AU,16500,0.0742,ocean,Estonia (Tallinn) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,EE,BR,10500,0.0473,ocean,Estonia (Tallinn) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,EE,CA,7200,0.0324,land/rail,Estonia (Tallinn) to Canada (Vancouver); land/rail; placeholder distance estimate — pending data team validation
+3,EE,CN,9000,0.0405,ocean,Estonia (Tallinn) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,EE,JP,11500,0.0518,ocean,Estonia (Tallinn) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,EE,MM,11000,0.0495,ocean,Estonia (Tallinn) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,EE,MY,10500,0.0473,ocean,Estonia (Tallinn) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,EE,US,7800,0.0351,ocean,Estonia (Tallinn) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,JP,AU,8200,0.0369,ocean,Japan (Yokohama) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,JP,BR,18500,0.0833,ocean,Japan (Yokohama) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,JP,CA,7700,0.0347,ocean,Japan (Yokohama) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+3,JP,CN,2100,0.025,ocean,Japan (Yokohama) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,JP,EE,11500,0.0518,ocean,Japan (Yokohama) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,JP,MM,5400,0.025,ocean,Japan (Yokohama) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,JP,MY,5300,0.025,ocean,Japan (Yokohama) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,JP,US,8800,0.0396,ocean,Japan (Yokohama) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,MM,AU,5800,0.0261,ocean,Myanmar (Yangon) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,MM,BR,18000,0.081,ocean,Myanmar (Yangon) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,MM,CA,14000,0.063,ocean,Myanmar (Yangon) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+3,MM,CN,2200,0.025,land/rail,Myanmar (Yangon) to China (Shanghai); land/rail; placeholder distance estimate — pending data team validation
+3,MM,EE,11000,0.0495,ocean,Myanmar (Yangon) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,MM,JP,5400,0.025,ocean,Myanmar (Yangon) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,MM,MY,1600,0.025,ocean,Myanmar (Yangon) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+3,MM,US,14500,0.0653,ocean,Myanmar (Yangon) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,MY,AU,4100,0.025,ocean,Malaysia (Port Klang) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,MY,BR,17500,0.0788,ocean,Malaysia (Port Klang) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,MY,CA,14200,0.0639,ocean,Malaysia (Port Klang) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+3,MY,CN,3200,0.025,ocean,Malaysia (Port Klang) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,MY,EE,10500,0.0473,ocean,Malaysia (Port Klang) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,MY,JP,5300,0.025,ocean,Malaysia (Port Klang) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,MY,MM,1600,0.025,ocean,Malaysia (Port Klang) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,MY,US,14800,0.0666,ocean,Malaysia (Port Klang) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+3,US,AU,12700,0.0571,ocean,United States (Los Angeles / New York) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+3,US,BR,9200,0.0414,ocean,United States (Los Angeles / New York) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+3,US,CA,2100,0.025,coastal sea/land,United States (Los Angeles / New York) to Canada (Vancouver); coastal sea/land; placeholder distance estimate — pending data team validation
+3,US,CN,9700,0.0437,ocean,United States (Los Angeles / New York) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+3,US,EE,7800,0.0351,ocean,United States (Los Angeles / New York) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+3,US,JP,8800,0.0396,ocean,United States (Los Angeles / New York) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+3,US,MM,14500,0.0653,ocean,United States (Los Angeles / New York) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+3,US,MY,14800,0.0666,ocean,United States (Los Angeles / New York) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,AU,BR,14200,0.0639,ocean,Australia (Melbourne/Perth avg) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,AU,CA,13200,0.0594,ocean,Australia (Melbourne/Perth avg) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+4,AU,CN,8900,0.0401,ocean,Australia (Melbourne/Perth avg) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,AU,EE,16500,0.0742,ocean,Australia (Melbourne/Perth avg) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,AU,JP,8200,0.0369,ocean,Australia (Melbourne/Perth avg) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,AU,MM,5800,0.0261,ocean,Australia (Melbourne/Perth avg) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,AU,MY,4100,0.025,ocean,Australia (Melbourne/Perth avg) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,AU,US,12700,0.0571,ocean,Australia (Melbourne/Perth avg) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,BR,AU,14200,0.0639,ocean,Brazil (Santos) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,BR,CA,11500,0.0518,ocean,Brazil (Santos) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+4,BR,CN,19500,0.0878,ocean,Brazil (Santos) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,BR,EE,10500,0.0473,ocean,Brazil (Santos) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,BR,JP,18500,0.0833,ocean,Brazil (Santos) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,BR,MM,18000,0.081,ocean,Brazil (Santos) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,BR,MY,17500,0.0788,ocean,Brazil (Santos) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,BR,US,9200,0.0414,ocean,Brazil (Santos) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,CA,AU,13200,0.0594,ocean,Canada (Vancouver) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,CA,BR,11500,0.0518,ocean,Canada (Vancouver) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,CA,CN,9400,0.0423,ocean,Canada (Vancouver) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,CA,EE,7200,0.0324,land/rail,Canada (Vancouver) to Estonia (Tallinn); land/rail; placeholder distance estimate — pending data team validation
+4,CA,JP,7700,0.0347,ocean,Canada (Vancouver) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,CA,MM,14000,0.063,ocean,Canada (Vancouver) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,CA,MY,14200,0.0639,ocean,Canada (Vancouver) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,CA,US,2100,0.025,coastal sea/land,Canada (Vancouver) to United States (Los Angeles / New York); coastal sea/land; placeholder distance estimate — pending data team validation
+4,CN,AU,8900,0.0401,ocean,China (Shanghai) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,CN,BR,19500,0.0878,ocean,China (Shanghai) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,CN,CA,9400,0.0423,ocean,China (Shanghai) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+4,CN,EE,9000,0.0405,ocean,China (Shanghai) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,CN,JP,2100,0.025,ocean,China (Shanghai) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,CN,MM,2200,0.025,land/rail,China (Shanghai) to Myanmar (Yangon); land/rail; placeholder distance estimate — pending data team validation
+4,CN,MY,3200,0.025,ocean,China (Shanghai) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,CN,US,9700,0.0437,ocean,China (Shanghai) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,EE,AU,16500,0.0742,ocean,Estonia (Tallinn) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,EE,BR,10500,0.0473,ocean,Estonia (Tallinn) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,EE,CA,7200,0.0324,land/rail,Estonia (Tallinn) to Canada (Vancouver); land/rail; placeholder distance estimate — pending data team validation
+4,EE,CN,9000,0.0405,ocean,Estonia (Tallinn) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,EE,JP,11500,0.0518,ocean,Estonia (Tallinn) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,EE,MM,11000,0.0495,ocean,Estonia (Tallinn) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,EE,MY,10500,0.0473,ocean,Estonia (Tallinn) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,EE,US,7800,0.0351,ocean,Estonia (Tallinn) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,JP,AU,8200,0.0369,ocean,Japan (Yokohama) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,JP,BR,18500,0.0833,ocean,Japan (Yokohama) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,JP,CA,7700,0.0347,ocean,Japan (Yokohama) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+4,JP,CN,2100,0.025,ocean,Japan (Yokohama) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,JP,EE,11500,0.0518,ocean,Japan (Yokohama) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,JP,MM,5400,0.025,ocean,Japan (Yokohama) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,JP,MY,5300,0.025,ocean,Japan (Yokohama) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,JP,US,8800,0.0396,ocean,Japan (Yokohama) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,MM,AU,5800,0.0261,ocean,Myanmar (Yangon) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,MM,BR,18000,0.081,ocean,Myanmar (Yangon) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,MM,CA,14000,0.063,ocean,Myanmar (Yangon) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+4,MM,CN,2200,0.025,land/rail,Myanmar (Yangon) to China (Shanghai); land/rail; placeholder distance estimate — pending data team validation
+4,MM,EE,11000,0.0495,ocean,Myanmar (Yangon) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,MM,JP,5400,0.025,ocean,Myanmar (Yangon) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,MM,MY,1600,0.025,ocean,Myanmar (Yangon) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation
+4,MM,US,14500,0.0653,ocean,Myanmar (Yangon) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,MY,AU,4100,0.025,ocean,Malaysia (Port Klang) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,MY,BR,17500,0.0788,ocean,Malaysia (Port Klang) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,MY,CA,14200,0.0639,ocean,Malaysia (Port Klang) to Canada (Vancouver); ocean; placeholder distance estimate — pending data team validation
+4,MY,CN,3200,0.025,ocean,Malaysia (Port Klang) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,MY,EE,10500,0.0473,ocean,Malaysia (Port Klang) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,MY,JP,5300,0.025,ocean,Malaysia (Port Klang) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,MY,MM,1600,0.025,ocean,Malaysia (Port Klang) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,MY,US,14800,0.0666,ocean,Malaysia (Port Klang) to United States (Los Angeles / New York); ocean; placeholder distance estimate — pending data team validation
+4,US,AU,12700,0.0571,ocean,United States (Los Angeles / New York) to Australia (Melbourne/Perth avg); ocean; placeholder distance estimate — pending data team validation
+4,US,BR,9200,0.0414,ocean,United States (Los Angeles / New York) to Brazil (Santos); ocean; placeholder distance estimate — pending data team validation
+4,US,CA,2100,0.025,coastal sea/land,United States (Los Angeles / New York) to Canada (Vancouver); coastal sea/land; placeholder distance estimate — pending data team validation
+4,US,CN,9700,0.0437,ocean,United States (Los Angeles / New York) to China (Shanghai); ocean; placeholder distance estimate — pending data team validation
+4,US,EE,7800,0.0351,ocean,United States (Los Angeles / New York) to Estonia (Tallinn); ocean; placeholder distance estimate — pending data team validation
+4,US,JP,8800,0.0396,ocean,United States (Los Angeles / New York) to Japan (Yokohama); ocean; placeholder distance estimate — pending data team validation
+4,US,MM,14500,0.0653,ocean,United States (Los Angeles / New York) to Myanmar (Yangon); ocean; placeholder distance estimate — pending data team validation
+4,US,MY,14800,0.0666,ocean,United States (Los Angeles / New York) to Malaysia (Port Klang); ocean; placeholder distance estimate — pending data team validation

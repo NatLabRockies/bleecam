@@ -1,0 +1,261 @@
+time_period,source,location,material,active_gwp_value,status,notes
+0,Bauxite mining,AU,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+0,Bauxite mining,CN,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+0,Bauxite mining,GR,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+0,Bauxite mining,KZ,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+0,Bayer liquor refining,AU,4N_Ga,237.5097011,ok,numeric active GWP alias present
+0,Bayer liquor refining,CA,4N_Ga,167.4790551,ok,numeric active GWP alias present
+0,Bayer liquor refining,CN,4N_Ga,253.8027834,ok,numeric active GWP alias present
+0,Bayer liquor refining,GR,4N_Ga,228.2524824,ok,numeric active GWP alias present
+0,Bayer liquor refining,KZ,4N_Ga,248.0098231,ok,numeric active GWP alias present
+0,Bayer liquor refining,US,4N_Ga,195.834598,ok,numeric active GWP alias present
+0,Bayer process / alumina refining,AU,Bayer_liquor,0.969971182,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+0,Bayer process / alumina refining,CA,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+0,Bayer process / alumina refining,CN,Bayer_liquor,2.900045683,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+0,Bayer process / alumina refining,GR,Bayer_liquor,1.067362564,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+0,Bayer process / alumina refining,KZ,Bayer_liquor,2.840295557,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+0,Bayer process / alumina refining,US,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+0,High-purity gallium refining,CA,6N_Ga,0.360438408,ok,numeric active GWP alias present
+0,High-purity gallium refining,CN,6N_Ga,0.406362429,ok,numeric active GWP alias present
+0,High-purity gallium refining,JP,6N_Ga,0.387048646,ok,numeric active GWP alias present
+0,High-purity gallium refining,US,6N_Ga,0.377795702,ok,numeric active GWP alias present
+0,TMG synthesis,CN,TMG,39.12198705,ok,numeric active GWP alias present
+0,TMG synthesis,JP,TMG,38.79842679,ok,numeric active GWP alias present
+0,TMG synthesis,KR,TMG,38.84351615,ok,numeric active GWP alias present
+0,TMG synthesis,US,TMG,38.70798176,ok,numeric active GWP alias present
+0,Wafer manufacturing,CN,GaAs_wafer,1072.806708,ok,numeric active GWP alias present
+0,Wafer manufacturing,CN,GaN_wafer,56608.84709,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+0,Wafer manufacturing,JP,GaAs_wafer,650.5656438,ok,numeric active GWP alias present
+0,Wafer manufacturing,JP,GaN_wafer,36535.80026,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+0,Wafer manufacturing,KR,GaAs_wafer,709.406553,ok,numeric active GWP alias present
+0,Wafer manufacturing,KR,GaN_wafer,39333.0562,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+0,Wafer manufacturing,US,GaAs_wafer,532.5362846,ok,numeric active GWP alias present
+0,Wafer manufacturing,US,GaN_wafer,30924.76653,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+0,ZLR refining,CN,4N_Ga,454.692564,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+0,ZLR refining,JP,4N_Ga,445.0546803,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+0,ZLR refining,KR,4N_Ga,446.3977563,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+0,ZLR refining,US,4N_Ga,442.3605955,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+0,ZS mining,AU,Zn_sphalerite_concentrate,0.424491131,ok,numeric active GWP alias present
+0,ZS mining,CA,Zn_sphalerite_concentrate,0.136819456,ok,numeric active GWP alias present
+0,ZS mining,CN,Zn_sphalerite_concentrate,0.444370875,ok,numeric active GWP alias present
+0,ZS mining,KZ,Zn_sphalerite_concentrate,24977.30567,flag_large_value,very large active GWP alias; do not change automatically
+0,ZS mining,US,Zn_sphalerite_concentrate,0.982527787,ok,numeric active GWP alias present
+0,Zinc concentration,AU,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc concentration,CA,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc concentration,CN,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc concentration,JP,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc concentration,KR,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc concentration,KZ,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc concentration,US,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+0,Zinc smelting/refining,CN,ZLR_Zn_residue,3.422517463,ok,numeric active GWP alias present
+0,Zinc smelting/refining,JP,ZLR_Zn_residue,0.011893538,ok,numeric active GWP alias present
+0,Zinc smelting/refining,KR,ZLR_Zn_residue,1.051056816,ok,numeric active GWP alias present
+0,Zinc smelting/refining,US,ZLR_Zn_residue,1.302757267,ok,numeric active GWP alias present
+1,Bauxite mining,AU,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+1,Bauxite mining,CN,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+1,Bauxite mining,GR,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+1,Bauxite mining,KZ,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+1,Bayer liquor refining,AU,4N_Ga,237.5097011,ok,numeric active GWP alias present
+1,Bayer liquor refining,CA,4N_Ga,167.4790551,ok,numeric active GWP alias present
+1,Bayer liquor refining,CN,4N_Ga,253.8027834,ok,numeric active GWP alias present
+1,Bayer liquor refining,GR,4N_Ga,228.2524824,ok,numeric active GWP alias present
+1,Bayer liquor refining,KZ,4N_Ga,248.0098231,ok,numeric active GWP alias present
+1,Bayer liquor refining,US,4N_Ga,195.834598,ok,numeric active GWP alias present
+1,Bayer process / alumina refining,AU,Bayer_liquor,0.969971182,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+1,Bayer process / alumina refining,CA,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+1,Bayer process / alumina refining,CN,Bayer_liquor,2.900045683,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+1,Bayer process / alumina refining,GR,Bayer_liquor,1.067362564,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+1,Bayer process / alumina refining,KZ,Bayer_liquor,2.840295557,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+1,Bayer process / alumina refining,US,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+1,High-purity gallium refining,CA,6N_Ga,0.360438408,ok,numeric active GWP alias present
+1,High-purity gallium refining,CN,6N_Ga,0.406362429,ok,numeric active GWP alias present
+1,High-purity gallium refining,JP,6N_Ga,0.387048646,ok,numeric active GWP alias present
+1,High-purity gallium refining,US,6N_Ga,0.377795702,ok,numeric active GWP alias present
+1,TMG synthesis,CN,TMG,39.12198705,ok,numeric active GWP alias present
+1,TMG synthesis,JP,TMG,38.79842679,ok,numeric active GWP alias present
+1,TMG synthesis,KR,TMG,38.84351615,ok,numeric active GWP alias present
+1,TMG synthesis,US,TMG,38.70798176,ok,numeric active GWP alias present
+1,Wafer manufacturing,CN,GaAs_wafer,1072.806708,ok,numeric active GWP alias present
+1,Wafer manufacturing,CN,GaN_wafer,56608.84709,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+1,Wafer manufacturing,JP,GaAs_wafer,650.5656438,ok,numeric active GWP alias present
+1,Wafer manufacturing,JP,GaN_wafer,36535.80026,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+1,Wafer manufacturing,KR,GaAs_wafer,709.406553,ok,numeric active GWP alias present
+1,Wafer manufacturing,KR,GaN_wafer,39333.0562,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+1,Wafer manufacturing,US,GaAs_wafer,532.5362846,ok,numeric active GWP alias present
+1,Wafer manufacturing,US,GaN_wafer,30924.76653,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+1,ZLR refining,CN,4N_Ga,454.692564,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+1,ZLR refining,JP,4N_Ga,445.0546803,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+1,ZLR refining,KR,4N_Ga,446.3977563,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+1,ZLR refining,US,4N_Ga,442.3605955,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+1,ZS mining,AU,Zn_sphalerite_concentrate,0.424491131,ok,numeric active GWP alias present
+1,ZS mining,CA,Zn_sphalerite_concentrate,0.136819456,ok,numeric active GWP alias present
+1,ZS mining,CN,Zn_sphalerite_concentrate,0.444370875,ok,numeric active GWP alias present
+1,ZS mining,KZ,Zn_sphalerite_concentrate,24977.30567,flag_large_value,very large active GWP alias; do not change automatically
+1,ZS mining,US,Zn_sphalerite_concentrate,0.982527787,ok,numeric active GWP alias present
+1,Zinc concentration,AU,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc concentration,CA,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc concentration,CN,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc concentration,JP,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc concentration,KR,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc concentration,KZ,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc concentration,US,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+1,Zinc smelting/refining,CN,ZLR_Zn_residue,3.422517463,ok,numeric active GWP alias present
+1,Zinc smelting/refining,JP,ZLR_Zn_residue,0.011893538,ok,numeric active GWP alias present
+1,Zinc smelting/refining,KR,ZLR_Zn_residue,1.051056816,ok,numeric active GWP alias present
+1,Zinc smelting/refining,US,ZLR_Zn_residue,1.302757267,ok,numeric active GWP alias present
+2,Bauxite mining,AU,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+2,Bauxite mining,CN,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+2,Bauxite mining,GR,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+2,Bauxite mining,KZ,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+2,Bayer liquor refining,AU,4N_Ga,237.5097011,ok,numeric active GWP alias present
+2,Bayer liquor refining,CA,4N_Ga,167.4790551,ok,numeric active GWP alias present
+2,Bayer liquor refining,CN,4N_Ga,253.8027834,ok,numeric active GWP alias present
+2,Bayer liquor refining,GR,4N_Ga,228.2524824,ok,numeric active GWP alias present
+2,Bayer liquor refining,KZ,4N_Ga,248.0098231,ok,numeric active GWP alias present
+2,Bayer liquor refining,US,4N_Ga,195.834598,ok,numeric active GWP alias present
+2,Bayer process / alumina refining,AU,Bayer_liquor,0.969971182,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+2,Bayer process / alumina refining,CA,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+2,Bayer process / alumina refining,CN,Bayer_liquor,2.900045683,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+2,Bayer process / alumina refining,GR,Bayer_liquor,1.067362564,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+2,Bayer process / alumina refining,KZ,Bayer_liquor,2.840295557,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+2,Bayer process / alumina refining,US,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+2,High-purity gallium refining,CA,6N_Ga,0.360438408,ok,numeric active GWP alias present
+2,High-purity gallium refining,CN,6N_Ga,0.406362429,ok,numeric active GWP alias present
+2,High-purity gallium refining,JP,6N_Ga,0.387048646,ok,numeric active GWP alias present
+2,High-purity gallium refining,US,6N_Ga,0.377795702,ok,numeric active GWP alias present
+2,TMG synthesis,CN,TMG,39.12198705,ok,numeric active GWP alias present
+2,TMG synthesis,JP,TMG,38.79842679,ok,numeric active GWP alias present
+2,TMG synthesis,KR,TMG,38.84351615,ok,numeric active GWP alias present
+2,TMG synthesis,US,TMG,38.70798176,ok,numeric active GWP alias present
+2,Wafer manufacturing,CN,GaAs_wafer,1072.806708,ok,numeric active GWP alias present
+2,Wafer manufacturing,CN,GaN_wafer,56608.84709,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+2,Wafer manufacturing,JP,GaAs_wafer,650.5656438,ok,numeric active GWP alias present
+2,Wafer manufacturing,JP,GaN_wafer,36535.80026,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+2,Wafer manufacturing,KR,GaAs_wafer,709.406553,ok,numeric active GWP alias present
+2,Wafer manufacturing,KR,GaN_wafer,39333.0562,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+2,Wafer manufacturing,US,GaAs_wafer,532.5362846,ok,numeric active GWP alias present
+2,Wafer manufacturing,US,GaN_wafer,30924.76653,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+2,ZLR refining,CN,4N_Ga,454.692564,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+2,ZLR refining,JP,4N_Ga,445.0546803,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+2,ZLR refining,KR,4N_Ga,446.3977563,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+2,ZLR refining,US,4N_Ga,442.3605955,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+2,ZS mining,AU,Zn_sphalerite_concentrate,0.424491131,ok,numeric active GWP alias present
+2,ZS mining,CA,Zn_sphalerite_concentrate,0.136819456,ok,numeric active GWP alias present
+2,ZS mining,CN,Zn_sphalerite_concentrate,0.444370875,ok,numeric active GWP alias present
+2,ZS mining,KZ,Zn_sphalerite_concentrate,24977.30567,flag_large_value,very large active GWP alias; do not change automatically
+2,ZS mining,US,Zn_sphalerite_concentrate,0.982527787,ok,numeric active GWP alias present
+2,Zinc concentration,AU,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc concentration,CA,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc concentration,CN,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc concentration,JP,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc concentration,KR,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc concentration,KZ,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc concentration,US,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+2,Zinc smelting/refining,CN,ZLR_Zn_residue,3.422517463,ok,numeric active GWP alias present
+2,Zinc smelting/refining,JP,ZLR_Zn_residue,0.011893538,ok,numeric active GWP alias present
+2,Zinc smelting/refining,KR,ZLR_Zn_residue,1.051056816,ok,numeric active GWP alias present
+2,Zinc smelting/refining,US,ZLR_Zn_residue,1.302757267,ok,numeric active GWP alias present
+3,Bauxite mining,AU,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+3,Bauxite mining,CN,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+3,Bauxite mining,GR,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+3,Bauxite mining,KZ,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+3,Bayer liquor refining,AU,4N_Ga,237.5097011,ok,numeric active GWP alias present
+3,Bayer liquor refining,CA,4N_Ga,167.4790551,ok,numeric active GWP alias present
+3,Bayer liquor refining,CN,4N_Ga,253.8027834,ok,numeric active GWP alias present
+3,Bayer liquor refining,GR,4N_Ga,228.2524824,ok,numeric active GWP alias present
+3,Bayer liquor refining,KZ,4N_Ga,248.0098231,ok,numeric active GWP alias present
+3,Bayer liquor refining,US,4N_Ga,195.834598,ok,numeric active GWP alias present
+3,Bayer process / alumina refining,AU,Bayer_liquor,0.969971182,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+3,Bayer process / alumina refining,CA,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+3,Bayer process / alumina refining,CN,Bayer_liquor,2.900045683,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+3,Bayer process / alumina refining,GR,Bayer_liquor,1.067362564,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+3,Bayer process / alumina refining,KZ,Bayer_liquor,2.840295557,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+3,Bayer process / alumina refining,US,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+3,High-purity gallium refining,CA,6N_Ga,0.360438408,ok,numeric active GWP alias present
+3,High-purity gallium refining,CN,6N_Ga,0.406362429,ok,numeric active GWP alias present
+3,High-purity gallium refining,JP,6N_Ga,0.387048646,ok,numeric active GWP alias present
+3,High-purity gallium refining,US,6N_Ga,0.377795702,ok,numeric active GWP alias present
+3,TMG synthesis,CN,TMG,39.12198705,ok,numeric active GWP alias present
+3,TMG synthesis,JP,TMG,38.79842679,ok,numeric active GWP alias present
+3,TMG synthesis,KR,TMG,38.84351615,ok,numeric active GWP alias present
+3,TMG synthesis,US,TMG,38.70798176,ok,numeric active GWP alias present
+3,Wafer manufacturing,CN,GaAs_wafer,1072.806708,ok,numeric active GWP alias present
+3,Wafer manufacturing,CN,GaN_wafer,56608.84709,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+3,Wafer manufacturing,JP,GaAs_wafer,650.5656438,ok,numeric active GWP alias present
+3,Wafer manufacturing,JP,GaN_wafer,36535.80026,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+3,Wafer manufacturing,KR,GaAs_wafer,709.406553,ok,numeric active GWP alias present
+3,Wafer manufacturing,KR,GaN_wafer,39333.0562,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+3,Wafer manufacturing,US,GaAs_wafer,532.5362846,ok,numeric active GWP alias present
+3,Wafer manufacturing,US,GaN_wafer,30924.76653,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+3,ZLR refining,CN,4N_Ga,454.692564,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+3,ZLR refining,JP,4N_Ga,445.0546803,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+3,ZLR refining,KR,4N_Ga,446.3977563,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+3,ZLR refining,US,4N_Ga,442.3605955,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+3,ZS mining,AU,Zn_sphalerite_concentrate,0.424491131,ok,numeric active GWP alias present
+3,ZS mining,CA,Zn_sphalerite_concentrate,0.136819456,ok,numeric active GWP alias present
+3,ZS mining,CN,Zn_sphalerite_concentrate,0.444370875,ok,numeric active GWP alias present
+3,ZS mining,KZ,Zn_sphalerite_concentrate,24977.30567,flag_large_value,very large active GWP alias; do not change automatically
+3,ZS mining,US,Zn_sphalerite_concentrate,0.982527787,ok,numeric active GWP alias present
+3,Zinc concentration,AU,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc concentration,CA,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc concentration,CN,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc concentration,JP,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc concentration,KR,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc concentration,KZ,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc concentration,US,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+3,Zinc smelting/refining,CN,ZLR_Zn_residue,3.422517463,ok,numeric active GWP alias present
+3,Zinc smelting/refining,JP,ZLR_Zn_residue,0.011893538,ok,numeric active GWP alias present
+3,Zinc smelting/refining,KR,ZLR_Zn_residue,1.051056816,ok,numeric active GWP alias present
+3,Zinc smelting/refining,US,ZLR_Zn_residue,1.302757267,ok,numeric active GWP alias present
+4,Bauxite mining,AU,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+4,Bauxite mining,CN,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+4,Bauxite mining,GR,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+4,Bauxite mining,KZ,bauxite,0.012269178,ok,numeric active GWP alias present; Bauxite mining should be nonzero after patch-v2.
+4,Bayer liquor refining,AU,4N_Ga,237.5097011,ok,numeric active GWP alias present
+4,Bayer liquor refining,CA,4N_Ga,167.4790551,ok,numeric active GWP alias present
+4,Bayer liquor refining,CN,4N_Ga,253.8027834,ok,numeric active GWP alias present
+4,Bayer liquor refining,GR,4N_Ga,228.2524824,ok,numeric active GWP alias present
+4,Bayer liquor refining,KZ,4N_Ga,248.0098231,ok,numeric active GWP alias present
+4,Bayer liquor refining,US,4N_Ga,195.834598,ok,numeric active GWP alias present
+4,Bayer process / alumina refining,AU,Bayer_liquor,0.969971182,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+4,Bayer process / alumina refining,CA,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+4,Bayer process / alumina refining,CN,Bayer_liquor,2.900045683,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+4,Bayer process / alumina refining,GR,Bayer_liquor,1.067362564,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+4,Bayer process / alumina refining,KZ,Bayer_liquor,2.840295557,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+4,Bayer process / alumina refining,US,Bayer_liquor,0.998713824,ok,numeric active GWP alias present; Bayer process / alumina refining should be nonzero and bauxite-excluded.
+4,High-purity gallium refining,CA,6N_Ga,0.360438408,ok,numeric active GWP alias present
+4,High-purity gallium refining,CN,6N_Ga,0.406362429,ok,numeric active GWP alias present
+4,High-purity gallium refining,JP,6N_Ga,0.387048646,ok,numeric active GWP alias present
+4,High-purity gallium refining,US,6N_Ga,0.377795702,ok,numeric active GWP alias present
+4,TMG synthesis,CN,TMG,39.12198705,ok,numeric active GWP alias present
+4,TMG synthesis,JP,TMG,38.79842679,ok,numeric active GWP alias present
+4,TMG synthesis,KR,TMG,38.84351615,ok,numeric active GWP alias present
+4,TMG synthesis,US,TMG,38.70798176,ok,numeric active GWP alias present
+4,Wafer manufacturing,CN,GaAs_wafer,1072.806708,ok,numeric active GWP alias present
+4,Wafer manufacturing,CN,GaN_wafer,56608.84709,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+4,Wafer manufacturing,JP,GaAs_wafer,650.5656438,ok,numeric active GWP alias present
+4,Wafer manufacturing,JP,GaN_wafer,36535.80026,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+4,Wafer manufacturing,KR,GaAs_wafer,709.406553,ok,numeric active GWP alias present
+4,Wafer manufacturing,KR,GaN_wafer,39333.0562,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+4,Wafer manufacturing,US,GaAs_wafer,532.5362846,ok,numeric active GWP alias present
+4,Wafer manufacturing,US,GaN_wafer,30924.76653,flag_large_value,very large active GWP alias; do not change automatically; GaN wafer manufacturing may be very high because Vauche GaN-on-Si wafer processing is normalized per kg processed wafer.
+4,ZLR refining,CN,4N_Ga,454.692564,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+4,ZLR refining,JP,4N_Ga,445.0546803,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+4,ZLR refining,KR,4N_Ga,446.3977563,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+4,ZLR refining,US,4N_Ga,442.3605955,ok,numeric active GWP alias present; ZLR refining should be nonzero and is process-derived candidate.
+4,ZS mining,AU,Zn_sphalerite_concentrate,0.424491131,ok,numeric active GWP alias present
+4,ZS mining,CA,Zn_sphalerite_concentrate,0.136819456,ok,numeric active GWP alias present
+4,ZS mining,CN,Zn_sphalerite_concentrate,0.444370875,ok,numeric active GWP alias present
+4,ZS mining,KZ,Zn_sphalerite_concentrate,24977.30567,flag_large_value,very large active GWP alias; do not change automatically
+4,ZS mining,US,Zn_sphalerite_concentrate,0.982527787,ok,numeric active GWP alias present
+4,Zinc concentration,AU,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc concentration,CA,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc concentration,CN,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc concentration,JP,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc concentration,KR,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc concentration,KZ,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc concentration,US,Zn_sphalerite_concentrate,0.0,intentional_zero,intentional Zinc concentration zero placeholder
+4,Zinc smelting/refining,CN,ZLR_Zn_residue,3.422517463,ok,numeric active GWP alias present
+4,Zinc smelting/refining,JP,ZLR_Zn_residue,0.011893538,ok,numeric active GWP alias present
+4,Zinc smelting/refining,KR,ZLR_Zn_residue,1.051056816,ok,numeric active GWP alias present
+4,Zinc smelting/refining,US,ZLR_Zn_residue,1.302757267,ok,numeric active GWP alias present

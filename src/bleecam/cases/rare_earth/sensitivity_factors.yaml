@@ -1,0 +1,16 @@
+# OAT sensitivity factor groups for the Rare-Earth case.
+# Each factor = (file, column) and maps 1:1 to a provenance cluster in DATA_SOURCES.md.
+# A factor only registers under the objective it feeds (cost / gwp / social).
+# NOTE: REE demand is composite (hp_magnet_demand x Deployment Curve MW + Data center
+# magnet kg); scaling hp_magnet_demand perturbs the deployment-driven portion.
+factors:
+  - {label: Processing cost,     file: Cost_Parameters.csv,       column: "processing cost"}
+  - {label: Transport cost,      file: Cost_Parameters.csv,       column: "transportation cost"}
+  - {label: Tariffs,             file: Cost_Parameters.csv,       column: "tariff_cost"}
+  - {label: Shipping cost,       file: Shipping_Costs.csv,        column: "shipping_cost_usd_per_kg"}
+  - {label: Capacity,            file: Capacity_Template.csv,     column: "capacity"}
+  - {label: Yield,               file: Yield_Factor.csv,          column: "yield"}
+  - {label: Recovery rate,       file: Recovery_Rates.csv,        column: "recovery_rate"}
+  - {label: Magnet demand,       file: Demand_Input_Template.csv, column: "hp_magnet_demand"}
+  - {label: GWP factors,         file: EF_template.csv,           column: "EF_weighted__Global Warming Potential (Gwp1000)"}
+  - {label: Child-labor factors, file: Social_LCA_template.csv,   column: "SLCA_EF - Child labor impact (worker hour/kg)"}

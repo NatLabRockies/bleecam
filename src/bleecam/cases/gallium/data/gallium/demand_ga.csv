@@ -1,0 +1,13 @@
+time_period,scenario,location,material,flow,demand_kg
+0,baseline_Ga,US,GaAs_wafer,wafer_demand,12008
+1,baseline_Ga,US,GaAs_wafer,wafer_demand,12789
+2,baseline_Ga,US,GaAs_wafer,wafer_demand,13620
+3,baseline_Ga,US,GaAs_wafer,wafer_demand,14505
+4,baseline_Ga,US,GaAs_wafer,wafer_demand,15448
+5,baseline_Ga,US,GaAs_wafer,wafer_demand,16452
+0,baseline_Ga,US,GaN_wafer,wafer_demand,3002
+1,baseline_Ga,US,GaN_wafer,wafer_demand,3197
+2,baseline_Ga,US,GaN_wafer,wafer_demand,3405
+3,baseline_Ga,US,GaN_wafer,wafer_demand,3626
+4,baseline_Ga,US,GaN_wafer,wafer_demand,3862
+5,baseline_Ga,US,GaN_wafer,wafer_demand,4113

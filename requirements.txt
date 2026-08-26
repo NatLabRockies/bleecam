@@ -1,0 +1,19 @@
+# BLEECAM — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# NOTE: IPOPT is also required but is NOT a pip package.
+# Install via Conda:   conda install -c conda-forge ipopt
+# Install via Homebrew (macOS): brew install ipopt
+# Verify after install: python -c "from pyomo.environ import SolverFactory; print(SolverFactory('ipopt').available())"
+
+# Core optimization framework
+pyomo>=6.7.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0      # required to read historic_installs.xlsx
+scipy>=1.10.0        # required for Weibull fitting in constraints.py
+
+# Multi-objective Pareto analysis (pareto.py only — not needed for REE.py)
+pyaugmecon>=1.0.0

@@ -1,0 +1,132 @@
+time_period,source,source_location,destination,destination_location,material,flow_value
+0,beneficiation,CN,sulfuric acid digestion,CN,phosphate,2110352.486913794
+0,chemical transformation,CN,magnet manufacturing,JP,neodynium dysprosium iron alloy,1688088.4200369986
+0,chemical transformation,US,magnet manufacturing,US,neodynium dysprosium iron alloy,968903.4273967383
+0,clay mining,BR,clay refining,BR,ion adsorption clay,62158.95954602688
+0,clay mining,MM,clay refining,MM,ion adsorption clay,116176.7306035315
+0,clay refining,BR,metallothermic reduction,EE,neodynium_oxide,24863.58373472357
+0,clay refining,BR,metallothermic reduction,EE,dysprosium_oxide,26106.76292135936
+0,clay refining,MM,metallothermic reduction,CN,neodynium_oxide,37176.553800527596
+0,clay refining,MM,metallothermic reduction,CN,dysprosium_oxide,44147.15763808968
+0,magnet manufacturing,JP,magnet_market_mix,US,hp_magnet,1179973.8059241888
+0,magnet manufacturing,US,magnet_market_mix,US,hp_magnet,670490.860778588
+0,magnet_market_mix,US,use phase,US,hp_magnet,1850464.6676768856
+0,metallothermic reduction,CN,chemical transformation,CN,dysprosium,35168.50877299555
+0,metallothermic reduction,EE,chemical transformation,US,dysprosium,20389.381836336564
+0,mining,CN,beneficiation,CN,monazaite,5911351.503960207
+0,mining,CN,chemical transformation,CN,iron,1125392.2807358576
+0,mining,US,chemical transformation,US,iron,652460.2210193886
+0,molten_salt electrolysis,CN,chemical transformation,CN,neodynium,527527.6315949332
+0,molten_salt electrolysis,EE,chemical transformation,US,neodynium,305840.72833067155
+0,sulfuric acid digestion,CN,molten_salt electrolysis,CN,neodynium_oxide,620869.0906844767
+0,sulfuric acid digestion,CN,molten_salt electrolysis,CN,dysprosium_oxide,3002.3658036663355
+0,sulfuric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,367155.7363014508
+0,sulfuric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,1775.4722278553859
+0,use phase,US,direct reuse,US,hp_magnet,33817.78612898448
+1,beneficiation,CN,sulfuric acid digestion,CN,phosphate,2116108.928103117
+1,chemical transformation,CN,magnet manufacturing,JP,neodynium dysprosium iron alloy,1696528.6508637427
+1,chemical transformation,US,magnet manufacturing,US,neodynium dysprosium iron alloy,1000000.0000251416
+1,clay mining,BR,clay refining,BR,ion adsorption clay,62682.459800675504
+1,clay mining,MM,clay refining,MM,ion adsorption clay,114667.94189966079
+1,clay refining,BR,metallothermic reduction,EE,neodynium_oxide,25386.396139909688
+1,clay refining,BR,metallothermic reduction,EE,dysprosium_oxide,26640.045331905134
+1,clay refining,MM,metallothermic reduction,CN,neodynium_oxide,37267.08112540766
+1,clay refining,MM,metallothermic reduction,CN,dysprosium_oxide,44147.157640791214
+1,direct reuse,US,magnet_market_mix,US,hp_magnet,32126.89682253525
+1,magnet manufacturing,JP,magnet_market_mix,US,hp_magnet,1191802.8949544402
+1,magnet manufacturing,US,magnet_market_mix,US,hp_magnet,695470.0000350454
+1,magnet_market_mix,US,use phase,US,hp_magnet,1806883.1962565035
+1,metallothermic reduction,CN,chemical transformation,CN,dysprosium,35344.3469189009
+1,metallothermic reduction,EE,chemical transformation,US,dysprosium,20939.075622379474
+1,mining,CN,beneficiation,CN,monazaite,5897986.058790408
+1,mining,CN,chemical transformation,CN,iron,1131019.1014048287
+1,mining,US,chemical transformation,US,iron,670050.4219388447
+1,molten_salt electrolysis,CN,chemical transformation,CN,neodynium,530165.2037835134
+1,molten_salt electrolysis,EE,chemical transformation,US,neodynium,314086.1350146194
+1,sulfuric acid digestion,CN,molten_salt electrolysis,CN,neodynium_oxide,620869.2315574085
+1,sulfuric acid digestion,CN,molten_salt electrolysis,CN,dysprosium_oxide,3003.2631310351658
+1,sulfuric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,374804.45706892194
+1,sulfuric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,1813.000790489695
+1,use phase,US,direct reuse,US,hp_magnet,72254.10342810655
+2,beneficiation,CN,sulfuric acid digestion,CN,phosphate,2097029.5831949324
+2,chemical transformation,CN,magnet manufacturing,JP,neodynium dysprosium iron alloy,1704968.880974866
+2,chemical transformation,US,magnet manufacturing,US,neodynium dysprosium iron alloy,1000000.0000043773
+2,clay mining,BR,clay refining,BR,ion adsorption clay,61257.21608298297
+2,clay mining,MM,clay refining,MM,ion adsorption clay,113197.84008050246
+2,clay refining,BR,metallothermic reduction,EE,neodynium_oxide,25115.45851979081
+2,clay refining,BR,metallothermic reduction,EE,dysprosium_oxide,26340.602837732033
+2,clay refining,MM,metallothermic reduction,CN,neodynium_oxide,37355.287234614996
+2,clay refining,MM,metallothermic reduction,CN,dysprosium_oxide,44147.15764083303
+2,direct reuse,US,magnet_market_mix,US,hp_magnet,69002.66877384175
+2,magnet manufacturing,JP,magnet_market_mix,US,hp_magnet,1203690.9806460403
+2,magnet manufacturing,US,magnet_market_mix,US,hp_magnet,698930.0000205998
+2,magnet_market_mix,US,use phase,US,hp_magnet,1844541.2211612877
+2,metallothermic reduction,CN,chemical transformation,CN,dysprosium,35520.18505181295
+2,metallothermic reduction,EE,chemical transformation,US,dysprosium,20835.416835930402
+2,mining,CN,beneficiation,CN,monazaite,5815873.708835822
+2,mining,CN,chemical transformation,CN,iron,1136645.9216580144
+2,mining,US,chemical transformation,US,iron,666733.3406435542
+2,molten_salt electrolysis,CN,chemical transformation,CN,neodynium,532802.7757771943
+2,molten_salt electrolysis,EE,chemical transformation,US,neodynium,312531.25315986807
+2,sulfuric acid digestion,CN,molten_salt electrolysis,CN,neodynium_oxide,620868.6473157424
+2,sulfuric acid digestion,CN,molten_salt electrolysis,CN,dysprosium_oxide,3002.83507041532
+2,sulfuric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,370736.955123583
+2,sulfuric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,1793.071587531373
+2,use phase,US,direct reuse,US,hp_magnet,108762.59040778
+3,beneficiation,CN,sulfuric acid digestion,CN,phosphate,2082021.6628721273
+3,chemical transformation,CN,magnet manufacturing,JP,neodynium dysprosium iron alloy,1713409.1114403894
+3,chemical transformation,US,magnet manufacturing,US,neodynium dysprosium iron alloy,999999.9999802081
+3,clay mining,BR,clay refining,BR,ion adsorption clay,60166.73414484984
+3,clay mining,MM,clay refining,MM,ion adsorption clay,111764.95602891335
+3,clay refining,BR,metallothermic reduction,EE,neodynium_oxide,24969.19460049622
+3,clay refining,BR,metallothermic reduction,EE,dysprosium_oxide,26172.52927994231
+3,clay refining,MM,metallothermic reduction,CN,neodynium_oxide,37441.260277765905
+3,clay refining,MM,metallothermic reduction,CN,dysprosium_oxide,44147.15764087248
+3,direct reuse,US,magnet_market_mix,US,hp_magnet,104412.0867914688
+3,magnet manufacturing,JP,magnet_market_mix,US,hp_magnet,1215638.0637975603
+3,magnet manufacturing,US,magnet_market_mix,US,hp_magnet,702390.0000036178
+3,magnet_market_mix,US,use phase,US,hp_magnet,1955761.9480787497
+3,metallothermic reduction,CN,chemical transformation,CN,dysprosium,35696.02319510382
+3,metallothermic reduction,EE,chemical transformation,US,dysprosium,20833.33329790492
+3,mining,CN,beneficiation,CN,monazaite,5745806.358052539
+3,mining,CN,chemical transformation,CN,iron,1142272.7422433223
+3,mining,US,chemical transformation,US,iron,666666.6673105309
+3,molten_salt electrolysis,CN,chemical transformation,CN,neodynium,535440.3479265573
+3,molten_salt electrolysis,EE,chemical transformation,US,neodynium,312500.0000373044
+3,sulfuric acid digestion,CN,molten_salt electrolysis,CN,neodynium_oxide,620868.7889379453
+3,sulfuric acid digestion,CN,molten_salt electrolysis,CN,dysprosium_oxide,3002.4147104239387
+3,sulfuric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,368514.15099857416
+3,sulfuric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,1782.0710720532322
+3,use phase,US,direct reuse,US,hp_magnet,145073.44781036046
+4,beneficiation,CN,sulfuric acid digestion,CN,phosphate,2315324.374439278
+4,chemical transformation,CN,magnet manufacturing,JP,neodynium dysprosium iron alloy,2050335.2029616162
+4,chemical transformation,US,magnet manufacturing,US,neodynium dysprosium iron alloy,999999.9999527682
+4,clay mining,BR,clay refining,BR,ion adsorption clay,59111.71650590761
+4,clay mining,CN,clay refining,CN,ion adsorption clay,17909.576631335633
+4,clay mining,MM,clay refining,MM,ion adsorption clay,110367.89407861026
+4,clay refining,BR,metallothermic reduction,EE,neodynium_oxide,24826.920867041405
+4,clay refining,BR,metallothermic reduction,EE,dysprosium_oxide,26009.155193948907
+4,clay refining,CN,metallothermic reduction,CN,neodynium_oxide,7509.145258503282
+4,clay refining,CN,metallothermic reduction,CN,dysprosium_oxide,8422.175482105855
+4,clay refining,MM,metallothermic reduction,CN,neodynium_oxide,37525.08399483678
+4,clay refining,MM,metallothermic reduction,CN,dysprosium_oxide,44147.15764090985
+4,direct reuse,US,magnet_market_mix,US,hp_magnet,139995.87713699788
+4,magnet manufacturing,JP,magnet_market_mix,US,hp_magnet,1461847.993375531
+4,magnet manufacturing,US,magnet_market_mix,US,hp_magnet,705849.9999841591
+4,magnet_market_mix,US,use phase,US,hp_magnet,2613971.10339851
+4,metallothermic reduction,CN,chemical transformation,CN,dysprosium,42715.31678321927
+4,metallothermic reduction,EE,chemical transformation,US,dysprosium,20833.333301221126
+4,mining,CN,beneficiation,CN,monazaite,6358335.734715433
+4,mining,CN,chemical transformation,CN,iron,1366890.1370630166
+4,mining,US,chemical transformation,US,iron,666666.6673114785
+4,molten_salt electrolysis,CN,chemical transformation,CN,neodynium,640729.751748289
+4,molten_salt electrolysis,EE,chemical transformation,US,neodynium,312500.00003991346
+4,sulfuric acid digestion,CN,molten_salt electrolysis,CN,neodynium_oxide,739315.2181390765
+4,sulfuric acid digestion,CN,molten_salt electrolysis,CN,dysprosium_oxide,3576.252983101182
+4,sulfuric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,366354.0446067643
+4,sulfuric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,1772.1463230664185
+4,use phase,US,direct reuse,US,hp_magnet,30448.060423662326
+4,use phase,US,magnet-to-magnet recycling,US,hp_magnet,30448.060423662326
+4,use phase,US,hydrometallurgical,US,hp_magnet,30448.060423662326
+4,use phase,US,pyrometallurgical,US,hp_magnet,30448.060423662326
+4,use phase,US,cryogenic,US,hp_magnet,30448.060423662326

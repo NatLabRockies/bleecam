@@ -1,0 +1,356 @@
+time_period,process,location,material,capacity,notes
+0,beneficiation,AU,flurocarbonate,9000000,Placeholder — tune with real data
+0,beneficiation,AU,phosphate,9000000,Placeholder — tune with real data
+0,beneficiation,CN,flurocarbonate,80000000,Placeholder — tune with real data
+0,beneficiation,CN,phosphate,80000000,Placeholder — tune with real data
+0,beneficiation,US,flurocarbonate,20000000,Placeholder — tune with real data
+0,beneficiation,US,phosphate,20000000,Placeholder — tune with real data
+0,chemical transformation,CN,neodynium dysprosium iron alloy,170000000,Placeholder — tune with real data
+0,chemical transformation,EE,neodynium dysprosium iron alloy,2500000,Neo alloy production for Narva magnet plant
+0,chemical transformation,JP,neodynium dysprosium iron alloy,30000000,Placeholder — tune with real data
+0,chemical transformation,US,neodynium dysprosium iron alloy,10000000,Placeholder — tune with real data
+0,clay mining,AU,ion adsorption clay,5000000,Placeholder — tune with real data
+0,clay mining,BR,ion adsorption clay,300000,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+0,clay mining,CN,ion adsorption clay,50000000,Placeholder — tune with real data
+0,clay mining,MM,ion adsorption clay,31000000,Myanmar Kachin State IAC; volatile — 5% annual decline risk
+0,clay refining,AU,dysprosium_oxide,500000,Placeholder — tune with real data
+0,clay refining,AU,neodynium_oxide,2000000,Placeholder — tune with real data
+0,clay refining,BR,dysprosium_oxide,50000,Brazil Serra Verde DyOx; only non-CN IAC Dy+Tb source
+0,clay refining,BR,neodynium_oxide,100000,Brazil Serra Verde oxide output
+0,clay refining,CN,dysprosium_oxide,5000000,Placeholder — tune with real data
+0,clay refining,CN,neodynium_oxide,20000000,Placeholder — tune with real data
+0,clay refining,MM,dysprosium_oxide,8000000,Myanmar in-situ leach; DyOx-rich IAC (8-12% Dy concentration)
+0,clay refining,MM,neodynium_oxide,2000000,Myanmar in-situ leach; NdOx minor fraction
+0,cryogenic,US,neodynium dysprosium iron alloy,50000000,Placeholder — tune with real data
+0,direct reuse,US,hp_magnet,50000000,Placeholder — tune with real data
+0,hydrochloric acid digestion,AU,dysprosium_oxide,1000000,Placeholder — tune with real data
+0,hydrochloric acid digestion,AU,neodynium_oxide,8000000,Placeholder — tune with real data
+0,hydrochloric acid digestion,CN,dysprosium_oxide,5000000,Placeholder — tune with real data
+0,hydrochloric acid digestion,CN,neodynium_oxide,40000000,Placeholder — tune with real data
+0,hydrochloric acid digestion,EE,dysprosium_oxide,150000,Neo Silmet HREE
+0,hydrochloric acid digestion,EE,neodynium_oxide,1000000,Neo Silmet secondary circuit
+0,hydrochloric acid digestion,MY,dysprosium_oxide,1000000,Lynas LAMP HCAD HREE
+0,hydrochloric acid digestion,MY,neodynium_oxide,5000000,Lynas LAMP secondary HCAD circuit
+0,hydrochloric acid digestion,US,dysprosium_oxide,2000000,Placeholder — tune with real data
+0,hydrochloric acid digestion,US,neodynium_oxide,15000000,Placeholder — tune with real data
+0,hydrometallurgical,US,neodynium dysprosium iron alloy,50000000,Placeholder — tune with real data
+0,magnet manufacturing,CN,hp_magnet,170000000,Placeholder — tune with real data
+0,magnet manufacturing,EE,hp_magnet,2000000,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+0,magnet manufacturing,JP,hp_magnet,25000000,Placeholder — tune with real data
+0,magnet manufacturing,US,hp_magnet,5000000,Placeholder — tune with real data
+0,magnet-to-magnet recycling,US,hp_magnet,50000000,Placeholder — tune with real data
+0,magnet_market_mix,US,hp_magnet,500000000,Placeholder — tune with real data
+0,metallothermic reduction,CN,dysprosium,3000000,Placeholder — tune with real data
+0,metallothermic reduction,EE,dysprosium,250000,Neo Silmet Dy metal
+0,metallothermic reduction,JP,dysprosium,800000,Placeholder — tune with real data
+0,metallothermic reduction,US,dysprosium,500000,Placeholder — tune with real data
+0,mining,AU,bastnasite,18000000,Placeholder — tune with real data
+0,mining,AU,monazaite,18000000,Placeholder — tune with real data
+0,mining,BR,bastnasite,200000,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit
+0,mining,BR,monazaite,100000,Brazil monazite sands placeholder
+0,mining,CA,bastnasite,500000,Canada placeholder; 14M MT reserves; DOD-backed projects ramping
+0,mining,CA,monazaite,500000,Canada placeholder; monazite sands
+0,mining,CN,bastnasite,168000000,Placeholder — tune with real data
+0,mining,CN,monazaite,168000000,Placeholder — tune with real data
+0,mining,US,bastnasite,43000000,Placeholder — tune with real data
+0,mining,US,monazaite,43000000,Placeholder — tune with real data
+0,molten_salt electrolysis,CN,neodynium,30000000,Placeholder — tune with real data
+0,molten_salt electrolysis,EE,neodynium,1500000,Neo Silmet metal reduction
+0,molten_salt electrolysis,JP,neodynium,8000000,Placeholder — tune with real data
+0,molten_salt electrolysis,US,neodynium,5000000,Placeholder — tune with real data
+0,pyrometallurgical,US,neodynium dysprosium iron alloy,50000000,Placeholder — tune with real data
+0,sulfuric acid digestion,AU,dysprosium_oxide,1000000,Placeholder — tune with real data
+0,sulfuric acid digestion,AU,neodynium_oxide,8000000,Placeholder — tune with real data
+0,sulfuric acid digestion,CN,dysprosium_oxide,5000000,Placeholder — tune with real data
+0,sulfuric acid digestion,CN,neodynium_oxide,40000000,Placeholder — tune with real data
+0,sulfuric acid digestion,EE,dysprosium_oxide,300000,Neo Silmet; heavy REE pilot line
+0,sulfuric acid digestion,EE,neodynium_oxide,2000000,Neo Silmet Sillamae; LREE separation capacity
+0,sulfuric acid digestion,MY,dysprosium_oxide,1500000,Lynas LAMP new HREE circuit; 1500 t/yr Dy+Tb capacity from 2025
+0,sulfuric acid digestion,MY,neodynium_oxide,10500000,Lynas LAMP Kuantan; NdPr family separation capacity
+0,sulfuric acid digestion,US,dysprosium_oxide,2000000,Placeholder — tune with real data
+0,sulfuric acid digestion,US,neodynium_oxide,15000000,Placeholder — tune with real data
+0,use phase,US,hp_magnet,500000000,Placeholder — tune with real data
+1,beneficiation,AU,flurocarbonate,9180000,Placeholder — tune with real data
+1,beneficiation,AU,phosphate,9180000,Placeholder — tune with real data
+1,beneficiation,CN,flurocarbonate,81600000,Placeholder — tune with real data
+1,beneficiation,CN,phosphate,81600000,Placeholder — tune with real data
+1,beneficiation,US,flurocarbonate,20400000,Placeholder — tune with real data
+1,beneficiation,US,phosphate,20400000,Placeholder — tune with real data
+1,chemical transformation,CN,neodynium dysprosium iron alloy,173400000,Placeholder — tune with real data
+1,chemical transformation,EE,neodynium dysprosium iron alloy,2550000,Neo alloy production for Narva magnet plant
+1,chemical transformation,JP,neodynium dysprosium iron alloy,30600000,Placeholder — tune with real data
+1,chemical transformation,US,neodynium dysprosium iron alloy,10200000,Placeholder — tune with real data
+1,clay mining,AU,ion adsorption clay,5100000,Placeholder — tune with real data
+1,clay mining,BR,ion adsorption clay,800000,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+1,clay mining,CN,ion adsorption clay,51000000,Placeholder — tune with real data
+1,clay mining,MM,ion adsorption clay,29450000,Myanmar Kachin State IAC; volatile — 5% annual decline risk
+1,clay refining,AU,dysprosium_oxide,510000,Placeholder — tune with real data
+1,clay refining,AU,neodynium_oxide,2040000,Placeholder — tune with real data
+1,clay refining,BR,dysprosium_oxide,150000,Brazil Serra Verde DyOx; only non-CN IAC Dy+Tb source
+1,clay refining,BR,neodynium_oxide,300000,Brazil Serra Verde oxide output
+1,clay refining,CN,dysprosium_oxide,5100000,Placeholder — tune with real data
+1,clay refining,CN,neodynium_oxide,20400000,Placeholder — tune with real data
+1,clay refining,MM,dysprosium_oxide,7600000,Myanmar in-situ leach; DyOx-rich IAC (8-12% Dy concentration)
+1,clay refining,MM,neodynium_oxide,1900000,Myanmar in-situ leach; NdOx minor fraction
+1,cryogenic,US,neodynium dysprosium iron alloy,51000000,Placeholder — tune with real data
+1,direct reuse,US,hp_magnet,51000000,Placeholder — tune with real data
+1,hydrochloric acid digestion,AU,dysprosium_oxide,1020000,Placeholder — tune with real data
+1,hydrochloric acid digestion,AU,neodynium_oxide,8160000,Placeholder — tune with real data
+1,hydrochloric acid digestion,CN,dysprosium_oxide,5100000,Placeholder — tune with real data
+1,hydrochloric acid digestion,CN,neodynium_oxide,40800000,Placeholder — tune with real data
+1,hydrochloric acid digestion,EE,dysprosium_oxide,153000,Neo Silmet HREE
+1,hydrochloric acid digestion,EE,neodynium_oxide,1020000,Neo Silmet secondary circuit
+1,hydrochloric acid digestion,MY,dysprosium_oxide,1020000,Lynas LAMP HCAD HREE
+1,hydrochloric acid digestion,MY,neodynium_oxide,5100000,Lynas LAMP secondary HCAD circuit
+1,hydrochloric acid digestion,US,dysprosium_oxide,2040000,Placeholder — tune with real data
+1,hydrochloric acid digestion,US,neodynium_oxide,15300000,Placeholder — tune with real data
+1,hydrometallurgical,US,neodynium dysprosium iron alloy,51000000,Placeholder — tune with real data
+1,magnet manufacturing,CN,hp_magnet,173400000,Placeholder — tune with real data
+1,magnet manufacturing,EE,hp_magnet,3060000,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+1,magnet manufacturing,JP,hp_magnet,25500000,Placeholder — tune with real data
+1,magnet manufacturing,US,hp_magnet,5100000,Placeholder — tune with real data
+1,magnet-to-magnet recycling,US,hp_magnet,51000000,Placeholder — tune with real data
+1,magnet_market_mix,US,hp_magnet,510000000,Placeholder — tune with real data
+1,metallothermic reduction,CN,dysprosium,3060000,Placeholder — tune with real data
+1,metallothermic reduction,EE,dysprosium,255000,Neo Silmet Dy metal
+1,metallothermic reduction,JP,dysprosium,816000,Placeholder — tune with real data
+1,metallothermic reduction,US,dysprosium,510000,Placeholder — tune with real data
+1,mining,AU,bastnasite,18360000,Placeholder — tune with real data
+1,mining,AU,monazaite,18360000,Placeholder — tune with real data
+1,mining,BR,bastnasite,500000,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit
+1,mining,BR,monazaite,250000,Brazil monazite sands placeholder
+1,mining,CA,bastnasite,575000,Canada placeholder; 14M MT reserves; DOD-backed projects ramping
+1,mining,CA,monazaite,575000,Canada placeholder; monazite sands
+1,mining,CN,bastnasite,171360000,Placeholder — tune with real data
+1,mining,CN,monazaite,171360000,Placeholder — tune with real data
+1,mining,US,bastnasite,43860000,Placeholder — tune with real data
+1,mining,US,monazaite,43860000,Placeholder — tune with real data
+1,molten_salt electrolysis,CN,neodynium,30600000,Placeholder — tune with real data
+1,molten_salt electrolysis,EE,neodynium,1530000,Neo Silmet metal reduction
+1,molten_salt electrolysis,JP,neodynium,8160000,Placeholder — tune with real data
+1,molten_salt electrolysis,US,neodynium,5100000,Placeholder — tune with real data
+1,pyrometallurgical,US,neodynium dysprosium iron alloy,51000000,Placeholder — tune with real data
+1,sulfuric acid digestion,AU,dysprosium_oxide,1020000,Placeholder — tune with real data
+1,sulfuric acid digestion,AU,neodynium_oxide,8160000,Placeholder — tune with real data
+1,sulfuric acid digestion,CN,dysprosium_oxide,5100000,Placeholder — tune with real data
+1,sulfuric acid digestion,CN,neodynium_oxide,40800000,Placeholder — tune with real data
+1,sulfuric acid digestion,EE,dysprosium_oxide,306000,Neo Silmet; heavy REE pilot line
+1,sulfuric acid digestion,EE,neodynium_oxide,2040000,Neo Silmet Sillamae; LREE separation capacity
+1,sulfuric acid digestion,MY,dysprosium_oxide,1530000,Lynas LAMP new HREE circuit; 1500 t/yr Dy+Tb capacity from 2025
+1,sulfuric acid digestion,MY,neodynium_oxide,10710000,Lynas LAMP Kuantan; NdPr family separation capacity
+1,sulfuric acid digestion,US,dysprosium_oxide,2040000,Placeholder — tune with real data
+1,sulfuric acid digestion,US,neodynium_oxide,15300000,Placeholder — tune with real data
+1,use phase,US,hp_magnet,510000000,Placeholder — tune with real data
+2,beneficiation,AU,flurocarbonate,9360000,Placeholder — tune with real data
+2,beneficiation,AU,phosphate,9360000,Placeholder — tune with real data
+2,beneficiation,CN,flurocarbonate,83200000,Placeholder — tune with real data
+2,beneficiation,CN,phosphate,83200000,Placeholder — tune with real data
+2,beneficiation,US,flurocarbonate,20800000,Placeholder — tune with real data
+2,beneficiation,US,phosphate,20800000,Placeholder — tune with real data
+2,chemical transformation,CN,neodynium dysprosium iron alloy,176800000,Placeholder — tune with real data
+2,chemical transformation,EE,neodynium dysprosium iron alloy,2601000,Neo alloy production for Narva magnet plant
+2,chemical transformation,JP,neodynium dysprosium iron alloy,31200000,Placeholder — tune with real data
+2,chemical transformation,US,neodynium dysprosium iron alloy,10400000,Placeholder — tune with real data
+2,clay mining,AU,ion adsorption clay,5200000,Placeholder — tune with real data
+2,clay mining,BR,ion adsorption clay,1300000,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+2,clay mining,CN,ion adsorption clay,52000000,Placeholder — tune with real data
+2,clay mining,MM,ion adsorption clay,27977500,Myanmar Kachin State IAC; volatile — 5% annual decline risk
+2,clay refining,AU,dysprosium_oxide,520000,Placeholder — tune with real data
+2,clay refining,AU,neodynium_oxide,2080000,Placeholder — tune with real data
+2,clay refining,BR,dysprosium_oxide,250000,Brazil Serra Verde DyOx; only non-CN IAC Dy+Tb source
+2,clay refining,BR,neodynium_oxide,500000,Brazil Serra Verde oxide output
+2,clay refining,CN,dysprosium_oxide,5200000,Placeholder — tune with real data
+2,clay refining,CN,neodynium_oxide,20800000,Placeholder — tune with real data
+2,clay refining,MM,dysprosium_oxide,7220000,Myanmar in-situ leach; DyOx-rich IAC (8-12% Dy concentration)
+2,clay refining,MM,neodynium_oxide,1805000,Myanmar in-situ leach; NdOx minor fraction
+2,cryogenic,US,neodynium dysprosium iron alloy,52000000,Placeholder — tune with real data
+2,direct reuse,US,hp_magnet,52000000,Placeholder — tune with real data
+2,hydrochloric acid digestion,AU,dysprosium_oxide,1040000,Placeholder — tune with real data
+2,hydrochloric acid digestion,AU,neodynium_oxide,8320000,Placeholder — tune with real data
+2,hydrochloric acid digestion,CN,dysprosium_oxide,5200000,Placeholder — tune with real data
+2,hydrochloric acid digestion,CN,neodynium_oxide,41600000,Placeholder — tune with real data
+2,hydrochloric acid digestion,EE,dysprosium_oxide,156060,Neo Silmet HREE
+2,hydrochloric acid digestion,EE,neodynium_oxide,1040400,Neo Silmet secondary circuit
+2,hydrochloric acid digestion,MY,dysprosium_oxide,1040400,Lynas LAMP HCAD HREE
+2,hydrochloric acid digestion,MY,neodynium_oxide,5202000,Lynas LAMP secondary HCAD circuit
+2,hydrochloric acid digestion,US,dysprosium_oxide,2080000,Placeholder — tune with real data
+2,hydrochloric acid digestion,US,neodynium_oxide,15600000,Placeholder — tune with real data
+2,hydrometallurgical,US,neodynium dysprosium iron alloy,52000000,Placeholder — tune with real data
+2,magnet manufacturing,CN,hp_magnet,176800000,Placeholder — tune with real data
+2,magnet manufacturing,EE,hp_magnet,4161600,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+2,magnet manufacturing,JP,hp_magnet,26000000,Placeholder — tune with real data
+2,magnet manufacturing,US,hp_magnet,5200000,Placeholder — tune with real data
+2,magnet-to-magnet recycling,US,hp_magnet,52000000,Placeholder — tune with real data
+2,magnet_market_mix,US,hp_magnet,520000000,Placeholder — tune with real data
+2,metallothermic reduction,CN,dysprosium,3120000,Placeholder — tune with real data
+2,metallothermic reduction,EE,dysprosium,260100,Neo Silmet Dy metal
+2,metallothermic reduction,JP,dysprosium,832000,Placeholder — tune with real data
+2,metallothermic reduction,US,dysprosium,520000,Placeholder — tune with real data
+2,mining,AU,bastnasite,18720000,Placeholder — tune with real data
+2,mining,AU,monazaite,18720000,Placeholder — tune with real data
+2,mining,BR,bastnasite,800000,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit
+2,mining,BR,monazaite,400000,Brazil monazite sands placeholder
+2,mining,CA,bastnasite,661249,Canada placeholder; 14M MT reserves; DOD-backed projects ramping
+2,mining,CA,monazaite,661249,Canada placeholder; monazite sands
+2,mining,CN,bastnasite,174720000,Placeholder — tune with real data
+2,mining,CN,monazaite,174720000,Placeholder — tune with real data
+2,mining,US,bastnasite,44720000,Placeholder — tune with real data
+2,mining,US,monazaite,44720000,Placeholder — tune with real data
+2,molten_salt electrolysis,CN,neodynium,31200000,Placeholder — tune with real data
+2,molten_salt electrolysis,EE,neodynium,1560600,Neo Silmet metal reduction
+2,molten_salt electrolysis,JP,neodynium,8320000,Placeholder — tune with real data
+2,molten_salt electrolysis,US,neodynium,5200000,Placeholder — tune with real data
+2,pyrometallurgical,US,neodynium dysprosium iron alloy,52000000,Placeholder — tune with real data
+2,sulfuric acid digestion,AU,dysprosium_oxide,1040000,Placeholder — tune with real data
+2,sulfuric acid digestion,AU,neodynium_oxide,8320000,Placeholder — tune with real data
+2,sulfuric acid digestion,CN,dysprosium_oxide,5200000,Placeholder — tune with real data
+2,sulfuric acid digestion,CN,neodynium_oxide,41600000,Placeholder — tune with real data
+2,sulfuric acid digestion,EE,dysprosium_oxide,312120,Neo Silmet; heavy REE pilot line
+2,sulfuric acid digestion,EE,neodynium_oxide,2080800,Neo Silmet Sillamae; LREE separation capacity
+2,sulfuric acid digestion,MY,dysprosium_oxide,1560600,Lynas LAMP new HREE circuit; 1500 t/yr Dy+Tb capacity from 2025
+2,sulfuric acid digestion,MY,neodynium_oxide,10924200,Lynas LAMP Kuantan; NdPr family separation capacity
+2,sulfuric acid digestion,US,dysprosium_oxide,2080000,Placeholder — tune with real data
+2,sulfuric acid digestion,US,neodynium_oxide,15600000,Placeholder — tune with real data
+2,use phase,US,hp_magnet,520000000,Placeholder — tune with real data
+3,beneficiation,AU,flurocarbonate,9540000,Placeholder — tune with real data
+3,beneficiation,AU,phosphate,9540000,Placeholder — tune with real data
+3,beneficiation,CN,flurocarbonate,84800000,Placeholder — tune with real data
+3,beneficiation,CN,phosphate,84800000,Placeholder — tune with real data
+3,beneficiation,US,flurocarbonate,21200000,Placeholder — tune with real data
+3,beneficiation,US,phosphate,21200000,Placeholder — tune with real data
+3,chemical transformation,CN,neodynium dysprosium iron alloy,180200000,Placeholder — tune with real data
+3,chemical transformation,EE,neodynium dysprosium iron alloy,2653020,Neo alloy production for Narva magnet plant
+3,chemical transformation,JP,neodynium dysprosium iron alloy,31800000,Placeholder — tune with real data
+3,chemical transformation,US,neodynium dysprosium iron alloy,10600000,Placeholder — tune with real data
+3,clay mining,AU,ion adsorption clay,5300000,Placeholder — tune with real data
+3,clay mining,BR,ion adsorption clay,1800000,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+3,clay mining,CN,ion adsorption clay,53000000,Placeholder — tune with real data
+3,clay mining,MM,ion adsorption clay,26578624,Myanmar Kachin State IAC; volatile — 5% annual decline risk
+3,clay refining,AU,dysprosium_oxide,530000,Placeholder — tune with real data
+3,clay refining,AU,neodynium_oxide,2120000,Placeholder — tune with real data
+3,clay refining,BR,dysprosium_oxide,350000,Brazil Serra Verde DyOx; only non-CN IAC Dy+Tb source
+3,clay refining,BR,neodynium_oxide,700000,Brazil Serra Verde oxide output
+3,clay refining,CN,dysprosium_oxide,5300000,Placeholder — tune with real data
+3,clay refining,CN,neodynium_oxide,21200000,Placeholder — tune with real data
+3,clay refining,MM,dysprosium_oxide,6858999,Myanmar in-situ leach; DyOx-rich IAC (8-12% Dy concentration)
+3,clay refining,MM,neodynium_oxide,1714749,Myanmar in-situ leach; NdOx minor fraction
+3,cryogenic,US,neodynium dysprosium iron alloy,53000000,Placeholder — tune with real data
+3,direct reuse,US,hp_magnet,53000000,Placeholder — tune with real data
+3,hydrochloric acid digestion,AU,dysprosium_oxide,1060000,Placeholder — tune with real data
+3,hydrochloric acid digestion,AU,neodynium_oxide,8480000,Placeholder — tune with real data
+3,hydrochloric acid digestion,CN,dysprosium_oxide,5300000,Placeholder — tune with real data
+3,hydrochloric acid digestion,CN,neodynium_oxide,42400000,Placeholder — tune with real data
+3,hydrochloric acid digestion,EE,dysprosium_oxide,159181,Neo Silmet HREE
+3,hydrochloric acid digestion,EE,neodynium_oxide,1061208,Neo Silmet secondary circuit
+3,hydrochloric acid digestion,MY,dysprosium_oxide,1061208,Lynas LAMP HCAD HREE
+3,hydrochloric acid digestion,MY,neodynium_oxide,5306040,Lynas LAMP secondary HCAD circuit
+3,hydrochloric acid digestion,US,dysprosium_oxide,2120000,Placeholder — tune with real data
+3,hydrochloric acid digestion,US,neodynium_oxide,15900000,Placeholder — tune with real data
+3,hydrometallurgical,US,neodynium dysprosium iron alloy,53000000,Placeholder — tune with real data
+3,magnet manufacturing,CN,hp_magnet,180200000,Placeholder — tune with real data
+3,magnet manufacturing,EE,hp_magnet,5306040,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+3,magnet manufacturing,JP,hp_magnet,26500000,Placeholder — tune with real data
+3,magnet manufacturing,US,hp_magnet,5300000,Placeholder — tune with real data
+3,magnet-to-magnet recycling,US,hp_magnet,53000000,Placeholder — tune with real data
+3,magnet_market_mix,US,hp_magnet,530000000,Placeholder — tune with real data
+3,metallothermic reduction,CN,dysprosium,3180000,Placeholder — tune with real data
+3,metallothermic reduction,EE,dysprosium,265302,Neo Silmet Dy metal
+3,metallothermic reduction,JP,dysprosium,848000,Placeholder — tune with real data
+3,metallothermic reduction,US,dysprosium,530000,Placeholder — tune with real data
+3,mining,AU,bastnasite,19080000,Placeholder — tune with real data
+3,mining,AU,monazaite,19080000,Placeholder — tune with real data
+3,mining,BR,bastnasite,1100000,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit
+3,mining,BR,monazaite,550000,Brazil monazite sands placeholder
+3,mining,CA,bastnasite,760437,Canada placeholder; 14M MT reserves; DOD-backed projects ramping
+3,mining,CA,monazaite,760437,Canada placeholder; monazite sands
+3,mining,CN,bastnasite,178080000,Placeholder — tune with real data
+3,mining,CN,monazaite,178080000,Placeholder — tune with real data
+3,mining,US,bastnasite,45580000,Placeholder — tune with real data
+3,mining,US,monazaite,45580000,Placeholder — tune with real data
+3,molten_salt electrolysis,CN,neodynium,31800000,Placeholder — tune with real data
+3,molten_salt electrolysis,EE,neodynium,1591812,Neo Silmet metal reduction
+3,molten_salt electrolysis,JP,neodynium,8480000,Placeholder — tune with real data
+3,molten_salt electrolysis,US,neodynium,5300000,Placeholder — tune with real data
+3,pyrometallurgical,US,neodynium dysprosium iron alloy,53000000,Placeholder — tune with real data
+3,sulfuric acid digestion,AU,dysprosium_oxide,1060000,Placeholder — tune with real data
+3,sulfuric acid digestion,AU,neodynium_oxide,8480000,Placeholder — tune with real data
+3,sulfuric acid digestion,CN,dysprosium_oxide,5300000,Placeholder — tune with real data
+3,sulfuric acid digestion,CN,neodynium_oxide,42400000,Placeholder — tune with real data
+3,sulfuric acid digestion,EE,dysprosium_oxide,318362,Neo Silmet; heavy REE pilot line
+3,sulfuric acid digestion,EE,neodynium_oxide,2122416,Neo Silmet Sillamae; LREE separation capacity
+3,sulfuric acid digestion,MY,dysprosium_oxide,1591812,Lynas LAMP new HREE circuit; 1500 t/yr Dy+Tb capacity from 2025
+3,sulfuric acid digestion,MY,neodynium_oxide,11142684,Lynas LAMP Kuantan; NdPr family separation capacity
+3,sulfuric acid digestion,US,dysprosium_oxide,2120000,Placeholder — tune with real data
+3,sulfuric acid digestion,US,neodynium_oxide,15900000,Placeholder — tune with real data
+3,use phase,US,hp_magnet,530000000,Placeholder — tune with real data
+4,beneficiation,AU,flurocarbonate,9720000,Placeholder — tune with real data
+4,beneficiation,AU,phosphate,9720000,Placeholder — tune with real data
+4,beneficiation,CN,flurocarbonate,86400000,Placeholder — tune with real data
+4,beneficiation,CN,phosphate,86400000,Placeholder — tune with real data
+4,beneficiation,US,flurocarbonate,21600000,Placeholder — tune with real data
+4,beneficiation,US,phosphate,21600000,Placeholder — tune with real data
+4,chemical transformation,CN,neodynium dysprosium iron alloy,183600000,Placeholder — tune with real data
+4,chemical transformation,EE,neodynium dysprosium iron alloy,2706080,Neo alloy production for Narva magnet plant
+4,chemical transformation,JP,neodynium dysprosium iron alloy,32400000,Placeholder — tune with real data
+4,chemical transformation,US,neodynium dysprosium iron alloy,10800000,Placeholder — tune with real data
+4,clay mining,AU,ion adsorption clay,5400000,Placeholder — tune with real data
+4,clay mining,BR,ion adsorption clay,2300000,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+4,clay mining,CN,ion adsorption clay,54000000,Placeholder — tune with real data
+4,clay mining,MM,ion adsorption clay,25249693,Myanmar Kachin State IAC; volatile — 5% annual decline risk
+4,clay refining,AU,dysprosium_oxide,540000,Placeholder — tune with real data
+4,clay refining,AU,neodynium_oxide,2160000,Placeholder — tune with real data
+4,clay refining,BR,dysprosium_oxide,450000,Brazil Serra Verde DyOx; only non-CN IAC Dy+Tb source
+4,clay refining,BR,neodynium_oxide,900000,Brazil Serra Verde oxide output
+4,clay refining,CN,dysprosium_oxide,5400000,Placeholder — tune with real data
+4,clay refining,CN,neodynium_oxide,21600000,Placeholder — tune with real data
+4,clay refining,MM,dysprosium_oxide,6516049,Myanmar in-situ leach; DyOx-rich IAC (8-12% Dy concentration)
+4,clay refining,MM,neodynium_oxide,1629012,Myanmar in-situ leach; NdOx minor fraction
+4,cryogenic,US,neodynium dysprosium iron alloy,54000000,Placeholder — tune with real data
+4,direct reuse,US,hp_magnet,54000000,Placeholder — tune with real data
+4,hydrochloric acid digestion,AU,dysprosium_oxide,1080000,Placeholder — tune with real data
+4,hydrochloric acid digestion,AU,neodynium_oxide,8640000,Placeholder — tune with real data
+4,hydrochloric acid digestion,CN,dysprosium_oxide,5400000,Placeholder — tune with real data
+4,hydrochloric acid digestion,CN,neodynium_oxide,43200000,Placeholder — tune with real data
+4,hydrochloric acid digestion,EE,dysprosium_oxide,162364,Neo Silmet HREE
+4,hydrochloric acid digestion,EE,neodynium_oxide,1082432,Neo Silmet secondary circuit
+4,hydrochloric acid digestion,MY,dysprosium_oxide,1082432,Lynas LAMP HCAD HREE
+4,hydrochloric acid digestion,MY,neodynium_oxide,5412160,Lynas LAMP secondary HCAD circuit
+4,hydrochloric acid digestion,US,dysprosium_oxide,2160000,Placeholder — tune with real data
+4,hydrochloric acid digestion,US,neodynium_oxide,16200000,Placeholder — tune with real data
+4,hydrometallurgical,US,neodynium dysprosium iron alloy,54000000,Placeholder — tune with real data
+4,magnet manufacturing,CN,hp_magnet,183600000,Placeholder — tune with real data
+4,magnet manufacturing,EE,hp_magnet,5412160,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+4,magnet manufacturing,JP,hp_magnet,27000000,Placeholder — tune with real data
+4,magnet manufacturing,US,hp_magnet,5400000,Placeholder — tune with real data
+4,magnet-to-magnet recycling,US,hp_magnet,54000000,Placeholder — tune with real data
+4,magnet_market_mix,US,hp_magnet,540000000,Placeholder — tune with real data
+4,metallothermic reduction,CN,dysprosium,3240000,Placeholder — tune with real data
+4,metallothermic reduction,EE,dysprosium,270608,Neo Silmet Dy metal
+4,metallothermic reduction,JP,dysprosium,864000,Placeholder — tune with real data
+4,metallothermic reduction,US,dysprosium,540000,Placeholder — tune with real data
+4,mining,AU,bastnasite,19440000,Placeholder — tune with real data
+4,mining,AU,monazaite,19440000,Placeholder — tune with real data
+4,mining,BR,bastnasite,1400000,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit
+4,mining,BR,monazaite,700000,Brazil monazite sands placeholder
+4,mining,CA,bastnasite,874503,Canada placeholder; 14M MT reserves; DOD-backed projects ramping
+4,mining,CA,monazaite,874503,Canada placeholder; monazite sands
+4,mining,CN,bastnasite,181440000,Placeholder — tune with real data
+4,mining,CN,monazaite,181440000,Placeholder — tune with real data
+4,mining,US,bastnasite,46440000,Placeholder — tune with real data
+4,mining,US,monazaite,46440000,Placeholder — tune with real data
+4,molten_salt electrolysis,CN,neodynium,32400000,Placeholder — tune with real data
+4,molten_salt electrolysis,EE,neodynium,1623648,Neo Silmet metal reduction
+4,molten_salt electrolysis,JP,neodynium,8640000,Placeholder — tune with real data
+4,molten_salt electrolysis,US,neodynium,5400000,Placeholder — tune with real data
+4,pyrometallurgical,US,neodynium dysprosium iron alloy,54000000,Placeholder — tune with real data
+4,sulfuric acid digestion,AU,dysprosium_oxide,1080000,Placeholder — tune with real data
+4,sulfuric acid digestion,AU,neodynium_oxide,8640000,Placeholder — tune with real data
+4,sulfuric acid digestion,CN,dysprosium_oxide,5400000,Placeholder — tune with real data
+4,sulfuric acid digestion,CN,neodynium_oxide,43200000,Placeholder — tune with real data
+4,sulfuric acid digestion,EE,dysprosium_oxide,324729,Neo Silmet; heavy REE pilot line
+4,sulfuric acid digestion,EE,neodynium_oxide,2164864,Neo Silmet Sillamae; LREE separation capacity
+4,sulfuric acid digestion,MY,dysprosium_oxide,1623648,Lynas LAMP new HREE circuit; 1500 t/yr Dy+Tb capacity from 2025
+4,sulfuric acid digestion,MY,neodynium_oxide,11365537,Lynas LAMP Kuantan; NdPr family separation capacity
+4,sulfuric acid digestion,US,dysprosium_oxide,2160000,Placeholder — tune with real data
+4,sulfuric acid digestion,US,neodynium_oxide,16200000,Placeholder — tune with real data
+4,use phase,US,hp_magnet,540000000,Placeholder — tune with real data

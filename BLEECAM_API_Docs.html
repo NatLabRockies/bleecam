@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLEECAM API Reference</title>
+<style>
+  :root {
+    --teal: #00A4BD;
+    --teal-dark: #007A8C;
+    --teal-light: #E6F7FA;
+    --sidebar-bg: #1a1d23;
+    --sidebar-text: #c8ced8;
+    --sidebar-hover: #00A4BD;
+    --sidebar-active: #005F6B;
+    --code-bg: #f6f8fa;
+    --code-border: #e1e4e8;
+    --border: #dde3e7;
+    --text: #1a1a1a;
+    --subtext: #586069;
+    --param-bg: #f0f9fb;
+    --return-bg: #f0f9f0;
+    --sig-bg: #1e2229;
+    --sig-text: #e6ecf0;
+    --sig-name: #79c0ff;
+    --sig-param: #d2a8ff;
+    --sig-default: #f8a261;
+    --sig-type: #7ce38b;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    color: var(--text);
+    display: flex;
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── SIDEBAR ────────────────────────────── */
+  #sidebar {
+    width: 260px;
+    min-width: 260px;
+    background: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    padding: 0;
+    position: fixed;
+    top: 0; bottom: 0; left: 0;
+    overflow-y: auto;
+    z-index: 100;
+    font-size: 13px;
+  }
+
+  .sidebar-logo {
+    padding: 18px 20px 14px;
+    border-bottom: 1px solid #2d3340;
+    background: #13161c;
+  }
+  .sidebar-logo .project-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+  .sidebar-logo .project-ver {
+    font-size: 11px;
+    color: var(--teal);
+    margin-top: 2px;
+  }
+
+  .sidebar-section {
+    padding: 14px 20px 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5a6378;
+    margin-top: 4px;
+  }
+
+  .sidebar-link {
+    display: block;
+    padding: 5px 20px 5px 28px;
+    color: var(--sidebar-text);
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    transition: all 0.15s;
+    line-height: 1.4;
+  }
+  .sidebar-link:hover {
+    color: #fff;
+    border-left-color: var(--teal);
+    background: rgba(255,255,255,0.04);
+  }
+  .sidebar-link.active {
+    color: var(--teal);
+    border-left-color: var(--teal);
+    background: rgba(0,164,189,0.08);
+  }
+  .sidebar-module {
+    display: block;
+    padding: 7px 20px;
+    color: #8b95a8;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  /* ── MAIN ───────────────────────────────── */
+  #main {
+    margin-left: 260px;
+    flex: 1;
+    padding: 40px 48px 80px;
+    max-width: 900px;
+  }
+
+  /* ── PAGE HEADER ────────────────────────── */
+  .page-header {
+    border-bottom: 2px solid var(--teal);
+    padding-bottom: 16px;
+    margin-bottom: 36px;
+  }
+  .page-header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--teal-dark);
+  }
+  .page-header p {
+    font-size: 14px;
+    color: var(--subtext);
+    margin-top: 6px;
+  }
+  .badge {
+    display: inline-block;
+    background: var(--teal-light);
+    color: var(--teal-dark);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid var(--teal);
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  /* ── MODULE SECTION ─────────────────────── */
+  .module-section {
+    margin-bottom: 56px;
+  }
+  .module-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  .module-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--teal-dark);
+  }
+  .module-path {
+    font-family: 'Consolas', monospace;
+    font-size: 12px;
+    color: var(--subtext);
+    background: var(--code-bg);
+    border: 1px solid var(--code-border);
+    padding: 2px 8px;
+    border-radius: 3px;
+  }
+  .module-desc {
+    font-size: 14px;
+    color: var(--subtext);
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+
+  /* ── FUNCTION ENTRY ─────────────────────── */
+  .func-entry {
+    margin-bottom: 40px;
+    border: 1px solid var(--code-border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .func-signature {
+    background: var(--sig-bg);
+    padding: 14px 20px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+    border-bottom: 1px solid #2d3340;
+  }
+  .func-signature .fn-keyword { color: #ff7b72; }
+  .func-signature .fn-name { color: var(--sig-name); font-weight: 700; }
+  .func-signature .fn-paren { color: #e6ecf0; }
+  .func-signature .fn-param { color: var(--sig-param); }
+  .func-signature .fn-default { color: var(--sig-default); }
+  .func-signature .fn-colon { color: #e6ecf0; }
+  .func-signature .fn-type { color: var(--sig-type); font-style: italic; }
+
+  .func-body {
+    background: #fff;
+    padding: 18px 20px;
+  }
+
+  .func-summary {
+    font-size: 14px;
+    color: var(--text);
+    margin-bottom: 16px;
+    line-height: 1.65;
+  }
+
+  .params-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .params-table thead th {
+    background: var(--param-bg);
+    color: var(--teal-dark);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 7px 12px;
+    text-align: left;
+    border-bottom: 2px solid var(--teal);
+  }
+  .params-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f0f2f5;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .params-table tr:last-child td { border-bottom: none; }
+  .params-table .pname {
+    font-family: 'Consolas', monospace;
+    font-size: 12.5px;
+    color: #007A8C;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  .params-table .ptype {
+    font-family: 'Consolas', monospace;
+    font-size: 12px;
+    color: #5a6378;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  .returns-box {
+    background: var(--return-bg);
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-size: 13px;
+    margin-top: 14px;
+    line-height: 1.5;
+  }
+  .returns-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #2e7d32;
+    margin-bottom: 4px;
+  }
+  .returns-type {
+    font-family: 'Consolas', monospace;
+    font-size: 12px;
+    color: #1a6e1a;
+    font-style: italic;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: var(--subtext);
+    margin: 14px 0 6px;
+  }
+
+  code {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 12.5px;
+    background: var(--code-bg);
+    color: #005f7a;
+    padding: 1px 5px;
+    border-radius: 3px;
+    border: 1px solid var(--code-border);
+  }
+
+  .anchor { display: block; position: relative; top: -70px; visibility: hidden; }
+
+  /* ── CONSTANTS TABLE ────────────────────── */
+  .const-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .const-table th {
+    background: var(--teal-light);
+    color: var(--teal-dark);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 7px 12px;
+    text-align: left;
+    border-bottom: 2px solid var(--teal);
+  }
+  .const-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  .const-table tr:last-child td { border-bottom: none; }
+  .const-name {
+    font-family: 'Consolas', monospace;
+    font-size: 12.5px;
+    color: #007A8C;
+    font-weight: 600;
+  }
+  .const-val {
+    font-family: 'Consolas', monospace;
+    font-size: 12.5px;
+    color: #005f7a;
+  }
+
+  /* ── SCROLLBAR ──────────────────────────── */
+  #sidebar::-webkit-scrollbar { width: 4px; }
+  #sidebar::-webkit-scrollbar-track { background: var(--sidebar-bg); }
+  #sidebar::-webkit-scrollbar-thumb { background: #3a4050; border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════ SIDEBAR -->
+<nav id="sidebar">
+  <div class="sidebar-logo">
+    <div class="project-name">BLEECAM</div>
+    <div class="project-ver">API Reference · April 2026</div>
+  </div>
+
+  <div class="sidebar-section">Modules</div>
+
+  <span class="sidebar-module">config.py</span>
+  <a href="#config-constants" class="sidebar-link">Constants &amp; Configuration</a>
+
+  <span class="sidebar-module">data_loader.py</span>
+  <a href="#load_all_data" class="sidebar-link">load_all_data()</a>
+  <a href="#validate_csvs" class="sidebar-link">validate_csvs()</a>
+  <a href="#validate_slca" class="sidebar-link">validate_slca()</a>
+
+  <span class="sidebar-module">REE.py</span>
+  <a href="#parse_args" class="sidebar-link">_parse_args()</a>
+  <a href="#total_cost_rule" class="sidebar-link">total_cost_rule()</a>
+  <a href="#total_emissions_rule" class="sidebar-link">total_emissions_rule()</a>
+  <a href="#total_child_labor_rule" class="sidebar-link">total_child_labor_rule()</a>
+  <a href="#print_diagnostics" class="sidebar-link">print_diagnostics()</a>
+
+  <span class="sidebar-module">constraints.py</span>
+  <a href="#fix" class="sidebar-link">_fix()</a>
+  <a href="#fix_inactive" class="sidebar-link">fix_inactive_process_locations()</a>
+  <a href="#fix_disallowed" class="sidebar-link">fix_disallowed_trade_flows()</a>
+  <a href="#clay_mining" class="sidebar-link">clay_mining_constraints()</a>
+  <a href="#clay_refining" class="sidebar-link">clay_refining_constraints()</a>
+  <a href="#beneficiation" class="sidebar-link">beneficiation_constraints()</a>
+  <a href="#h2so4" class="sidebar-link">sulfuric_acid_digestion_constraints()</a>
+  <a href="#hcl" class="sidebar-link">hydrochloric_acid_digestion_constraints()</a>
+  <a href="#mse" class="sidebar-link">molten_salt_electrolysis_constraints()</a>
+  <a href="#mr" class="sidebar-link">metallothermic_reduction_constraints()</a>
+  <a href="#ct" class="sidebar-link">chemical_transformation_constraints()</a>
+  <a href="#magnet_mfg" class="sidebar-link">magnet_manufacturing_constraints()</a>
+  <a href="#magnet_mix" class="sidebar-link">magnet_market_mix_constraints()</a>
+  <a href="#demand" class="sidebar-link">demand_fulfillment_constraints()</a>
+  <a href="#weibull" class="sidebar-link">weibull_historic_retirement()</a>
+  <a href="#use_phase" class="sidebar-link">use_phase_stock_constraints()</a>
+  <a href="#fix_eol_t0" class="sidebar-link">fix_eol_outflows_at_t0()</a>
+  <a href="#eol_lagged" class="sidebar-link">_eol_lagged_constraints()</a>
+  <a href="#direct_reuse" class="sidebar-link">direct_reuse_constraints()</a>
+  <a href="#m2m" class="sidebar-link">magnet_to_magnet_recycling_constraints()</a>
+  <a href="#hydro" class="sidebar-link">hydrometallurgical_constraints()</a>
+  <a href="#pyro" class="sidebar-link">pyrometallurgical_constraints()</a>
+  <a href="#cryo" class="sidebar-link">cryogenic_constraints()</a>
+  <a href="#stock" class="sidebar-link">add_stock_constraints()</a>
+  <a href="#capacity" class="sidebar-link">apply_capacity_constraints()</a>
+  <a href="#unused_oxides" class="sidebar-link">add_unused_oxides_tracking()</a>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════ MAIN -->
+<main id="main">
+
+  <div class="page-header">
+    <h1>BLEECAM API Reference</h1>
+    <p>
+      <span class="badge">Pyomo</span>
+      <span class="badge">IPOPT</span>
+      <span class="badge">NdFeB Supply Chain</span>
+      Auto-generated from source docstrings · National Renewable Energy Laboratory
+    </p>
+  </div>
+
+  <!-- ═══════════════════════════════════ config.py -->
+  <div class="module-section">
+    <span class="anchor" id="config-constants"></span>
+    <div class="module-header">
+      <h2>config.py</h2>
+      <span class="module-path">bleecam/config.py</span>
+    </div>
+    <p class="module-desc">Global model configuration — process lists, location lists, material lists, active process-location mappings, and all scalar penalty constants. Edit here to add new processes, locations, or change penalty rates.</p>
+
+    <div class="section-label">Constants</div>
+    <table class="const-table">
+      <thead><tr><th>Name</th><th>Value</th><th>Units</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td class="const-name">FLOW_SCALE</td><td class="const-val">1000.0</td><td>dimensionless</td><td>Divisor applied to all capacity/demand values on CSV load. Internal model variables operate in tonnes (kg ÷ 1000). Output flows are multiplied back by FLOW_SCALE before writing to CSV/HTML.</td></tr>
+        <tr><td class="const-name">num_time_periods</td><td class="const-val">5</td><td>periods</td><td>Number of model time periods (t = 0 … 4), representing annual snapshots 2025–2029.</td></tr>
+        <tr><td class="const-name">DEMAND_LOCATION</td><td class="const-val">'US'</td><td>—</td><td>The single demand node for hp_magnet consumption.</td></tr>
+        <tr><td class="const-name">ALLOY</td><td class="const-val">'neodynium dysprosium iron alloy'</td><td>—</td><td>Canonical string name for the NdFeB alloy material.</td></tr>
+        <tr><td class="const-name">PENALTY_UNUSED_OXIDE_COST</td><td class="const-val">80</td><td>$/kg</td><td>Penalty rate for NdOx/DyOx co-products routed to incompatible processes (misrouting penalty).</td></tr>
+        <tr><td class="const-name">PENALTY_UNUSED_OXIDE_GWP</td><td class="const-val">15</td><td>kg CO₂-eq/kg</td><td>GWP equivalent of the unused oxide penalty under the emissions objective.</td></tr>
+        <tr><td class="const-name">PENALTY_UNUSED_OXIDE_SLCA</td><td class="const-val">0.001</td><td>worker-hr/kg</td><td>Social LCA equivalent of the unused oxide penalty.</td></tr>
+        <tr><td class="const-name">DEFAULT_MAX_STOCK_CAPACITY</td><td class="const-val">4,000,000 / FLOW_SCALE</td><td>tonnes (internal)</td><td>Fallback stock capacity (4,000 tonnes) used when no explicit cap is found for a (t, material) pair.</td></tr>
+        <tr><td class="const-name">DEFAULT_STOCK_HOLDING_COST</td><td class="const-val">0.1</td><td>$/tonne·period</td><td>Default inventory holding cost per unit per period.</td></tr>
+        <tr><td class="const-name">list_of_processes</td><td class="const-val">17 processes</td><td>—</td><td>Ordered list of all process names: mining, beneficiation, clay mining, clay refining, H₂SO₄ digestion, HCl digestion, molten salt electrolysis, metallothermic reduction, chemical transformation, magnet manufacturing, magnet_market_mix, use phase, and 5 EOL routes.</td></tr>
+        <tr><td class="const-name">locations</td><td class="const-val">['CN','JP','AU','US','MM','MY','EE','CA','BR']</td><td>—</td><td>All country/region codes active in the model.</td></tr>
+        <tr><td class="const-name">materials</td><td class="const-val">12 materials</td><td>—</td><td>Nd, Dy, Fe, ion adsorption clay, NdFeB alloy, NdOx, DyOx, phosphate, flurocarbonate, monazite, bastnasite, hp_magnet.</td></tr>
+        <tr><td class="const-name">ACTIVE_PROCESS_LOCATIONS</td><td class="const-val">dict</td><td>—</td><td>Maps each process name to the list of locations where that process is active. Controls which flowQ variables are fixed to zero during model setup.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ═══════════════════════════════════ data_loader.py -->
+  <div class="module-section">
+    <div class="module-header">
+      <h2>data_loader.py</h2>
+      <span class="module-path">bleecam/data_loader.py</span>
+    </div>
+    <p class="module-desc">Reads all input CSVs from the data directory, applies FLOW_SCALE to capacity and demand, and returns a single data dictionary used to build the Pyomo model. Also provides validation utilities that flag missing data entries before a solve.</p>
+
+    <!-- load_all_data -->
+    <span class="anchor" id="load_all_data"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">load_all_data</span><span class="fn-paren">(</span><span class="fn-param">data_dir</span><span class="fn-colon">=</span><span class="fn-default">'./data'</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Load all CSV input data and return as a unified dictionary, with capacity and demand values scaled by <code>FLOW_SCALE</code>. This is the single data-ingestion call — all downstream model code works from the returned dict.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">data_dir</td><td class="ptype">str or Path</td><td>Path to directory containing all input CSVs. Defaults to <code>'./data'</code>.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">dict</span> with keys: <code>demand_df</code> (DataFrame), <code>high_perf_magnet_required</code> (dict[int, float]), <code>yield_factor</code>, <code>recovery_rate</code>, <code>processing_cost</code>, <code>domestic_transport_cost</code>, <code>shipping_cost</code>, <code>tariff_cost</code>, <code>ef_factor</code>, <code>ct_mass_ratio_by_t</code>, <code>allowed_trade_arcs</code> (set), <code>max_output_capacity</code>, <code>slca_factors</code>. All flow quantities divided by <code>FLOW_SCALE</code>.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- validate_csvs -->
+    <span class="anchor" id="validate_csvs"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">validate_csvs</span><span class="fn-paren">(</span><span class="fn-param">time_periods</span>, <span class="fn-param">yield_factor</span>, <span class="fn-param">recovery_rate</span>, <span class="fn-param">processing_cost</span>, <span class="fn-param">domestic_transport_cost</span>, <span class="fn-param">ef_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Check all active <code>(process, location, material, time)</code> combinations for missing entries across all major input CSVs. Prints a formatted warning listing every missing tuple. Call this before a solve to catch data gaps that would silently set parameters to 0.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">time_periods</td><td class="ptype">list[int]</td><td>Model time period indices to validate against.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Keyed by <code>(t, src, src_loc, dst, dst_loc, mat)</code>.</td></tr>
+            <tr><td class="pname">processing_cost</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+            <tr><td class="pname">domestic_transport_cost</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+            <tr><td class="pname">ef_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">None</span> — prints warnings to stdout.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- validate_slca -->
+    <span class="anchor" id="validate_slca"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">validate_slca</span><span class="fn-paren">(</span><span class="fn-param">time_periods</span>, <span class="fn-param">slca_factors</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Check SLCA impact factor coverage for all active process/location/material/time combinations across all five impact categories (child labor, forced labor, fatal injury, non-fatal injury, unemployment). Prints per-category OK or missing-entry status.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">time_periods</td><td class="ptype">list[int]</td><td>Model time period indices.</td></tr>
+            <tr><td class="pname">slca_factors</td><td class="ptype">dict[str, dict]</td><td>Maps impact category name to <code>{(t, process, location, material): float}</code>.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">None</span> — prints per-category status to stdout.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════ REE.py -->
+  <div class="module-section">
+    <div class="module-header">
+      <h2>REE.py</h2>
+      <span class="module-path">bleecam/REE.py</span>
+    </div>
+    <p class="module-desc">Main model entry point. Loads data, applies scenario overrides, builds the Pyomo ConcreteModel, invokes IPOPT, post-processes and scales outputs, writes results to CSV and HTML, and spawns the dashboard.</p>
+
+    <!-- _parse_args -->
+    <span class="anchor" id="parse_args"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">_parse_args</span><span class="fn-paren">()</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Parse CLI arguments for the single-objective BLEECAM solve. Accepts <code>--data</code> (path to input CSV directory) and <code>--out</code> (path for output files).</p>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">argparse.Namespace</span> with fields <code>.data</code> (Path) and <code>.out</code> (Path).</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- total_cost_rule -->
+    <span class="anchor" id="total_cost_rule"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">total_cost_rule</span><span class="fn-paren">(</span><span class="fn-param">model</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Return the total cost objective expression for the Pyomo model. Sums processing cost, domestic transport cost, shipping cost, and tariff cost over all <code>flowQ</code> variables, plus stock holding costs, the unused-oxide penalty (<code>PENALTY_UNUSED_OXIDE_COST × total_unused_oxides</code>), and the demand slack penalty (<code>slack_penalty_cost × Σ(slack_pos + slack_neg)</code>).</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model instance.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">Pyomo expression</span> — passed directly to <code>Objective(rule=..., sense=minimize)</code>. Note: objective value = real cost / FLOW_SCALE during solve; multiply by FLOW_SCALE for display.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- total_emissions_rule -->
+    <span class="anchor" id="total_emissions_rule"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">total_emissions_rule</span><span class="fn-paren">(</span><span class="fn-param">model</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Return the total GWP emissions objective expression. Weights each <code>flowQ</code> variable by its emission factor from <code>ef_factor</code>, adds the unused-oxide GWP penalty and demand slack penalty. Use by setting <code>ACTIVE_OBJECTIVE = 'gwp'</code>.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model instance.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">Pyomo expression</span> — total GWP weighted by emission factors.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- total_child_labor_rule -->
+    <span class="anchor" id="total_child_labor_rule"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">total_child_labor_rule</span><span class="fn-paren">(</span><span class="fn-param">model</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Return the total child-labor Social LCA objective expression. Weights each <code>flowQ</code> variable by its child-labor impact factor from <code>slca_factors['child_labor']</code>. Four additional SLCA categories (forced labor, fatal injury, non-fatal injury, unemployment) are loaded but not currently used as primary objectives. Use by setting <code>ACTIVE_OBJECTIVE = 'slca'</code>.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model instance.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">Pyomo expression</span> — total child-labor SLCA impact in worker-hours.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- print_diagnostics -->
+    <span class="anchor" id="print_diagnostics"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">print_diagnostics</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">high_perf_magnet_required</span>, <span class="fn-param">label</span><span class="fn-colon">=</span><span class="fn-default">'DIAGNOSTIC REPORT'</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Print a structured diagnostic summary of the solved model to stdout. Reports per-period demand fulfillment vs. slack, magnet market mix mass balance, recycling flow levels, and objective components. Used after solve to quickly validate results before inspecting HTML outputs.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>Solved BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">high_perf_magnet_required</td><td class="ptype">dict[int, float]</td><td>Mapping of time period to required hp_magnet demand (in FLOW_SCALE units).</td></tr>
+            <tr><td class="pname">label</td><td class="ptype">str</td><td>Header label printed at the top of the diagnostic block.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">None</span> — prints to stdout.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════ constraints.py -->
+  <div class="module-section">
+    <div class="module-header">
+      <h2>constraints.py</h2>
+      <span class="module-path">bleecam/constraints.py</span>
+    </div>
+    <p class="module-desc">All Pyomo constraint rules, organized by supply chain stage. Each function serves two purposes: fixing structurally zero flowQ variables (reducing model size and preventing solver degeneracy) and adding mass-balance / yield / recovery-rate equations for that stage.</p>
+
+    <!-- _fix -->
+    <span class="anchor" id="fix"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">_fix</span><span class="fn-paren">(</span><span class="fn-param">var</span>, <span class="fn-param">val</span><span class="fn-colon">=</span><span class="fn-default">0</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Fix a Pyomo variable to a given value, suppressing errors if already fixed. This is the low-level utility called throughout constraints to zero out structurally impossible flows.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table">
+          <thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">var</td><td class="ptype">pyomo.environ.Var</td><td>The Pyomo variable element to fix.</td></tr>
+            <tr><td class="pname">val</td><td class="ptype">float</td><td>Value to fix the variable to. Default <code>0</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- fix_inactive_process_locations -->
+    <span class="anchor" id="fix_inactive"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">fix_inactive_process_locations</span><span class="fn-paren">(</span><span class="fn-param">model</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Zero out all <code>flowQ</code> variables whose source or destination location is not active for that process, per <code>ACTIVE_PROCESS_LOCATIONS</code>. This is the first constraint call — it dramatically reduces the number of free variables before any process-specific constraints are applied.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody><tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- fix_disallowed_trade_flows -->
+    <span class="anchor" id="fix_disallowed"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">fix_disallowed_trade_flows</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">allowed_trade_arcs</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Zero out all cross-country <code>flowQ</code> variables that are not in the permitted trade arc set. Same-country flows are always allowed. Trade topology is defined in <code>trade_topology.csv</code>.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">allowed_trade_arcs</td><td class="ptype">set[tuple]</td><td>Set of <code>(proc_from, loc_from, proc_to, loc_to, material)</code> tuples defining permitted cross-country flows.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- clay_mining_constraints -->
+    <span class="anchor" id="clay_mining"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">clay_mining_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Restrict clay mining outflows so that only same-location clay refining receives ion adsorption clay. All other inflows and outflows are fixed to zero. Enforces that ion adsorption clay does not cross borders.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody><tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- clay_refining_constraints -->
+    <span class="anchor" id="clay_refining"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">clay_refining_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Enforce mass-balance and co-product ratio constraints for clay refining. NdOx and DyOx outputs must equal yield-factor multiples of clay input. The NdOx:DyOx ratio flowing to each downstream reactor (MSE or MR) is locked proportionally — no selective routing of one oxide without the other.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Mapping of <code>(t, process, location, material)</code> to float yield fraction.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- beneficiation_constraints -->
+    <span class="anchor" id="beneficiation"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">beneficiation_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Link beneficiation outputs to mining inputs via yield factors. Phosphate output routes to H₂SO₄ digestion; flurocarbonate output routes to HCl digestion. All other outflows are fixed to zero.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Mapping of <code>(t, process, location, material)</code> to float yield fraction.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- sulfuric_acid_digestion_constraints -->
+    <span class="anchor" id="h2so4"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">sulfuric_acid_digestion_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Enforce that NdOx and DyOx outputs from H₂SO₄ digestion equal yield-factor multiples of phosphate input. NdOx:DyOx ratio is locked proportionally across downstream receivers (MSE and MR). All other flows fixed to zero.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- hydrochloric_acid_digestion_constraints -->
+    <span class="anchor" id="hcl"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">hydrochloric_acid_digestion_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Enforce that NdOx and DyOx outputs from HCl digestion equal yield-factor multiples of flurocarbonate input. Parallel structure to H₂SO₄ digestion but processes bastnasite/monazite ores via the HCl route.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- molten_salt_electrolysis_constraints -->
+    <span class="anchor" id="mse"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">molten_salt_electrolysis_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Link Nd metal output from molten-salt electrolysis to NdOx input via yield factor. Fixes all other flows. MSE is the primary route for reducing neodymium oxide to Nd metal.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- metallothermic_reduction_constraints -->
+    <span class="anchor" id="mr"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">metallothermic_reduction_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Link Dy metal output from metallothermic reduction to DyOx input via yield factor. Fixes all other flows. Metallothermic reduction is the primary route for reducing dysprosium oxide to Dy metal.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- chemical_transformation_constraints -->
+    <span class="anchor" id="ct"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">chemical_transformation_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span>, <span class="fn-param">ct_mass_ratio_by_t</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Enforce mass-balance for NdFeB alloy production. Alloy output = yield_factor × iron input. Nd and Dy metal inputs are determined by time-varying mass-ratio fractions read from <code>Demand_Input_Template.csv</code> (the <code>mass ratio Nd</code> and <code>mass ratio Dy</code> columns).</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+            <tr><td class="pname">ct_mass_ratio_by_t</td><td class="ptype">dict[int, tuple[float, float]]</td><td>Maps time period to <code>(Nd_mass_ratio, Dy_mass_ratio)</code> fractions.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- magnet_manufacturing_constraints -->
+    <span class="anchor" id="magnet_mfg"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">magnet_manufacturing_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">yield_factor</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Link hp_magnet output from magnet manufacturing to alloy input via yield factor. Fixes all irrelevant flows. The final step before the product enters the market mix node.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">yield_factor</td><td class="ptype">dict</td><td>Keyed by <code>(t, process, location, material)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- magnet_market_mix_constraints -->
+    <span class="anchor" id="magnet_mix"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">magnet_market_mix_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">high_perf_magnet_required</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Route the magnet market mix output to the use phase at the demand location (US). Fixes the market-mix → use-phase flow equal to total hp_magnet demand for each period. This is the "aggregation node" that collects supply from all manufacturing locations.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">high_perf_magnet_required</td><td class="ptype">dict[int, float]</td><td>Mapping of time period to required hp_magnet demand (in FLOW_SCALE units).</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- demand_fulfillment_constraints -->
+    <span class="anchor" id="demand"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">demand_fulfillment_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">high_perf_magnet_required</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Add soft demand constraints using slack variables. Total hp_magnet inflow to the use phase must equal demand per period, but slack variables <code>demand_slack_pos</code> (unmet demand) and <code>demand_slack_neg</code> (over-supply) allow infeasibility to be detected and penalized rather than hard-infeasible. Slack is penalized by <code>slack_penalty_cost</code> in the objective.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">high_perf_magnet_required</td><td class="ptype">dict[int, float]</td><td>Mapping of time period to required hp_magnet demand (in FLOW_SCALE units).</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- weibull_historic_retirement -->
+    <span class="anchor" id="weibull"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">weibull_historic_retirement</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">data_dir</span><span class="fn-colon">=</span><span class="fn-default">'./data'</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Compute historic in-use magnet retirements per time period using a Weibull lifetime distribution fitted to fleet deployment data. Loads <code>historic_installs.xlsx</code>, reads the <code>original</code> column (actual kg install data), and applies a Weibull CDF with shape k=1.5 and mean life 31.1 years to calculate what fraction of each installation cohort retires in each model period.</p>
+        <p style="margin-top:8px; color:#c0392b; font-size:13px;"><strong>Important:</strong> Must read the <code>original</code> column, not <code>installs</code> (which is all zeros, a legacy artifact). The <code>installs2</code> column (= original/1000) also works but <code>original</code> is authoritative.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model (used for TimePeriods set).</td></tr>
+            <tr><td class="pname">data_dir</td><td class="ptype">str or Path</td><td>Directory containing <code>historic_installs.xlsx</code>.</td></tr>
+          </tbody>
+        </table>
+        <div class="returns-box">
+          <div class="returns-label">Returns</div>
+          <div><span class="returns-type">dict[int, float]</span> — time period to historic retirement quantity in FLOW_SCALE units (tonnes). Typical values: ~34–38 tonnes per period with current install base.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- use_phase_stock_constraints -->
+    <span class="anchor" id="use_phase"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">use_phase_stock_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">retirement_rate</span><span class="fn-colon">=</span><span class="fn-default">0.02</span>, <span class="fn-param">initial_use_stock</span><span class="fn-colon">=</span><span class="fn-default">0.0</span>, <span class="fn-param">historic_retirements_by_t</span><span class="fn-colon">=</span><span class="fn-default">None</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Add stock balance constraints for the in-use magnet fleet. Outflows from the use phase (to EOL routes) are bounded by the sum of the simple rate-based retirement and Weibull-computed historic retirements. Stock is updated each period: stock[t] = stock[t−1] + inflow − rate_retirement.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">retirement_rate</td><td class="ptype">float</td><td>Annual fraction of in-use stock that retires. Default 0.02 (2%).</td></tr>
+            <tr><td class="pname">initial_use_stock</td><td class="ptype">float</td><td>Initial installed magnet stock at t=0 in FLOW_SCALE units.</td></tr>
+            <tr><td class="pname">historic_retirements_by_t</td><td class="ptype">dict[int, float] or None</td><td>Pre-computed Weibull retirements from <code>weibull_historic_retirement()</code>. If None, uses rate-based calculation only.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- fix_eol_outflows_at_t0 -->
+    <span class="anchor" id="fix_eol_t0"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">fix_eol_outflows_at_t0</span><span class="fn-paren">(</span><span class="fn-param">model</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Fix all end-of-life outflows from the use phase at t=0 to zero. No retirements occur at the first period because there is no t−1 stock and Weibull retirements are zero for the initial period.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody><tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- _eol_lagged_constraints -->
+    <span class="anchor" id="eol_lagged"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">_eol_lagged_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">recovery_rate</span>, <span class="fn-param">current_process</span>, <span class="fn-param">destination_process</span>, <span class="fn-param">input_output_map</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Generic lagged mass-balance constraint for an end-of-life recycling route. Links t−1 retirement outflows from the use phase to t outputs from the recycling process via recovery rates. This one-period lag represents the time required to process retired magnets. The five named EOL constraint functions below are wrappers that call this with route-specific arguments.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Mapping of <code>(t, src, src_loc, dst, dst_loc, mat)</code> to float recovery fraction.</td></tr>
+            <tr><td class="pname">current_process</td><td class="ptype">str</td><td>Name of the EOL recycling process (e.g. <code>'direct reuse'</code>).</td></tr>
+            <tr><td class="pname">destination_process</td><td class="ptype">str</td><td>Name of the downstream process receiving recovered material.</td></tr>
+            <tr><td class="pname">input_output_map</td><td class="ptype">dict</td><td>Maps each output material to its corresponding input material and recovery key. E.g. <code>{'hp_magnet': 'hp_magnet'}</code> or <code>{'hp_magnet': ALLOY}</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- direct_reuse / m2m / hydro / pyro / cryo -->
+    <span class="anchor" id="direct_reuse"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">direct_reuse_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">recovery_rate</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Apply lagged EOL constraints for the <strong>direct reuse</strong> pathway. Retired hp_magnets flow directly back to <code>magnet_market_mix</code> (as hp_magnet) with a one-period lag.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Keyed by <code>(t, src, src_loc, dst, dst_loc, mat)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <span class="anchor" id="m2m"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">magnet_to_magnet_recycling_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">recovery_rate</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Apply lagged EOL constraints for the <strong>magnet-to-magnet recycling</strong> pathway. Similar to direct reuse but involves reprocessing; outputs hp_magnet back to the market mix node.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Keyed by <code>(t, src, src_loc, dst, dst_loc, mat)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <span class="anchor" id="hydro"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">hydrometallurgical_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">recovery_rate</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Apply lagged EOL constraints for the <strong>hydrometallurgical recycling</strong> pathway. Recovered material re-enters the supply chain as NdFeB alloy, routed to chemical transformation.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Keyed by <code>(t, src, src_loc, dst, dst_loc, mat)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <span class="anchor" id="pyro"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">pyrometallurgical_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">recovery_rate</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Apply lagged EOL constraints for the <strong>pyrometallurgical recycling</strong> pathway. High-temperature treatment recovers alloy material, re-entering as NdFeB alloy to chemical transformation.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Keyed by <code>(t, src, src_loc, dst, dst_loc, mat)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <span class="anchor" id="cryo"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">cryogenic_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">recovery_rate</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Apply lagged EOL constraints for the <strong>cryogenic recycling</strong> pathway. Recovered material re-enters as NdFeB alloy to magnet manufacturing (not chemical transformation — a distinct routing from the other alloy-route pathways).</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">recovery_rate</td><td class="ptype">dict</td><td>Keyed by <code>(t, src, src_loc, dst, dst_loc, mat)</code>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- add_stock_constraints -->
+    <span class="anchor" id="stock"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">add_stock_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">initial_stock</span>, <span class="fn-param">max_stock_capacity</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Add inventory balance constraints for all stock materials: <code>stock[t] = stock[t−1] + flow_to_stock − flow_from_stock</code>. Also adds upper-bound capacity constraints and a complementarity constraint (<code>flow_to_stock × flow_from_stock = 0</code>) to prevent simultaneous in/out flows.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">initial_stock</td><td class="ptype">dict[str, float]</td><td>Material to initial inventory level in FLOW_SCALE units.</td></tr>
+            <tr><td class="pname">max_stock_capacity</td><td class="ptype">dict[tuple, float]</td><td>Mapping of <code>(t, material)</code> to maximum allowable stock in FLOW_SCALE units.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- apply_capacity_constraints -->
+    <span class="anchor" id="capacity"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">apply_capacity_constraints</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">max_output_capacity</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Add upper-bound constraints on total process output per <code>(process, location, material, t)</code> tuple. If capacity = 0 for a key, the corresponding variables are fixed to zero rather than adding a trivial inequality. Skips <code>magnet_market_mix</code> and <code>use phase</code> (demand-driven nodes, not capacity-constrained).</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">max_output_capacity</td><td class="ptype">dict</td><td>Mapping of <code>(process, location, material)</code> → <code>dict[int, float]</code> (time period → capacity in FLOW_SCALE units). Populated from <code>Capacity_Template.csv</code> and modified by scenario overrides.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- add_unused_oxides_tracking -->
+    <span class="anchor" id="unused_oxides"></span>
+    <div class="func-entry">
+      <div class="func-signature">
+        <span class="fn-keyword">def </span><span class="fn-name">add_unused_oxides_tracking</span><span class="fn-paren">(</span><span class="fn-param">model</span>, <span class="fn-param">locations</span><span class="fn-paren">)</span>
+      </div>
+      <div class="func-body">
+        <p class="func-summary">Add Pyomo Expressions tracking co-product oxide misrouting. Defines <code>model.unused_DyOx_to_MSE</code> (DyOx routed to molten-salt electrolysis, which expects NdOx), <code>model.unused_NdOx_to_MR</code> (NdOx routed to metallothermic reduction, which expects DyOx), and their sum <code>model.total_unused_oxides</code>. The penalty on this expression discourages the solver from misrouting co-product oxides.</p>
+        <div class="section-label">Parameters</div>
+        <table class="params-table"><thead><tr><th>Name</th><th>Type</th><th>Description</th></tr></thead>
+          <tbody>
+            <tr><td class="pname">model</td><td class="ptype">pyomo.environ.ConcreteModel</td><td>The BLEECAM Pyomo model.</td></tr>
+            <tr><td class="pname">locations</td><td class="ptype">list[str]</td><td>All location codes (e.g. <code>['CN','JP','AU','US',...]</code>).</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!-- module-section constraints.py -->
+
+</main>
+</body>
+</html>

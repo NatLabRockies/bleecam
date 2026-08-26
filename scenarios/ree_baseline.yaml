@@ -1,0 +1,6 @@
+# REE (NdFeB magnet) least-cost baseline (no criticality constraints) — the base
+# point for the OAT sensitivity screen. Solves with ipopt.
+case: rare_earth
+data_dir: src/bleecam/cases/rare_earth/data
+objective: cost
+constraints: []

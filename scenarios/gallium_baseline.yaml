@@ -1,0 +1,6 @@
+# Gallium least-cost baseline (no criticality constraints) — used as the base
+# point for the OAT sensitivity screen.
+case: gallium
+data_dir: src/bleecam/cases/gallium/data/gallium
+objective: cost
+constraints: []

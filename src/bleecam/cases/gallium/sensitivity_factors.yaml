@@ -1,0 +1,14 @@
+# OAT sensitivity factor groups for the Gallium case.
+# Each factor = (file, column) and maps 1:1 to a provenance cluster in the data
+# audit. A factor only registers under the objective it feeds (cost factors move
+# the cost objective; GWP/social factors move their respective objectives).
+factors:
+  - {label: Processing cost,     file: cost_parameters_ga.csv,   column: "processing cost"}
+  - {label: Transport cost,      file: cost_parameters_ga.csv,   column: "transportation cost"}
+  - {label: Tariffs,             file: cost_parameters_ga.csv,   column: "tariff_cost"}
+  - {label: Shipping cost,       file: shipping_costs_ga.csv,    column: "shipping_cost_usd_per_kg"}
+  - {label: Capacity,            file: capacity_template_ga.csv, column: "capacity"}
+  - {label: Yield,               file: yield_ga.csv,             column: "yield"}
+  - {label: Demand,              file: demand_ga.csv,            column: "demand_kg"}
+  - {label: GWP factors,         file: EF_Template.csv,          column: "EF_weighted__Global Warming Potential (Gwp1000)"}
+  - {label: Child-labor factors, file: social_lca_template_ga.csv, column: "SLCA_EF - Child labor impact (worker hour/kg)"}

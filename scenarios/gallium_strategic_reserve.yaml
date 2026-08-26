@@ -1,0 +1,9 @@
+# Gallium — hold a one-period strategic reserve of finished wafers (resilience lever).
+# The model builds and carries the reserve (paying holding cost); cost rises above baseline.
+#   bleecam-run scenarios/gallium_strategic_reserve.yaml
+case: gallium
+data_dir: src/bleecam/cases/gallium/data/gallium
+objective: cost
+constraints:
+  - {id: strategic_reserve, params: {material: GaN_wafer, coverage_periods: 1}}
+  - {id: strategic_reserve, params: {material: GaAs_wafer, coverage_periods: 1}}

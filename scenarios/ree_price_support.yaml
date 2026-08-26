@@ -1,0 +1,20 @@
+# REE magnets — producer price-support scenario (economic lever), cross-case proof.
+#
+# Same library lever as gallium, now on the rare-earth magnet supply chain:
+# guarantee U.S. NdFeB magnet manufacturing a competitive effective price so it
+# enters the least-cost solution; the subsidy outlay is reported separately.
+#
+# Run:  bleecam-run scenarios/ree_price_support.yaml   (REE solves with ipopt)
+#
+# NOTE: target_price is ILLUSTRATIVE pending the data audit — calibrate it to
+# China's export price for NdFeB magnets to reflect the true competitiveness gap.
+case: rare_earth
+data_dir: src/bleecam/cases/rare_earth/data
+objective: cost
+constraints:
+  - id: price_support
+    params:
+      material: hp_magnet
+      location: US
+      process: "magnet manufacturing"
+      target_price: 5.0

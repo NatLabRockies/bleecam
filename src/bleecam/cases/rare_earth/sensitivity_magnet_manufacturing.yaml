@@ -1,0 +1,16 @@
+# Parameter drill-down for the #1 hotspot process: MAGNET MANUFACTURING.
+# Every input parameter of this one process, `where`-filtered to it, so the screen
+# says which knob within the hotspot process matters most (yield vs cost vs EF vs social).
+# Duplicate this file with a different process name to drill into another stage
+# (e.g. "chemical transformation", the #2 hotspot).
+#   bleecam-sensitivity scenarios/ree_baseline.yaml \
+#     --factors src/bleecam/cases/rare_earth/sensitivity_magnet_manufacturing.yaml \
+#     --delta 0.1 --json ree_magnet_mfg_cost.json
+# (repeat with ree_baseline_gwp.yaml / ree_baseline_social.yaml)
+factors:
+  - {label: "Yield",          file: Yield_Factor.csv,        column: "yield",                where: {process: magnet manufacturing}}
+  - {label: "Processing cost", file: Cost_Parameters.csv,    column: "processing cost",      where: {source: magnet manufacturing}}
+  - {label: "Transport cost", file: Cost_Parameters.csv,     column: "transportation cost",  where: {source: magnet manufacturing}}
+  - {label: "Capacity",       file: Capacity_Template.csv,   column: "capacity",             where: {process: magnet manufacturing}}
+  - {label: "GWP factor",     file: EF_template.csv,         column: "EF_weighted__Global Warming Potential (Gwp1000)", where: {source: magnet manufacturing}}
+  - {label: "Child-labor factor", file: Social_LCA_template.csv, column: "SLCA_EF - Child labor impact (worker hour/kg)", where: {source: magnet manufacturing}}

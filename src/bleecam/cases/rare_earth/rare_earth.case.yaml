@@ -1,0 +1,57 @@
+# BLEECAM case configuration — Rare-earth NdFeB magnets.
+# Declarative replacement for the declarations in config.py. REE lists its sets
+# explicitly (fixed network) and carries case-specific constants under `params`
+# (used by the bespoke REE physics: unused-oxide penalties, stock defaults).
+case: rare_earth
+description: Rare-earth (NdFeB) permanent-magnet supply chain
+units: tonne
+time_periods: 5            # periods 0..4
+flow_scale: 1000.0
+
+processes: [mining, beneficiation, sulfuric acid digestion, hydrochloric acid digestion,
+            metallothermic reduction, molten_salt electrolysis, chemical transformation,
+            magnet manufacturing, use phase, magnet_market_mix, direct reuse,
+            magnet-to-magnet recycling, hydrometallurgical, pyrometallurgical, cryogenic,
+            clay mining, clay refining]
+materials: [neodynium, dysprosium, iron, ion adsorption clay,
+            neodynium dysprosium iron alloy, neodynium_oxide, dysprosium_oxide,
+            phosphate, flurocarbonate, monazaite, bastnasite, hp_magnet]
+locations: [CN, JP, AU, US, MM, MY, EE, CA, BR]
+
+active_process_locations:
+  mining: [CN, AU, US, CA, BR]
+  clay mining: [CN, AU, MM, BR]
+  beneficiation: [CN, AU, US]
+  clay refining: [CN, AU, MM, BR]
+  sulfuric acid digestion: [CN, AU, US, MY, EE]
+  hydrochloric acid digestion: [CN, AU, US, MY, EE]
+  molten_salt electrolysis: [CN, JP, US, EE]
+  metallothermic reduction: [CN, JP, US, EE]
+  chemical transformation: [CN, JP, US, EE]
+  magnet manufacturing: [CN, JP, US, EE]
+  magnet_market_mix: [US]
+  use phase: [US]
+  direct reuse: [US]
+  magnet-to-magnet recycling: [US]
+  hydrometallurgical: [US]
+  pyrometallurgical: [US]
+  cryogenic: [US]
+
+demand:
+  location: US
+  materials: [hp_magnet]
+  source_process: magnet_market_mix
+  sink_process: use phase
+  slack_penalty: 1000.0
+
+data:
+  dir: data
+  results_csv: model_results_multilocation.csv
+
+params:
+  alloy: neodynium dysprosium iron alloy
+  penalty_unused_oxide_cost: 80
+  penalty_unused_oxide_gwp: 15
+  penalty_unused_oxide_slca: 0.001
+  default_max_stock_capacity_kg: 4000000.0
+  default_stock_holding_cost: 0.1

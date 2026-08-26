@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use BLEECAM in your work, please cite it as below."
+title: "BLEECAM: Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials"
+abstract: >-
+  BLEECAM is a multi-objective optimization framework that benchmarks and optimizes
+  global critical-mineral and advanced-material supply-chain scenarios across economic
+  (TEA/LCC), environmental (LCA-derived), and social (S-LCA) dimensions, including the
+  multi-objective trade-off frontier. Developed at the National Laboratory of the
+  Rockies (NLR) with funding from the U.S. Department of Energy's Advanced Materials
+  and Manufacturing Technologies Office (DOE AMMTO).
+type: software
+version: "0.1.0-beta.1"
+date-released: "2026-08-26"
+license: AGPL-3.0-or-later
+repository-code: "https://github.com/NatLabRockies/bleecam"
+url: "https://github.com/NatLabRockies/bleecam"
+authors:
+  - family-names: Khalifa
+    given-names: Sherif
+    affiliation: "National Laboratory of the Rockies (NLR)"
+keywords:
+  - critical minerals
+  - life cycle assessment
+  - techno-economic analysis
+  - supply chain optimization
+  - multi-objective optimization
+  - rare earth elements
+  - gallium

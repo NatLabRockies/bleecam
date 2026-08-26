@@ -1,0 +1,316 @@
+time_period,source,location,material,ef_row_exists,active_gwp_value,status,notes
+0,Bauxite mining,AU,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+0,Bauxite mining,CN,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+0,Bauxite mining,GR,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+0,Bauxite mining,KZ,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+0,Bayer liquor refining,AU,4N_Ga,True,237.5097011,complete,Required topology key has numeric active GWP EF.
+0,Bayer liquor refining,CA,4N_Ga,True,167.4790551,complete,Required topology key has numeric active GWP EF.
+0,Bayer liquor refining,CN,4N_Ga,True,253.8027834,complete,Required topology key has numeric active GWP EF.
+0,Bayer liquor refining,GR,4N_Ga,True,228.2524824,complete,Required topology key has numeric active GWP EF.
+0,Bayer liquor refining,KZ,4N_Ga,True,248.0098231,complete,Required topology key has numeric active GWP EF.
+0,Bayer liquor refining,US,4N_Ga,True,195.834598,complete,Required topology key has numeric active GWP EF.
+0,Bayer process / alumina refining,AU,Bayer_liquor,True,0.969971182,complete,Required topology key has numeric active GWP EF.
+0,Bayer process / alumina refining,CA,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+0,Bayer process / alumina refining,CN,Bayer_liquor,True,2.900045683,complete,Required topology key has numeric active GWP EF.
+0,Bayer process / alumina refining,GR,Bayer_liquor,True,1.067362564,complete,Required topology key has numeric active GWP EF.
+0,Bayer process / alumina refining,KZ,Bayer_liquor,True,2.840295557,complete,Required topology key has numeric active GWP EF.
+0,Bayer process / alumina refining,US,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+0,High-purity gallium refining,CA,6N_Ga,True,0.360438408,complete,Required topology key has numeric active GWP EF.
+0,High-purity gallium refining,CN,6N_Ga,True,0.406362429,complete,Required topology key has numeric active GWP EF.
+0,High-purity gallium refining,JP,6N_Ga,True,0.387048646,complete,Required topology key has numeric active GWP EF.
+0,High-purity gallium refining,US,6N_Ga,True,0.377795702,complete,Required topology key has numeric active GWP EF.
+0,New manufacturing scrap recovery,CA,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,New manufacturing scrap recovery,CN,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,New manufacturing scrap recovery,JP,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,New manufacturing scrap recovery,KR,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,New manufacturing scrap recovery,US,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,TMG synthesis,CN,TMG,True,39.12198705,complete,Required topology key has numeric active GWP EF.
+0,TMG synthesis,JP,TMG,True,38.79842679,complete,Required topology key has numeric active GWP EF.
+0,TMG synthesis,KR,TMG,True,38.84351615,complete,Required topology key has numeric active GWP EF.
+0,TMG synthesis,US,TMG,True,38.70798176,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,CN,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,Wafer manufacturing,CN,GaAs_wafer,True,1072.806708,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,CN,GaN_wafer,True,56608.84709,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,JP,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,Wafer manufacturing,JP,GaAs_wafer,True,650.5656438,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,JP,GaN_wafer,True,36535.80026,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,KR,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,Wafer manufacturing,KR,GaAs_wafer,True,709.406553,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,KR,GaN_wafer,True,39333.0562,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,US,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,Wafer manufacturing,US,GaAs_wafer,True,532.5362846,complete,Required topology key has numeric active GWP EF.
+0,Wafer manufacturing,US,GaN_wafer,True,30924.76653,complete,Required topology key has numeric active GWP EF.
+0,ZLR refining,CN,4N_Ga,True,454.692564,complete,Required topology key has numeric active GWP EF.
+0,ZLR refining,JP,4N_Ga,True,445.0546803,complete,Required topology key has numeric active GWP EF.
+0,ZLR refining,KR,4N_Ga,True,446.3977563,complete,Required topology key has numeric active GWP EF.
+0,ZLR refining,US,4N_Ga,True,442.3605955,complete,Required topology key has numeric active GWP EF.
+0,ZS mining,AU,Zn_sphalerite_concentrate,True,0.424491131,complete,Required topology key has numeric active GWP EF.
+0,ZS mining,CA,Zn_sphalerite_concentrate,True,0.136819456,complete,Required topology key has numeric active GWP EF.
+0,ZS mining,CN,Zn_sphalerite_concentrate,True,0.444370875,complete,Required topology key has numeric active GWP EF.
+0,ZS mining,KZ,Zn_sphalerite_concentrate,True,24977.30567,complete,Required topology key has numeric active GWP EF.
+0,ZS mining,US,Zn_sphalerite_concentrate,True,0.982527787,complete,Required topology key has numeric active GWP EF.
+0,Zinc concentration,AU,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc concentration,CA,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc concentration,CN,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc concentration,JP,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc concentration,KR,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc concentration,KZ,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc concentration,US,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+0,Zinc smelting/refining,CN,ZLR_Zn_residue,True,3.422517463,complete,Required topology key has numeric active GWP EF.
+0,Zinc smelting/refining,JP,ZLR_Zn_residue,True,0.011893538,complete,Required topology key has numeric active GWP EF.
+0,Zinc smelting/refining,KR,ZLR_Zn_residue,True,1.051056816,complete,Required topology key has numeric active GWP EF.
+0,Zinc smelting/refining,US,ZLR_Zn_residue,True,1.302757267,complete,Required topology key has numeric active GWP EF.
+0,wafer_market_mix,US,GaAs_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+0,wafer_market_mix,US,GaN_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,Bauxite mining,AU,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+1,Bauxite mining,CN,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+1,Bauxite mining,GR,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+1,Bauxite mining,KZ,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+1,Bayer liquor refining,AU,4N_Ga,True,237.5097011,complete,Required topology key has numeric active GWP EF.
+1,Bayer liquor refining,CA,4N_Ga,True,167.4790551,complete,Required topology key has numeric active GWP EF.
+1,Bayer liquor refining,CN,4N_Ga,True,253.8027834,complete,Required topology key has numeric active GWP EF.
+1,Bayer liquor refining,GR,4N_Ga,True,228.2524824,complete,Required topology key has numeric active GWP EF.
+1,Bayer liquor refining,KZ,4N_Ga,True,248.0098231,complete,Required topology key has numeric active GWP EF.
+1,Bayer liquor refining,US,4N_Ga,True,195.834598,complete,Required topology key has numeric active GWP EF.
+1,Bayer process / alumina refining,AU,Bayer_liquor,True,0.969971182,complete,Required topology key has numeric active GWP EF.
+1,Bayer process / alumina refining,CA,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+1,Bayer process / alumina refining,CN,Bayer_liquor,True,2.900045683,complete,Required topology key has numeric active GWP EF.
+1,Bayer process / alumina refining,GR,Bayer_liquor,True,1.067362564,complete,Required topology key has numeric active GWP EF.
+1,Bayer process / alumina refining,KZ,Bayer_liquor,True,2.840295557,complete,Required topology key has numeric active GWP EF.
+1,Bayer process / alumina refining,US,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+1,High-purity gallium refining,CA,6N_Ga,True,0.360438408,complete,Required topology key has numeric active GWP EF.
+1,High-purity gallium refining,CN,6N_Ga,True,0.406362429,complete,Required topology key has numeric active GWP EF.
+1,High-purity gallium refining,JP,6N_Ga,True,0.387048646,complete,Required topology key has numeric active GWP EF.
+1,High-purity gallium refining,US,6N_Ga,True,0.377795702,complete,Required topology key has numeric active GWP EF.
+1,New manufacturing scrap recovery,CA,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,New manufacturing scrap recovery,CN,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,New manufacturing scrap recovery,JP,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,New manufacturing scrap recovery,KR,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,New manufacturing scrap recovery,US,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,TMG synthesis,CN,TMG,True,39.12198705,complete,Required topology key has numeric active GWP EF.
+1,TMG synthesis,JP,TMG,True,38.79842679,complete,Required topology key has numeric active GWP EF.
+1,TMG synthesis,KR,TMG,True,38.84351615,complete,Required topology key has numeric active GWP EF.
+1,TMG synthesis,US,TMG,True,38.70798176,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,CN,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,Wafer manufacturing,CN,GaAs_wafer,True,1072.806708,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,CN,GaN_wafer,True,56608.84709,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,JP,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,Wafer manufacturing,JP,GaAs_wafer,True,650.5656438,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,JP,GaN_wafer,True,36535.80026,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,KR,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,Wafer manufacturing,KR,GaAs_wafer,True,709.406553,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,KR,GaN_wafer,True,39333.0562,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,US,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,Wafer manufacturing,US,GaAs_wafer,True,532.5362846,complete,Required topology key has numeric active GWP EF.
+1,Wafer manufacturing,US,GaN_wafer,True,30924.76653,complete,Required topology key has numeric active GWP EF.
+1,ZLR refining,CN,4N_Ga,True,454.692564,complete,Required topology key has numeric active GWP EF.
+1,ZLR refining,JP,4N_Ga,True,445.0546803,complete,Required topology key has numeric active GWP EF.
+1,ZLR refining,KR,4N_Ga,True,446.3977563,complete,Required topology key has numeric active GWP EF.
+1,ZLR refining,US,4N_Ga,True,442.3605955,complete,Required topology key has numeric active GWP EF.
+1,ZS mining,AU,Zn_sphalerite_concentrate,True,0.424491131,complete,Required topology key has numeric active GWP EF.
+1,ZS mining,CA,Zn_sphalerite_concentrate,True,0.136819456,complete,Required topology key has numeric active GWP EF.
+1,ZS mining,CN,Zn_sphalerite_concentrate,True,0.444370875,complete,Required topology key has numeric active GWP EF.
+1,ZS mining,KZ,Zn_sphalerite_concentrate,True,24977.30567,complete,Required topology key has numeric active GWP EF.
+1,ZS mining,US,Zn_sphalerite_concentrate,True,0.982527787,complete,Required topology key has numeric active GWP EF.
+1,Zinc concentration,AU,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc concentration,CA,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc concentration,CN,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc concentration,JP,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc concentration,KR,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc concentration,KZ,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc concentration,US,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+1,Zinc smelting/refining,CN,ZLR_Zn_residue,True,3.422517463,complete,Required topology key has numeric active GWP EF.
+1,Zinc smelting/refining,JP,ZLR_Zn_residue,True,0.011893538,complete,Required topology key has numeric active GWP EF.
+1,Zinc smelting/refining,KR,ZLR_Zn_residue,True,1.051056816,complete,Required topology key has numeric active GWP EF.
+1,Zinc smelting/refining,US,ZLR_Zn_residue,True,1.302757267,complete,Required topology key has numeric active GWP EF.
+1,wafer_market_mix,US,GaAs_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+1,wafer_market_mix,US,GaN_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,Bauxite mining,AU,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+2,Bauxite mining,CN,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+2,Bauxite mining,GR,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+2,Bauxite mining,KZ,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+2,Bayer liquor refining,AU,4N_Ga,True,237.5097011,complete,Required topology key has numeric active GWP EF.
+2,Bayer liquor refining,CA,4N_Ga,True,167.4790551,complete,Required topology key has numeric active GWP EF.
+2,Bayer liquor refining,CN,4N_Ga,True,253.8027834,complete,Required topology key has numeric active GWP EF.
+2,Bayer liquor refining,GR,4N_Ga,True,228.2524824,complete,Required topology key has numeric active GWP EF.
+2,Bayer liquor refining,KZ,4N_Ga,True,248.0098231,complete,Required topology key has numeric active GWP EF.
+2,Bayer liquor refining,US,4N_Ga,True,195.834598,complete,Required topology key has numeric active GWP EF.
+2,Bayer process / alumina refining,AU,Bayer_liquor,True,0.969971182,complete,Required topology key has numeric active GWP EF.
+2,Bayer process / alumina refining,CA,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+2,Bayer process / alumina refining,CN,Bayer_liquor,True,2.900045683,complete,Required topology key has numeric active GWP EF.
+2,Bayer process / alumina refining,GR,Bayer_liquor,True,1.067362564,complete,Required topology key has numeric active GWP EF.
+2,Bayer process / alumina refining,KZ,Bayer_liquor,True,2.840295557,complete,Required topology key has numeric active GWP EF.
+2,Bayer process / alumina refining,US,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+2,High-purity gallium refining,CA,6N_Ga,True,0.360438408,complete,Required topology key has numeric active GWP EF.
+2,High-purity gallium refining,CN,6N_Ga,True,0.406362429,complete,Required topology key has numeric active GWP EF.
+2,High-purity gallium refining,JP,6N_Ga,True,0.387048646,complete,Required topology key has numeric active GWP EF.
+2,High-purity gallium refining,US,6N_Ga,True,0.377795702,complete,Required topology key has numeric active GWP EF.
+2,New manufacturing scrap recovery,CA,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,New manufacturing scrap recovery,CN,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,New manufacturing scrap recovery,JP,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,New manufacturing scrap recovery,KR,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,New manufacturing scrap recovery,US,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,TMG synthesis,CN,TMG,True,39.12198705,complete,Required topology key has numeric active GWP EF.
+2,TMG synthesis,JP,TMG,True,38.79842679,complete,Required topology key has numeric active GWP EF.
+2,TMG synthesis,KR,TMG,True,38.84351615,complete,Required topology key has numeric active GWP EF.
+2,TMG synthesis,US,TMG,True,38.70798176,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,CN,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,Wafer manufacturing,CN,GaAs_wafer,True,1072.806708,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,CN,GaN_wafer,True,56608.84709,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,JP,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,Wafer manufacturing,JP,GaAs_wafer,True,650.5656438,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,JP,GaN_wafer,True,36535.80026,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,KR,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,Wafer manufacturing,KR,GaAs_wafer,True,709.406553,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,KR,GaN_wafer,True,39333.0562,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,US,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,Wafer manufacturing,US,GaAs_wafer,True,532.5362846,complete,Required topology key has numeric active GWP EF.
+2,Wafer manufacturing,US,GaN_wafer,True,30924.76653,complete,Required topology key has numeric active GWP EF.
+2,ZLR refining,CN,4N_Ga,True,454.692564,complete,Required topology key has numeric active GWP EF.
+2,ZLR refining,JP,4N_Ga,True,445.0546803,complete,Required topology key has numeric active GWP EF.
+2,ZLR refining,KR,4N_Ga,True,446.3977563,complete,Required topology key has numeric active GWP EF.
+2,ZLR refining,US,4N_Ga,True,442.3605955,complete,Required topology key has numeric active GWP EF.
+2,ZS mining,AU,Zn_sphalerite_concentrate,True,0.424491131,complete,Required topology key has numeric active GWP EF.
+2,ZS mining,CA,Zn_sphalerite_concentrate,True,0.136819456,complete,Required topology key has numeric active GWP EF.
+2,ZS mining,CN,Zn_sphalerite_concentrate,True,0.444370875,complete,Required topology key has numeric active GWP EF.
+2,ZS mining,KZ,Zn_sphalerite_concentrate,True,24977.30567,complete,Required topology key has numeric active GWP EF.
+2,ZS mining,US,Zn_sphalerite_concentrate,True,0.982527787,complete,Required topology key has numeric active GWP EF.
+2,Zinc concentration,AU,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc concentration,CA,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc concentration,CN,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc concentration,JP,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc concentration,KR,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc concentration,KZ,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc concentration,US,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+2,Zinc smelting/refining,CN,ZLR_Zn_residue,True,3.422517463,complete,Required topology key has numeric active GWP EF.
+2,Zinc smelting/refining,JP,ZLR_Zn_residue,True,0.011893538,complete,Required topology key has numeric active GWP EF.
+2,Zinc smelting/refining,KR,ZLR_Zn_residue,True,1.051056816,complete,Required topology key has numeric active GWP EF.
+2,Zinc smelting/refining,US,ZLR_Zn_residue,True,1.302757267,complete,Required topology key has numeric active GWP EF.
+2,wafer_market_mix,US,GaAs_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+2,wafer_market_mix,US,GaN_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,Bauxite mining,AU,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+3,Bauxite mining,CN,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+3,Bauxite mining,GR,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+3,Bauxite mining,KZ,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+3,Bayer liquor refining,AU,4N_Ga,True,237.5097011,complete,Required topology key has numeric active GWP EF.
+3,Bayer liquor refining,CA,4N_Ga,True,167.4790551,complete,Required topology key has numeric active GWP EF.
+3,Bayer liquor refining,CN,4N_Ga,True,253.8027834,complete,Required topology key has numeric active GWP EF.
+3,Bayer liquor refining,GR,4N_Ga,True,228.2524824,complete,Required topology key has numeric active GWP EF.
+3,Bayer liquor refining,KZ,4N_Ga,True,248.0098231,complete,Required topology key has numeric active GWP EF.
+3,Bayer liquor refining,US,4N_Ga,True,195.834598,complete,Required topology key has numeric active GWP EF.
+3,Bayer process / alumina refining,AU,Bayer_liquor,True,0.969971182,complete,Required topology key has numeric active GWP EF.
+3,Bayer process / alumina refining,CA,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+3,Bayer process / alumina refining,CN,Bayer_liquor,True,2.900045683,complete,Required topology key has numeric active GWP EF.
+3,Bayer process / alumina refining,GR,Bayer_liquor,True,1.067362564,complete,Required topology key has numeric active GWP EF.
+3,Bayer process / alumina refining,KZ,Bayer_liquor,True,2.840295557,complete,Required topology key has numeric active GWP EF.
+3,Bayer process / alumina refining,US,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+3,High-purity gallium refining,CA,6N_Ga,True,0.360438408,complete,Required topology key has numeric active GWP EF.
+3,High-purity gallium refining,CN,6N_Ga,True,0.406362429,complete,Required topology key has numeric active GWP EF.
+3,High-purity gallium refining,JP,6N_Ga,True,0.387048646,complete,Required topology key has numeric active GWP EF.
+3,High-purity gallium refining,US,6N_Ga,True,0.377795702,complete,Required topology key has numeric active GWP EF.
+3,New manufacturing scrap recovery,CA,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,New manufacturing scrap recovery,CN,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,New manufacturing scrap recovery,JP,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,New manufacturing scrap recovery,KR,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,New manufacturing scrap recovery,US,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,TMG synthesis,CN,TMG,True,39.12198705,complete,Required topology key has numeric active GWP EF.
+3,TMG synthesis,JP,TMG,True,38.79842679,complete,Required topology key has numeric active GWP EF.
+3,TMG synthesis,KR,TMG,True,38.84351615,complete,Required topology key has numeric active GWP EF.
+3,TMG synthesis,US,TMG,True,38.70798176,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,CN,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,Wafer manufacturing,CN,GaAs_wafer,True,1072.806708,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,CN,GaN_wafer,True,56608.84709,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,JP,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,Wafer manufacturing,JP,GaAs_wafer,True,650.5656438,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,JP,GaN_wafer,True,36535.80026,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,KR,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,Wafer manufacturing,KR,GaAs_wafer,True,709.406553,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,KR,GaN_wafer,True,39333.0562,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,US,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,Wafer manufacturing,US,GaAs_wafer,True,532.5362846,complete,Required topology key has numeric active GWP EF.
+3,Wafer manufacturing,US,GaN_wafer,True,30924.76653,complete,Required topology key has numeric active GWP EF.
+3,ZLR refining,CN,4N_Ga,True,454.692564,complete,Required topology key has numeric active GWP EF.
+3,ZLR refining,JP,4N_Ga,True,445.0546803,complete,Required topology key has numeric active GWP EF.
+3,ZLR refining,KR,4N_Ga,True,446.3977563,complete,Required topology key has numeric active GWP EF.
+3,ZLR refining,US,4N_Ga,True,442.3605955,complete,Required topology key has numeric active GWP EF.
+3,ZS mining,AU,Zn_sphalerite_concentrate,True,0.424491131,complete,Required topology key has numeric active GWP EF.
+3,ZS mining,CA,Zn_sphalerite_concentrate,True,0.136819456,complete,Required topology key has numeric active GWP EF.
+3,ZS mining,CN,Zn_sphalerite_concentrate,True,0.444370875,complete,Required topology key has numeric active GWP EF.
+3,ZS mining,KZ,Zn_sphalerite_concentrate,True,24977.30567,complete,Required topology key has numeric active GWP EF.
+3,ZS mining,US,Zn_sphalerite_concentrate,True,0.982527787,complete,Required topology key has numeric active GWP EF.
+3,Zinc concentration,AU,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc concentration,CA,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc concentration,CN,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc concentration,JP,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc concentration,KR,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc concentration,KZ,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc concentration,US,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+3,Zinc smelting/refining,CN,ZLR_Zn_residue,True,3.422517463,complete,Required topology key has numeric active GWP EF.
+3,Zinc smelting/refining,JP,ZLR_Zn_residue,True,0.011893538,complete,Required topology key has numeric active GWP EF.
+3,Zinc smelting/refining,KR,ZLR_Zn_residue,True,1.051056816,complete,Required topology key has numeric active GWP EF.
+3,Zinc smelting/refining,US,ZLR_Zn_residue,True,1.302757267,complete,Required topology key has numeric active GWP EF.
+3,wafer_market_mix,US,GaAs_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+3,wafer_market_mix,US,GaN_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,Bauxite mining,AU,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+4,Bauxite mining,CN,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+4,Bauxite mining,GR,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+4,Bauxite mining,KZ,bauxite,True,0.012269178,complete,Required topology key has numeric active GWP EF.
+4,Bayer liquor refining,AU,4N_Ga,True,237.5097011,complete,Required topology key has numeric active GWP EF.
+4,Bayer liquor refining,CA,4N_Ga,True,167.4790551,complete,Required topology key has numeric active GWP EF.
+4,Bayer liquor refining,CN,4N_Ga,True,253.8027834,complete,Required topology key has numeric active GWP EF.
+4,Bayer liquor refining,GR,4N_Ga,True,228.2524824,complete,Required topology key has numeric active GWP EF.
+4,Bayer liquor refining,KZ,4N_Ga,True,248.0098231,complete,Required topology key has numeric active GWP EF.
+4,Bayer liquor refining,US,4N_Ga,True,195.834598,complete,Required topology key has numeric active GWP EF.
+4,Bayer process / alumina refining,AU,Bayer_liquor,True,0.969971182,complete,Required topology key has numeric active GWP EF.
+4,Bayer process / alumina refining,CA,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+4,Bayer process / alumina refining,CN,Bayer_liquor,True,2.900045683,complete,Required topology key has numeric active GWP EF.
+4,Bayer process / alumina refining,GR,Bayer_liquor,True,1.067362564,complete,Required topology key has numeric active GWP EF.
+4,Bayer process / alumina refining,KZ,Bayer_liquor,True,2.840295557,complete,Required topology key has numeric active GWP EF.
+4,Bayer process / alumina refining,US,Bayer_liquor,True,0.998713824,complete,Required topology key has numeric active GWP EF.
+4,High-purity gallium refining,CA,6N_Ga,True,0.360438408,complete,Required topology key has numeric active GWP EF.
+4,High-purity gallium refining,CN,6N_Ga,True,0.406362429,complete,Required topology key has numeric active GWP EF.
+4,High-purity gallium refining,JP,6N_Ga,True,0.387048646,complete,Required topology key has numeric active GWP EF.
+4,High-purity gallium refining,US,6N_Ga,True,0.377795702,complete,Required topology key has numeric active GWP EF.
+4,New manufacturing scrap recovery,CA,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,New manufacturing scrap recovery,CN,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,New manufacturing scrap recovery,JP,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,New manufacturing scrap recovery,KR,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,New manufacturing scrap recovery,US,6N_Ga,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,TMG synthesis,CN,TMG,True,39.12198705,complete,Required topology key has numeric active GWP EF.
+4,TMG synthesis,JP,TMG,True,38.79842679,complete,Required topology key has numeric active GWP EF.
+4,TMG synthesis,KR,TMG,True,38.84351615,complete,Required topology key has numeric active GWP EF.
+4,TMG synthesis,US,TMG,True,38.70798176,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,CN,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,Wafer manufacturing,CN,GaAs_wafer,True,1072.806708,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,CN,GaN_wafer,True,56608.84709,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,JP,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,Wafer manufacturing,JP,GaAs_wafer,True,650.5656438,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,JP,GaN_wafer,True,36535.80026,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,KR,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,Wafer manufacturing,KR,GaAs_wafer,True,709.406553,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,KR,GaN_wafer,True,39333.0562,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,US,Ga_manufacturing_scrap,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,Wafer manufacturing,US,GaAs_wafer,True,532.5362846,complete,Required topology key has numeric active GWP EF.
+4,Wafer manufacturing,US,GaN_wafer,True,30924.76653,complete,Required topology key has numeric active GWP EF.
+4,ZLR refining,CN,4N_Ga,True,454.692564,complete,Required topology key has numeric active GWP EF.
+4,ZLR refining,JP,4N_Ga,True,445.0546803,complete,Required topology key has numeric active GWP EF.
+4,ZLR refining,KR,4N_Ga,True,446.3977563,complete,Required topology key has numeric active GWP EF.
+4,ZLR refining,US,4N_Ga,True,442.3605955,complete,Required topology key has numeric active GWP EF.
+4,ZS mining,AU,Zn_sphalerite_concentrate,True,0.424491131,complete,Required topology key has numeric active GWP EF.
+4,ZS mining,CA,Zn_sphalerite_concentrate,True,0.136819456,complete,Required topology key has numeric active GWP EF.
+4,ZS mining,CN,Zn_sphalerite_concentrate,True,0.444370875,complete,Required topology key has numeric active GWP EF.
+4,ZS mining,KZ,Zn_sphalerite_concentrate,True,24977.30567,complete,Required topology key has numeric active GWP EF.
+4,ZS mining,US,Zn_sphalerite_concentrate,True,0.982527787,complete,Required topology key has numeric active GWP EF.
+4,Zinc concentration,AU,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc concentration,CA,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc concentration,CN,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc concentration,JP,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc concentration,KR,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc concentration,KZ,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc concentration,US,Zn_sphalerite_concentrate,True,0.0,intentional_zero,ZERO_BURDEN_PLACEHOLDER_TO_AVOID_DOUBLE_COUNTING_WITH_ZINC_CONCENTRATE_PROXY
+4,Zinc smelting/refining,CN,ZLR_Zn_residue,True,3.422517463,complete,Required topology key has numeric active GWP EF.
+4,Zinc smelting/refining,JP,ZLR_Zn_residue,True,0.011893538,complete,Required topology key has numeric active GWP EF.
+4,Zinc smelting/refining,KR,ZLR_Zn_residue,True,1.051056816,complete,Required topology key has numeric active GWP EF.
+4,Zinc smelting/refining,US,ZLR_Zn_residue,True,1.302757267,complete,Required topology key has numeric active GWP EF.
+4,wafer_market_mix,US,GaAs_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."
+4,wafer_market_mix,US,GaN_wafer,False,,scenario_only_excluded,"Excluded from baseline EF_Template because node/material is scenario-only inactive, manufacturing scrap, or market mix aggregation."

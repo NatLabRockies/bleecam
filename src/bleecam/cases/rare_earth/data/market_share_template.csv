@@ -1,0 +1,41 @@
+time_period,source,destination,material,country,share
+0,import_AU,chemical transformation,dysprosium,AU,1.0
+0,import_AU,chemical transformation,neodynium,AU,1.0
+0,import_AU,magnet manufacturing,neodynium dysprosium iron alloy,AU,1.0
+0,import_AU,magnet_market_mix,hp_magnet,AU,1.0
+0,import_CN,chemical transformation,dysprosium,CN,1.0
+0,import_CN,chemical transformation,neodynium,CN,1.0
+0,import_CN,magnet manufacturing,neodynium dysprosium iron alloy,CN,1.0
+0,import_CN,magnet_market_mix,hp_magnet,CN,1.0
+1,import_AU,chemical transformation,dysprosium,AU,1.0
+1,import_AU,chemical transformation,neodynium,AU,1.0
+1,import_AU,magnet manufacturing,neodynium dysprosium iron alloy,AU,1.0
+1,import_AU,magnet_market_mix,hp_magnet,AU,1.0
+1,import_CN,chemical transformation,dysprosium,CN,1.0
+1,import_CN,chemical transformation,neodynium,CN,1.0
+1,import_CN,magnet manufacturing,neodynium dysprosium iron alloy,CN,1.0
+1,import_CN,magnet_market_mix,hp_magnet,CN,1.0
+2,import_AU,chemical transformation,dysprosium,AU,1.0
+2,import_AU,chemical transformation,neodynium,AU,1.0
+2,import_AU,magnet manufacturing,neodynium dysprosium iron alloy,AU,1.0
+2,import_AU,magnet_market_mix,hp_magnet,AU,1.0
+2,import_CN,chemical transformation,dysprosium,CN,1.0
+2,import_CN,chemical transformation,neodynium,CN,1.0
+2,import_CN,magnet manufacturing,neodynium dysprosium iron alloy,CN,1.0
+2,import_CN,magnet_market_mix,hp_magnet,CN,1.0
+3,import_AU,chemical transformation,dysprosium,AU,1.0
+3,import_AU,chemical transformation,neodynium,AU,1.0
+3,import_AU,magnet manufacturing,neodynium dysprosium iron alloy,AU,1.0
+3,import_AU,magnet_market_mix,hp_magnet,AU,1.0
+3,import_CN,chemical transformation,dysprosium,CN,1.0
+3,import_CN,chemical transformation,neodynium,CN,1.0
+3,import_CN,magnet manufacturing,neodynium dysprosium iron alloy,CN,1.0
+3,import_CN,magnet_market_mix,hp_magnet,CN,1.0
+4,import_AU,chemical transformation,dysprosium,AU,1.0
+4,import_AU,chemical transformation,neodynium,AU,1.0
+4,import_AU,magnet manufacturing,neodynium dysprosium iron alloy,AU,1.0
+4,import_AU,magnet_market_mix,hp_magnet,AU,1.0
+4,import_CN,chemical transformation,dysprosium,CN,1.0
+4,import_CN,chemical transformation,neodynium,CN,1.0
+4,import_CN,magnet manufacturing,neodynium dysprosium iron alloy,CN,1.0
+4,import_CN,magnet_market_mix,hp_magnet,CN,1.0

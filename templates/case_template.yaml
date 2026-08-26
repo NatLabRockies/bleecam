@@ -1,0 +1,59 @@
+# ============================================================================
+# BLEECAM case template — copy this to define a NEW material with NO Python.
+#   1. Copy to  src/bleecam/cases/<your_material>/<your_material>.case.yaml
+#   2. Replace every <PLACEHOLDER> below with your values
+#   3. Drop your data CSVs in the data folder, then run  bleecam-run <scenario>.yaml
+# For filled-in examples see the shipped cases:
+#   src/bleecam/cases/gallium/gallium.case.yaml       (lean — sets derived from data)
+#   src/bleecam/cases/rare_earth/rare_earth.case.yaml (rich — explicit sets + params)
+# ============================================================================
+
+case: <your_material_id>            # short id, e.g. copper — used as case: in scenarios
+description: <one-line description of the supply chain>
+units: <unit_label>                 # flow unit, e.g. kg or tonne
+time_periods: 6                     # number of periods (0..N-1), or a list like [2025, 2026, ...]
+flow_scale: 1.0                     # divide flows by this for numerical scaling (1.0 = none)
+
+# --- Network sets -----------------------------------------------------------
+# OPTIONAL. Omit to DERIVE the network (processes / materials / locations) from
+# your topology data (recommended). List them only if you need them fixed:
+# processes: [<PROCESS_A>, <PROCESS_B>, ...]
+# materials: [<MATERIAL_A>, <MATERIAL_B>, ...]
+# locations: [<COUNTRY_A>, <COUNTRY_B>, ...]
+# active_process_locations:          # optional: restrict a process to some countries
+#   <PROCESS_A>: [<COUNTRY_A>, <COUNTRY_B>]
+
+# --- Demand: what the model must deliver, and where -------------------------
+demand:
+  location: <DEMAND_COUNTRY>         # demand sink, e.g. US
+  materials: [<FINISHED_MATERIAL>]   # the finished good(s) demanded
+  source_process: <MARKET_MIX_PROCESS>   # process that supplies demand
+  sink_process: <DEMAND_PROCESS>         # the demand node
+  flow: <demand_flow_label>
+  slack_penalty: 1.0e9               # cost per unit of UNMET demand (keep large)
+
+# --- Solver -----------------------------------------------------------------
+solver:
+  candidates: [ipopt, appsi_ipopt, appsi_highs, highs, glpk, cbc]  # tried in order
+  flow_tolerance: 1.0e-7
+
+baseline_scenario: baseline
+
+# --- Data files (drop these CSVs in `dir`; see ADDING_A_MATERIAL.md for schema) ---
+data:
+  dir: data/<your_material_id>
+  results_csv: <your_material_id>_results.csv
+  files:
+    cost: cost_parameters.csv
+    shipping: shipping_costs.csv
+    demand: demand.csv
+    capacity: capacity.csv
+    yield: yield.csv
+    trade_topology: trade_topology.csv
+    emission_factors: EF_Template.csv
+    social_lca: social_lca_template.csv
+
+# --- Case-specific constants (only if your physics needs them) --------------
+# Standard flow-network materials leave this empty. Bespoke physics (co-production
+# locks, recycling penalties) read values from here.
+params: {}

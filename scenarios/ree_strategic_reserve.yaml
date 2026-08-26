@@ -1,0 +1,14 @@
+# REE — hold a one-period strategic reserve of finished NdFeB magnets (resilience lever).
+# Solves with ipopt.
+#   bleecam-run scenarios/ree_strategic_reserve.yaml
+#
+# Note: the rare-earth case pins opening inventory (stock_level at t=0 == initial
+# stock of 0), so the reserve is automatically skipped for period 0 (you cannot hold a
+# reserve before producing anything) and enforced from period 1 onward. If the solve is
+# still infeasible, REE capacity is too tight to bank a full period of magnets on top of
+# demand — lower the target (e.g. coverage_fraction: 0.25) or delay it (from_period: 2).
+case: rare_earth
+data_dir: src/bleecam/cases/rare_earth/data
+objective: cost
+constraints:
+  - {id: strategic_reserve, params: {material: hp_magnet, coverage_periods: 1}}

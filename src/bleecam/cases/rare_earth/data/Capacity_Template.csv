@@ -1,0 +1,356 @@
+time_period,process,location,material,capacity,notes
+0,beneficiation,AU,flurocarbonate,24983734.54782043,TEA file
+0,beneficiation,AU,phosphate,0.0,TEA file
+0,clay mining,AU,ion adsorption clay,0.0,"Not yet commercial but possible: TEA file + https://rareearthexchanges.com/news/australia-builds-the-missing-link-a-national-clay-ree-processing-plant-arrives-in-2026/#:~:text=Exchange%20Requests-,Australia%20Builds%20the%20Missing%20Link:%20A%20National%20Clay%2DREE%20Processing,to%20come%20online%20in%202026."
+0,clay refining,AU,dysprosium_oxide,0.0,Based on Dy content in REO
+0,clay refining,AU,neodynium_oxide,0.0,Based on Nd content in REO
+0,hydrochloric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+0,hydrochloric acid digestion,AU,neodynium_oxide,0.0,TEA file
+0,mining,AU,bastnasite,24983734.54782043,TEA file
+0,mining,AU,monazaite,0.0,TEA file
+0,sulfuric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+0,sulfuric acid digestion,AU,neodynium_oxide,0.0,TEA file
+0,clay mining,BR,ion adsorption clay,8760107.81671159,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+0,clay refining,BR,dysprosium_oxide,262803.2345013477,Based on Dy content in REO
+0,clay refining,BR,neodynium_oxide,1489218.3288409703,Based on Nd content in REO
+0,mining,BR,bastnasite,6738544.474393532,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit - possibly double in 10 years
+0,mining,BR,monazaite,0.0,Brazil monazite sands are not exploited at the moment (https://www.questmetals.com/blog/potential-of-rare-earth-elements-in-brazil)
+0,mining,CA,bastnasite,0.0,"Canada placeholder; 14M MT reserves; DOD-backed projects ramping - planned 5,000 MT in the next couple of years (https://www.iti.gov.nt.ca/en/newsroom/it%E2%80%99s-first-everything-what%E2%80%99s-earth-worth#:~:text=Rare%20Earth%202022.&text=A%20valuation%20of%20the%20rare,oxide%20mined%20annually%20by%202025.), adding 5,000 to year 2"
+0,mining,CA,monazaite,0.0,"Main REE deposit imminently exploited is the Nechalacho project mainly constituded of Bastnasite https://www.iti.gov.nt.ca/en/newsroom/nechalacho-first-nwt-mining#:~:text=In%20mid%2DOctober%20of%202021,heavy%20REE%20to%20the%20world. Nechalacho project is the most advanced https://www.facetsjournal.com/doi/10.1139/facets-2025-0148#:~:text=Abstract,(with%20resource%20estimate%20only)."
+0,beneficiation,CN,flurocarbonate,170167224.08026755,TEA file
+0,beneficiation,CN,phosphate,67424749.1638796,TEA file
+0,chemical transformation,CN,neodynium dysprosium iron alloy,240000000.0,TEA file (assumed same as magnet manufacturing)
+0,clay mining,CN,ion adsorption clay,27959866.220735785,TEA file
+0,clay refining,CN,dysprosium_oxide,838795.9866220735,Based on Dy content in REO
+0,clay refining,CN,neodynium_oxide,4753177.257525084,Based on Nd content in REO
+0,hydrochloric acid digestion,CN,dysprosium_oxide,270000.0,TEA file + Dy oxide content in total bastnasite REO content
+0,hydrochloric acid digestion,CN,neodynium_oxide,25200000.000000004,TEA file + Nd oxide content in total bastnasite REO content
+0,magnet manufacturing,CN,hp_magnet,240000000.0,TEA file
+0,metallothermic reduction,CN,dysprosium,19600000.0,TEA file
+0,mining,CN,bastnasite,170167224.08026755,TEA file
+0,mining,CN,monazaite,67424749.1638796,TEA file
+0,molten_salt electrolysis,CN,neodynium,46000000.0,TEA file
+0,sulfuric acid digestion,CN,dysprosium_oxide,360000.0,TEA file + Dy oxide content in total bastnasite REO content
+0,sulfuric acid digestion,CN,neodynium_oxide,7650000.000000001,TEA file + Nd oxide content in total bastnasite REO content
+0,chemical transformation,EE,neodynium dysprosium iron alloy,2000000.0,TEA file (assumed same as magnet manufacturing)
+0,hydrochloric acid digestion,EE,dysprosium_oxide,40000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+0,hydrochloric acid digestion,EE,neodynium_oxide,600000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+0,magnet manufacturing,EE,hp_magnet,2000000.0,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+0,metallothermic reduction,EE,dysprosium,40000.0,"Neo Silmet Dy metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed metallothermic reduction"
+0,molten_salt electrolysis,EE,neodynium,600000.0,"Neo Silmet Nd metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed molten salt electrolysis"
+0,sulfuric acid digestion,EE,dysprosium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+0,sulfuric acid digestion,EE,neodynium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+0,chemical transformation,JP,neodynium dysprosium iron alloy,10000000.0,TEA file (assumed same as magnet manufacturing)
+0,magnet manufacturing,JP,hp_magnet,10000000.0,TEA file
+0,metallothermic reduction,JP,dysprosium,400000.0,TEA file
+0,molten_salt electrolysis,JP,neodynium,1250000.0,TEA file
+0,clay mining,MM,ion adsorption clay,1471571.906354515,TEA file
+0,clay refining,MM,dysprosium_oxide,44147.15719063545,Based on Dy content in REO
+0,clay refining,MM,neodynium_oxide,250167.2240802676,Based on Nd content in REO
+0,hydrochloric acid digestion,MY,dysprosium_oxide,36000.0,TEA file + Dy oxide content in total bastnasite REO content
+0,hydrochloric acid digestion,MY,neodynium_oxide,3360000.0000000005,TEA file + Nd oxide content in total bastnasite REO content
+0,sulfuric acid digestion,MY,dysprosium_oxide,400000.0,TEA file + Dy oxide content in total bastnasite REO content
+0,sulfuric acid digestion,MY,neodynium_oxide,4800000.0,TEA file + Nd oxide content in total bastnasite REO content
+0,beneficiation,US,flurocarbonate,56618610.74705111,TEA file
+0,beneficiation,US,phosphate,0.0,TEA file
+0,chemical transformation,US,neodynium dysprosium iron alloy,1000000.0,TEA file (assumed same as magnet manufacturing)
+0,cryogenic,US,neodynium dysprosium iron alloy,0.0,Not at commercial scale yet?
+0,direct reuse,US,hp_magnet,22500.0,kg HDD sent for magnet/REE recovery https://www.techradar.com/pro/microsoft-teams-up-with-western-digital-to-extract-rare-earth-oxides-from-decommissioned-datacenter-hard-drives-heres-what-you-need-to-know
+0,hydrochloric acid digestion,US,dysprosium_oxide,0.0,TEA file
+0,hydrochloric acid digestion,US,neodynium_oxide,0.0,TEA file
+0,hydrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+0,magnet manufacturing,US,hp_magnet,1000000.0,TEA file
+0,magnet-to-magnet recycling,US,hp_magnet,0.0,Not at commercial scale yet?
+0,magnet_market_mix,US,hp_magnet,0.0,Not at commercial scale yet?
+0,metallothermic reduction,US,dysprosium,0.0,TEA file
+0,mining,US,bastnasite,56618610.74705111,TEA file
+0,mining,US,monazaite,0.0,TEA file
+0,molten_salt electrolysis,US,neodynium,1500000.0,TEA file
+0,pyrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+0,sulfuric acid digestion,US,dysprosium_oxide,0.0,TEA file
+0,sulfuric acid digestion,US,neodynium_oxide,0.0,TEA file
+0,use phase,US,hp_magnet,0.0,Should be endogeneous to model - see other BLEECAM files
+1,beneficiation,AU,flurocarbonate,24983734.54782043,TEA file
+1,beneficiation,AU,phosphate,0.0,TEA file
+1,clay mining,AU,ion adsorption clay,0.0,"Not yet commercial but possible: TEA file + https://rareearthexchanges.com/news/australia-builds-the-missing-link-a-national-clay-ree-processing-plant-arrives-in-2026/#:~:text=Exchange%20Requests-,Australia%20Builds%20the%20Missing%20Link:%20A%20National%20Clay%2DREE%20Processing,to%20come%20online%20in%202026."
+1,clay refining,AU,dysprosium_oxide,0.0,Based on Dy content in REO
+1,clay refining,AU,neodynium_oxide,0.0,Based on Nd content in REO
+1,hydrochloric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+1,hydrochloric acid digestion,AU,neodynium_oxide,0.0,TEA file
+1,mining,AU,bastnasite,24983734.54782043,TEA file
+1,mining,AU,monazaite,0.0,TEA file
+1,sulfuric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+1,sulfuric acid digestion,AU,neodynium_oxide,0.0,TEA file
+1,clay mining,BR,ion adsorption clay,8760107.81671159,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+1,clay refining,BR,dysprosium_oxide,262803.2345013477,Based on Dy content in REO
+1,clay refining,BR,neodynium_oxide,1489218.3288409703,Based on Nd content in REO
+1,mining,BR,bastnasite,6738544.474393532,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit - possibly double in 10 years
+1,mining,BR,monazaite,0.0,Brazil monazite sands are not exploited at the moment (https://www.questmetals.com/blog/potential-of-rare-earth-elements-in-brazil)
+1,mining,CA,bastnasite,0.0,"Canada placeholder; 14M MT reserves; DOD-backed projects ramping - planned 5,000 MT in the next couple of years (https://www.iti.gov.nt.ca/en/newsroom/it%E2%80%99s-first-everything-what%E2%80%99s-earth-worth#:~:text=Rare%20Earth%202022.&text=A%20valuation%20of%20the%20rare,oxide%20mined%20annually%20by%202025.), adding 5,000 to year 2"
+1,mining,CA,monazaite,0.0,"Main REE deposit imminently exploited is the Nechalacho project mainly constituded of Bastnasite https://www.iti.gov.nt.ca/en/newsroom/nechalacho-first-nwt-mining#:~:text=In%20mid%2DOctober%20of%202021,heavy%20REE%20to%20the%20world. Nechalacho project is the most advanced https://www.facetsjournal.com/doi/10.1139/facets-2025-0148#:~:text=Abstract,(with%20resource%20estimate%20only)."
+1,beneficiation,CN,flurocarbonate,170167224.08026755,TEA file
+1,beneficiation,CN,phosphate,67424749.1638796,TEA file
+1,chemical transformation,CN,neodynium dysprosium iron alloy,240000000.0,TEA file (assumed same as magnet manufacturing)
+1,clay mining,CN,ion adsorption clay,27959866.220735785,TEA file
+1,clay refining,CN,dysprosium_oxide,838795.9866220735,Based on Dy content in REO
+1,clay refining,CN,neodynium_oxide,4753177.257525084,Based on Nd content in REO
+1,hydrochloric acid digestion,CN,dysprosium_oxide,270000.0,TEA file + Dy oxide content in total bastnasite REO content
+1,hydrochloric acid digestion,CN,neodynium_oxide,25200000.000000004,TEA file + Nd oxide content in total bastnasite REO content
+1,magnet manufacturing,CN,hp_magnet,240000000.0,TEA file
+1,metallothermic reduction,CN,dysprosium,19600000.0,TEA file
+1,mining,CN,bastnasite,170167224.08026755,TEA file
+1,mining,CN,monazaite,67424749.1638796,TEA file
+1,molten_salt electrolysis,CN,neodynium,46000000.0,TEA file
+1,sulfuric acid digestion,CN,dysprosium_oxide,360000.0,TEA file + Dy oxide content in total bastnasite REO content
+1,sulfuric acid digestion,CN,neodynium_oxide,7650000.000000001,TEA file + Nd oxide content in total bastnasite REO content
+1,chemical transformation,EE,neodynium dysprosium iron alloy,2000000.0,TEA file (assumed same as magnet manufacturing)
+1,hydrochloric acid digestion,EE,dysprosium_oxide,40000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+1,hydrochloric acid digestion,EE,neodynium_oxide,600000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+1,magnet manufacturing,EE,hp_magnet,2000000.0,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+1,metallothermic reduction,EE,dysprosium,40000.0,"Neo Silmet Dy metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed metallothermic reduction"
+1,molten_salt electrolysis,EE,neodynium,600000.0,"Neo Silmet Nd metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed molten salt electrolysis"
+1,sulfuric acid digestion,EE,dysprosium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+1,sulfuric acid digestion,EE,neodynium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+1,chemical transformation,JP,neodynium dysprosium iron alloy,10000000.0,TEA file (assumed same as magnet manufacturing)
+1,magnet manufacturing,JP,hp_magnet,10000000.0,TEA file
+1,metallothermic reduction,JP,dysprosium,400000.0,TEA file
+1,molten_salt electrolysis,JP,neodynium,1250000.0,TEA file
+1,clay mining,MM,ion adsorption clay,1471571.906354515,TEA file
+1,clay refining,MM,dysprosium_oxide,44147.15719063545,Based on Dy content in REO
+1,clay refining,MM,neodynium_oxide,250167.2240802676,Based on Nd content in REO
+1,hydrochloric acid digestion,MY,dysprosium_oxide,36000.0,TEA file + Dy oxide content in total bastnasite REO content
+1,hydrochloric acid digestion,MY,neodynium_oxide,3360000.0000000005,TEA file + Nd oxide content in total bastnasite REO content
+1,sulfuric acid digestion,MY,dysprosium_oxide,400000.0,TEA file + Dy oxide content in total bastnasite REO content
+1,sulfuric acid digestion,MY,neodynium_oxide,4800000.0,TEA file + Nd oxide content in total bastnasite REO content
+1,beneficiation,US,flurocarbonate,56618610.74705111,TEA file
+1,beneficiation,US,phosphate,0.0,TEA file
+1,chemical transformation,US,neodynium dysprosium iron alloy,1000000.0,TEA file (assumed same as magnet manufacturing)
+1,cryogenic,US,neodynium dysprosium iron alloy,0.0,Not at commercial scale yet?
+1,direct reuse,US,hp_magnet,22500.0,kg HDD sent for magnet/REE recovery https://www.techradar.com/pro/microsoft-teams-up-with-western-digital-to-extract-rare-earth-oxides-from-decommissioned-datacenter-hard-drives-heres-what-you-need-to-know
+1,hydrochloric acid digestion,US,dysprosium_oxide,0.0,TEA file
+1,hydrochloric acid digestion,US,neodynium_oxide,0.0,TEA file
+1,hydrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+1,magnet manufacturing,US,hp_magnet,1000000.0,TEA file
+1,magnet-to-magnet recycling,US,hp_magnet,0.0,Not at commercial scale yet?
+1,magnet_market_mix,US,hp_magnet,0.0,Not at commercial scale yet?
+1,metallothermic reduction,US,dysprosium,0.0,TEA file
+1,mining,US,bastnasite,56618610.74705111,TEA file
+1,mining,US,monazaite,0.0,TEA file
+1,molten_salt electrolysis,US,neodynium,1500000.0,TEA file
+1,pyrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+1,sulfuric acid digestion,US,dysprosium_oxide,0.0,TEA file
+1,sulfuric acid digestion,US,neodynium_oxide,0.0,TEA file
+1,use phase,US,hp_magnet,0.0,Should be endogeneous to model - see other BLEECAM files
+2,beneficiation,AU,flurocarbonate,24983734.54782043,TEA file
+2,beneficiation,AU,phosphate,0.0,TEA file
+2,clay mining,AU,ion adsorption clay,0.0,"Not yet commercial but possible: TEA file + https://rareearthexchanges.com/news/australia-builds-the-missing-link-a-national-clay-ree-processing-plant-arrives-in-2026/#:~:text=Exchange%20Requests-,Australia%20Builds%20the%20Missing%20Link:%20A%20National%20Clay%2DREE%20Processing,to%20come%20online%20in%202026."
+2,clay refining,AU,dysprosium_oxide,0.0,Based on Dy content in REO
+2,clay refining,AU,neodynium_oxide,0.0,Based on Nd content in REO
+2,hydrochloric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+2,hydrochloric acid digestion,AU,neodynium_oxide,0.0,TEA file
+2,mining,AU,bastnasite,24983734.54782043,TEA file
+2,mining,AU,monazaite,0.0,TEA file
+2,sulfuric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+2,sulfuric acid digestion,AU,neodynium_oxide,0.0,TEA file
+2,clay mining,BR,ion adsorption clay,8760107.81671159,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+2,clay refining,BR,dysprosium_oxide,262803.2345013477,Based on Dy content in REO
+2,clay refining,BR,neodynium_oxide,1489218.3288409703,Based on Nd content in REO
+2,mining,BR,bastnasite,6738544.474393532,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit - possibly double in 10 years
+2,mining,BR,monazaite,0.0,Brazil monazite sands are not exploited at the moment (https://www.questmetals.com/blog/potential-of-rare-earth-elements-in-brazil)
+2,mining,CA,bastnasite,5000000.0,"Canada placeholder; 14M MT reserves; DOD-backed projects ramping - planned 5,000 MT in the next couple of years (https://www.iti.gov.nt.ca/en/newsroom/it%E2%80%99s-first-everything-what%E2%80%99s-earth-worth#:~:text=Rare%20Earth%202022.&text=A%20valuation%20of%20the%20rare,oxide%20mined%20annually%20by%202025.), adding 5,000 to year 2"
+2,mining,CA,monazaite,0.0,"Main REE deposit imminently exploited is the Nechalacho project mainly constituded of Bastnasite https://www.iti.gov.nt.ca/en/newsroom/nechalacho-first-nwt-mining#:~:text=In%20mid%2DOctober%20of%202021,heavy%20REE%20to%20the%20world. Nechalacho project is the most advanced https://www.facetsjournal.com/doi/10.1139/facets-2025-0148#:~:text=Abstract,(with%20resource%20estimate%20only)."
+2,beneficiation,CN,flurocarbonate,170167224.08026755,TEA file
+2,beneficiation,CN,phosphate,67424749.1638796,TEA file
+2,chemical transformation,CN,neodynium dysprosium iron alloy,240000000.0,TEA file (assumed same as magnet manufacturing)
+2,clay mining,CN,ion adsorption clay,27959866.220735785,TEA file
+2,clay refining,CN,dysprosium_oxide,838795.9866220735,Based on Dy content in REO
+2,clay refining,CN,neodynium_oxide,4753177.257525084,Based on Nd content in REO
+2,hydrochloric acid digestion,CN,dysprosium_oxide,270000.0,TEA file + Dy oxide content in total bastnasite REO content
+2,hydrochloric acid digestion,CN,neodynium_oxide,25200000.000000004,TEA file + Nd oxide content in total bastnasite REO content
+2,magnet manufacturing,CN,hp_magnet,240000000.0,TEA file
+2,metallothermic reduction,CN,dysprosium,19600000.0,TEA file
+2,mining,CN,bastnasite,170167224.08026755,TEA file
+2,mining,CN,monazaite,67424749.1638796,TEA file
+2,molten_salt electrolysis,CN,neodynium,46000000.0,TEA file
+2,sulfuric acid digestion,CN,dysprosium_oxide,360000.0,TEA file + Dy oxide content in total bastnasite REO content
+2,sulfuric acid digestion,CN,neodynium_oxide,7650000.000000001,TEA file + Nd oxide content in total bastnasite REO content
+2,chemical transformation,EE,neodynium dysprosium iron alloy,2000000.0,TEA file (assumed same as magnet manufacturing)
+2,hydrochloric acid digestion,EE,dysprosium_oxide,40000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+2,hydrochloric acid digestion,EE,neodynium_oxide,600000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+2,magnet manufacturing,EE,hp_magnet,2000000.0,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+2,metallothermic reduction,EE,dysprosium,40000.0,"Neo Silmet Dy metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed metallothermic reduction"
+2,molten_salt electrolysis,EE,neodynium,600000.0,"Neo Silmet Nd metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed molten salt electrolysis"
+2,sulfuric acid digestion,EE,dysprosium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+2,sulfuric acid digestion,EE,neodynium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+2,chemical transformation,JP,neodynium dysprosium iron alloy,10000000.0,TEA file (assumed same as magnet manufacturing)
+2,magnet manufacturing,JP,hp_magnet,10000000.0,TEA file
+2,metallothermic reduction,JP,dysprosium,400000.0,TEA file
+2,molten_salt electrolysis,JP,neodynium,1250000.0,TEA file
+2,clay mining,MM,ion adsorption clay,1471571.906354515,TEA file
+2,clay refining,MM,dysprosium_oxide,44147.15719063545,Based on Dy content in REO
+2,clay refining,MM,neodynium_oxide,250167.2240802676,Based on Nd content in REO
+2,hydrochloric acid digestion,MY,dysprosium_oxide,36000.0,TEA file + Dy oxide content in total bastnasite REO content
+2,hydrochloric acid digestion,MY,neodynium_oxide,3360000.0000000005,TEA file + Nd oxide content in total bastnasite REO content
+2,sulfuric acid digestion,MY,dysprosium_oxide,400000.0,TEA file + Dy oxide content in total bastnasite REO content
+2,sulfuric acid digestion,MY,neodynium_oxide,4800000.0,TEA file + Nd oxide content in total bastnasite REO content
+2,beneficiation,US,flurocarbonate,56618610.74705111,TEA file
+2,beneficiation,US,phosphate,0.0,TEA file
+2,chemical transformation,US,neodynium dysprosium iron alloy,1000000.0,TEA file (assumed same as magnet manufacturing)
+2,cryogenic,US,neodynium dysprosium iron alloy,0.0,Not at commercial scale yet?
+2,direct reuse,US,hp_magnet,22500.0,kg HDD sent for magnet/REE recovery https://www.techradar.com/pro/microsoft-teams-up-with-western-digital-to-extract-rare-earth-oxides-from-decommissioned-datacenter-hard-drives-heres-what-you-need-to-know
+2,hydrochloric acid digestion,US,dysprosium_oxide,0.0,TEA file
+2,hydrochloric acid digestion,US,neodynium_oxide,0.0,TEA file
+2,hydrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+2,magnet manufacturing,US,hp_magnet,1000000.0,TEA file
+2,magnet-to-magnet recycling,US,hp_magnet,0.0,Not at commercial scale yet?
+2,magnet_market_mix,US,hp_magnet,0.0,Not at commercial scale yet?
+2,metallothermic reduction,US,dysprosium,0.0,TEA file
+2,mining,US,bastnasite,56618610.74705111,TEA file
+2,mining,US,monazaite,0.0,TEA file
+2,molten_salt electrolysis,US,neodynium,1500000.0,TEA file
+2,pyrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+2,sulfuric acid digestion,US,dysprosium_oxide,0.0,TEA file
+2,sulfuric acid digestion,US,neodynium_oxide,0.0,TEA file
+2,use phase,US,hp_magnet,0.0,Should be endogeneous to model - see other BLEECAM files
+3,beneficiation,AU,flurocarbonate,24983734.54782043,TEA file
+3,beneficiation,AU,phosphate,0.0,TEA file
+3,clay mining,AU,ion adsorption clay,0.0,"Not yet commercial but possible: TEA file + https://rareearthexchanges.com/news/australia-builds-the-missing-link-a-national-clay-ree-processing-plant-arrives-in-2026/#:~:text=Exchange%20Requests-,Australia%20Builds%20the%20Missing%20Link:%20A%20National%20Clay%2DREE%20Processing,to%20come%20online%20in%202026."
+3,clay refining,AU,dysprosium_oxide,0.0,Based on Dy content in REO
+3,clay refining,AU,neodynium_oxide,0.0,Based on Nd content in REO
+3,hydrochloric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+3,hydrochloric acid digestion,AU,neodynium_oxide,0.0,TEA file
+3,mining,AU,bastnasite,24983734.54782043,TEA file
+3,mining,AU,monazaite,0.0,TEA file
+3,sulfuric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+3,sulfuric acid digestion,AU,neodynium_oxide,0.0,TEA file
+3,clay mining,BR,ion adsorption clay,8760107.81671159,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+3,clay refining,BR,dysprosium_oxide,262803.2345013477,Based on Dy content in REO
+3,clay refining,BR,neodynium_oxide,1489218.3288409703,Based on Nd content in REO
+3,mining,BR,bastnasite,6738544.474393532,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit - possibly double in 10 years
+3,mining,BR,monazaite,0.0,Brazil monazite sands are not exploited at the moment (https://www.questmetals.com/blog/potential-of-rare-earth-elements-in-brazil)
+3,mining,CA,bastnasite,5000000.0,"Canada placeholder; 14M MT reserves; DOD-backed projects ramping - planned 5,000 MT in the next couple of years (https://www.iti.gov.nt.ca/en/newsroom/it%E2%80%99s-first-everything-what%E2%80%99s-earth-worth#:~:text=Rare%20Earth%202022.&text=A%20valuation%20of%20the%20rare,oxide%20mined%20annually%20by%202025.), adding 5,000 to year 2"
+3,mining,CA,monazaite,0.0,"Main REE deposit imminently exploited is the Nechalacho project mainly constituded of Bastnasite https://www.iti.gov.nt.ca/en/newsroom/nechalacho-first-nwt-mining#:~:text=In%20mid%2DOctober%20of%202021,heavy%20REE%20to%20the%20world. Nechalacho project is the most advanced https://www.facetsjournal.com/doi/10.1139/facets-2025-0148#:~:text=Abstract,(with%20resource%20estimate%20only)."
+3,beneficiation,CN,flurocarbonate,170167224.08026755,TEA file
+3,beneficiation,CN,phosphate,67424749.1638796,TEA file
+3,chemical transformation,CN,neodynium dysprosium iron alloy,240000000.0,TEA file (assumed same as magnet manufacturing)
+3,clay mining,CN,ion adsorption clay,27959866.220735785,TEA file
+3,clay refining,CN,dysprosium_oxide,838795.9866220735,Based on Dy content in REO
+3,clay refining,CN,neodynium_oxide,4753177.257525084,Based on Nd content in REO
+3,hydrochloric acid digestion,CN,dysprosium_oxide,270000.0,TEA file + Dy oxide content in total bastnasite REO content
+3,hydrochloric acid digestion,CN,neodynium_oxide,25200000.000000004,TEA file + Nd oxide content in total bastnasite REO content
+3,magnet manufacturing,CN,hp_magnet,240000000.0,TEA file
+3,metallothermic reduction,CN,dysprosium,19600000.0,TEA file
+3,mining,CN,bastnasite,170167224.08026755,TEA file
+3,mining,CN,monazaite,67424749.1638796,TEA file
+3,molten_salt electrolysis,CN,neodynium,46000000.0,TEA file
+3,sulfuric acid digestion,CN,dysprosium_oxide,360000.0,TEA file + Dy oxide content in total bastnasite REO content
+3,sulfuric acid digestion,CN,neodynium_oxide,7650000.000000001,TEA file + Nd oxide content in total bastnasite REO content
+3,chemical transformation,EE,neodynium dysprosium iron alloy,2000000.0,TEA file (assumed same as magnet manufacturing)
+3,hydrochloric acid digestion,EE,dysprosium_oxide,40000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+3,hydrochloric acid digestion,EE,neodynium_oxide,600000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+3,magnet manufacturing,EE,hp_magnet,2000000.0,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+3,metallothermic reduction,EE,dysprosium,40000.0,"Neo Silmet Dy metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed metallothermic reduction"
+3,molten_salt electrolysis,EE,neodynium,600000.0,"Neo Silmet Nd metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed molten salt electrolysis"
+3,sulfuric acid digestion,EE,dysprosium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+3,sulfuric acid digestion,EE,neodynium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+3,chemical transformation,JP,neodynium dysprosium iron alloy,10000000.0,TEA file (assumed same as magnet manufacturing)
+3,magnet manufacturing,JP,hp_magnet,10000000.0,TEA file
+3,metallothermic reduction,JP,dysprosium,400000.0,TEA file
+3,molten_salt electrolysis,JP,neodynium,1250000.0,TEA file
+3,clay mining,MM,ion adsorption clay,1471571.906354515,TEA file
+3,clay refining,MM,dysprosium_oxide,44147.15719063545,Based on Dy content in REO
+3,clay refining,MM,neodynium_oxide,250167.2240802676,Based on Nd content in REO
+3,hydrochloric acid digestion,MY,dysprosium_oxide,36000.0,TEA file + Dy oxide content in total bastnasite REO content
+3,hydrochloric acid digestion,MY,neodynium_oxide,3360000.0000000005,TEA file + Nd oxide content in total bastnasite REO content
+3,sulfuric acid digestion,MY,dysprosium_oxide,400000.0,TEA file + Dy oxide content in total bastnasite REO content
+3,sulfuric acid digestion,MY,neodynium_oxide,4800000.0,TEA file + Nd oxide content in total bastnasite REO content
+3,beneficiation,US,flurocarbonate,56618610.74705111,TEA file
+3,beneficiation,US,phosphate,0.0,TEA file
+3,chemical transformation,US,neodynium dysprosium iron alloy,1000000.0,TEA file (assumed same as magnet manufacturing)
+3,cryogenic,US,neodynium dysprosium iron alloy,0.0,Not at commercial scale yet?
+3,direct reuse,US,hp_magnet,22500.0,kg HDD sent for magnet/REE recovery https://www.techradar.com/pro/microsoft-teams-up-with-western-digital-to-extract-rare-earth-oxides-from-decommissioned-datacenter-hard-drives-heres-what-you-need-to-know
+3,hydrochloric acid digestion,US,dysprosium_oxide,0.0,TEA file
+3,hydrochloric acid digestion,US,neodynium_oxide,0.0,TEA file
+3,hydrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+3,magnet manufacturing,US,hp_magnet,1000000.0,TEA file
+3,magnet-to-magnet recycling,US,hp_magnet,0.0,Not at commercial scale yet?
+3,magnet_market_mix,US,hp_magnet,0.0,Not at commercial scale yet?
+3,metallothermic reduction,US,dysprosium,0.0,TEA file
+3,mining,US,bastnasite,56618610.74705111,TEA file
+3,mining,US,monazaite,0.0,TEA file
+3,molten_salt electrolysis,US,neodynium,1500000.0,TEA file
+3,pyrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+3,sulfuric acid digestion,US,dysprosium_oxide,0.0,TEA file
+3,sulfuric acid digestion,US,neodynium_oxide,0.0,TEA file
+3,use phase,US,hp_magnet,0.0,Should be endogeneous to model - see other BLEECAM files
+4,beneficiation,AU,flurocarbonate,24983734.54782043,TEA file
+4,beneficiation,AU,phosphate,0.0,TEA file
+4,clay mining,AU,ion adsorption clay,0.0,"Not yet commercial but possible: TEA file + https://rareearthexchanges.com/news/australia-builds-the-missing-link-a-national-clay-ree-processing-plant-arrives-in-2026/#:~:text=Exchange%20Requests-,Australia%20Builds%20the%20Missing%20Link:%20A%20National%20Clay%2DREE%20Processing,to%20come%20online%20in%202026."
+4,clay refining,AU,dysprosium_oxide,0.0,Based on Dy content in REO
+4,clay refining,AU,neodynium_oxide,0.0,Based on Nd content in REO
+4,hydrochloric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+4,hydrochloric acid digestion,AU,neodynium_oxide,0.0,TEA file
+4,mining,AU,bastnasite,24983734.54782043,TEA file
+4,mining,AU,monazaite,0.0,TEA file
+4,sulfuric acid digestion,AU,dysprosium_oxide,0.0,TEA file
+4,sulfuric acid digestion,AU,neodynium_oxide,0.0,TEA file
+4,clay mining,BR,ion adsorption clay,8760107.81671159,Brazil Serra Verde IAC; all 4 magnet REEs including Dy Tb
+4,clay refining,BR,dysprosium_oxide,262803.2345013477,Based on Dy content in REO
+4,clay refining,BR,neodynium_oxide,1489218.3288409703,Based on Nd content in REO
+4,mining,BR,bastnasite,6738544.474393532,Brazil Serra Verde Pela Ema; Phase 1 2024; HREE-rich IAC deposit - possibly double in 10 years
+4,mining,BR,monazaite,0.0,Brazil monazite sands are not exploited at the moment (https://www.questmetals.com/blog/potential-of-rare-earth-elements-in-brazil)
+4,mining,CA,bastnasite,5000000.0,"Canada placeholder; 14M MT reserves; DOD-backed projects ramping - planned 5,000 MT in the next couple of years (https://www.iti.gov.nt.ca/en/newsroom/it%E2%80%99s-first-everything-what%E2%80%99s-earth-worth#:~:text=Rare%20Earth%202022.&text=A%20valuation%20of%20the%20rare,oxide%20mined%20annually%20by%202025.), adding 5,000 to year 2"
+4,mining,CA,monazaite,0.0,"Main REE deposit imminently exploited is the Nechalacho project mainly constituded of Bastnasite https://www.iti.gov.nt.ca/en/newsroom/nechalacho-first-nwt-mining#:~:text=In%20mid%2DOctober%20of%202021,heavy%20REE%20to%20the%20world. Nechalacho project is the most advanced https://www.facetsjournal.com/doi/10.1139/facets-2025-0148#:~:text=Abstract,(with%20resource%20estimate%20only)."
+4,beneficiation,CN,flurocarbonate,170167224.08026755,TEA file
+4,beneficiation,CN,phosphate,67424749.1638796,TEA file
+4,chemical transformation,CN,neodynium dysprosium iron alloy,240000000.0,TEA file (assumed same as magnet manufacturing)
+4,clay mining,CN,ion adsorption clay,27959866.220735785,TEA file
+4,clay refining,CN,dysprosium_oxide,838795.9866220735,Based on Dy content in REO
+4,clay refining,CN,neodynium_oxide,4753177.257525084,Based on Nd content in REO
+4,hydrochloric acid digestion,CN,dysprosium_oxide,270000.0,TEA file + Dy oxide content in total bastnasite REO content
+4,hydrochloric acid digestion,CN,neodynium_oxide,25200000.000000004,TEA file + Nd oxide content in total bastnasite REO content
+4,magnet manufacturing,CN,hp_magnet,240000000.0,TEA file
+4,metallothermic reduction,CN,dysprosium,19600000.0,TEA file
+4,mining,CN,bastnasite,170167224.08026755,TEA file
+4,mining,CN,monazaite,67424749.1638796,TEA file
+4,molten_salt electrolysis,CN,neodynium,46000000.0,TEA file
+4,sulfuric acid digestion,CN,dysprosium_oxide,360000.0,TEA file + Dy oxide content in total bastnasite REO content
+4,sulfuric acid digestion,CN,neodynium_oxide,7650000.000000001,TEA file + Nd oxide content in total bastnasite REO content
+4,chemical transformation,EE,neodynium dysprosium iron alloy,2000000.0,TEA file (assumed same as magnet manufacturing)
+4,hydrochloric acid digestion,EE,dysprosium_oxide,40000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+4,hydrochloric acid digestion,EE,neodynium_oxide,600000.0,"Assumed same as subsequent step, process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf"
+4,magnet manufacturing,EE,hp_magnet,2000000.0,"Neo Narva NdFeB plant; 2000 t/yr Phase1A 2025, scaling to 5000"
+4,metallothermic reduction,EE,dysprosium,40000.0,"Neo Silmet Dy metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed metallothermic reduction"
+4,molten_salt electrolysis,EE,neodynium,600000.0,"Neo Silmet Nd metal, https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/#:~:text=Co%2Dfunded%20by%20the%20European,mt/year%20in%20Phase%201B. Not sure if process is indeed molten salt electrolysis"
+4,sulfuric acid digestion,EE,dysprosium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+4,sulfuric acid digestion,EE,neodynium_oxide,0.0,process mentions nitric acid a lot but also show HCL in their figure: https://www.hallgartenco.com/pdf/RareEarths/NEO_July2019.pdf
+4,chemical transformation,JP,neodynium dysprosium iron alloy,10000000.0,TEA file (assumed same as magnet manufacturing)
+4,magnet manufacturing,JP,hp_magnet,10000000.0,TEA file
+4,metallothermic reduction,JP,dysprosium,400000.0,TEA file
+4,molten_salt electrolysis,JP,neodynium,1250000.0,TEA file
+4,clay mining,MM,ion adsorption clay,1471571.906354515,TEA file
+4,clay refining,MM,dysprosium_oxide,44147.15719063545,Based on Dy content in REO
+4,clay refining,MM,neodynium_oxide,250167.2240802676,Based on Nd content in REO
+4,hydrochloric acid digestion,MY,dysprosium_oxide,36000.0,TEA file + Dy oxide content in total bastnasite REO content
+4,hydrochloric acid digestion,MY,neodynium_oxide,3360000.0000000005,TEA file + Nd oxide content in total bastnasite REO content
+4,sulfuric acid digestion,MY,dysprosium_oxide,400000.0,TEA file + Dy oxide content in total bastnasite REO content
+4,sulfuric acid digestion,MY,neodynium_oxide,4800000.0,TEA file + Nd oxide content in total bastnasite REO content
+4,beneficiation,US,flurocarbonate,56618610.74705111,TEA file
+4,beneficiation,US,phosphate,0.0,TEA file
+4,chemical transformation,US,neodynium dysprosium iron alloy,1000000.0,TEA file (assumed same as magnet manufacturing)
+4,cryogenic,US,neodynium dysprosium iron alloy,0.0,Not at commercial scale yet?
+4,direct reuse,US,hp_magnet,22500.0,kg HDD sent for magnet/REE recovery https://www.techradar.com/pro/microsoft-teams-up-with-western-digital-to-extract-rare-earth-oxides-from-decommissioned-datacenter-hard-drives-heres-what-you-need-to-know
+4,hydrochloric acid digestion,US,dysprosium_oxide,0.0,TEA file
+4,hydrochloric acid digestion,US,neodynium_oxide,0.0,TEA file
+4,hydrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+4,magnet manufacturing,US,hp_magnet,1000000.0,TEA file
+4,magnet-to-magnet recycling,US,hp_magnet,0.0,Not at commercial scale yet?
+4,magnet_market_mix,US,hp_magnet,0.0,Not at commercial scale yet?
+4,metallothermic reduction,US,dysprosium,0.0,TEA file
+4,mining,US,bastnasite,56618610.74705111,TEA file
+4,mining,US,monazaite,0.0,TEA file
+4,molten_salt electrolysis,US,neodynium,1500000.0,TEA file
+4,pyrometallurgical,US,neodynium dysprosium iron alloy,0.0,TEA file: No commercial scale refining in the US currently
+4,sulfuric acid digestion,US,dysprosium_oxide,0.0,TEA file
+4,sulfuric acid digestion,US,neodynium_oxide,0.0,TEA file
+4,use phase,US,hp_magnet,0.0,Should be endogeneous to model - see other BLEECAM files

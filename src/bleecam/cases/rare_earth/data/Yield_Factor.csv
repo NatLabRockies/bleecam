@@ -1,0 +1,356 @@
+time_period,process,location,material,yield
+0,beneficiation,AU,flurocarbonate,0.06468
+0,beneficiation,AU,phosphate,0.343
+0,beneficiation,CN,flurocarbonate,0.06732
+0,beneficiation,CN,phosphate,0.357
+0,beneficiation,US,flurocarbonate,0.06534
+0,beneficiation,US,phosphate,0.3465
+0,chemical transformation,CN,neodynium dysprosium iron alloy,1.0
+0,chemical transformation,EE,neodynium dysprosium iron alloy,1.0
+0,chemical transformation,JP,neodynium dysprosium iron alloy,1.0
+0,chemical transformation,US,neodynium dysprosium iron alloy,0.99
+0,clay mining,AU,ion adsorption clay,0.98
+0,clay mining,BR,ion adsorption clay,0.96
+0,clay mining,CN,ion adsorption clay,1.0
+0,clay mining,MM,ion adsorption clay,0.92
+0,clay refining,AU,dysprosium_oxide,0.44296
+0,clay refining,AU,neodynium_oxide,0.39494
+0,clay refining,BR,dysprosium_oxide,0.42
+0,clay refining,BR,neodynium_oxide,0.4
+0,clay refining,CN,dysprosium_oxide,0.46104
+0,clay refining,CN,neodynium_oxide,0.41106
+0,clay refining,MM,dysprosium_oxide,0.38
+0,clay refining,MM,neodynium_oxide,0.32
+0,cryogenic,US,neodynium dysprosium iron alloy,0.792
+0,direct reuse,US,hp_magnet,0.99
+0,hydrochloric acid digestion,AU,dysprosium_oxide,0.002176
+0,hydrochloric acid digestion,AU,neodynium_oxide,0.44982
+0,hydrochloric acid digestion,CN,dysprosium_oxide,0.002264
+0,hydrochloric acid digestion,CN,neodynium_oxide,0.46818
+0,hydrochloric acid digestion,EE,dysprosium_oxide,0.00218
+0,hydrochloric acid digestion,EE,neodynium_oxide,0.833
+0,hydrochloric acid digestion,MY,dysprosium_oxide,0.0022
+0,hydrochloric acid digestion,MY,neodynium_oxide,0.455
+0,hydrochloric acid digestion,US,dysprosium_oxide,0.002198
+0,hydrochloric acid digestion,US,neodynium_oxide,0.45441
+0,hydrometallurgical,US,neodynium dysprosium iron alloy,0.891
+0,magnet manufacturing,CN,hp_magnet,0.71298
+0,magnet manufacturing,EE,hp_magnet,0.699
+0,magnet manufacturing,JP,hp_magnet,0.699
+0,magnet manufacturing,US,hp_magnet,0.69201
+0,magnet-to-magnet recycling,US,hp_magnet,0.99
+0,magnet_market_mix,US,hp_magnet,0.99
+0,metallothermic reduction,CN,dysprosium,0.79662
+0,metallothermic reduction,EE,dysprosium,0.781
+0,metallothermic reduction,JP,dysprosium,0.781
+0,metallothermic reduction,US,dysprosium,0.77319
+0,mining,AU,bastnasite,0.98
+0,mining,AU,monazaite,0.98
+0,mining,BR,bastnasite,0.975
+0,mining,BR,monazaite,0.975
+0,mining,CA,bastnasite,0.978
+0,mining,CA,monazaite,0.978
+0,mining,CN,bastnasite,1.0
+0,mining,CN,monazaite,1.0
+0,mining,US,bastnasite,0.99
+0,mining,US,monazaite,0.99
+0,molten_salt electrolysis,CN,neodynium,0.84966
+0,molten_salt electrolysis,EE,neodynium,0.833
+0,molten_salt electrolysis,JP,neodynium,0.833
+0,molten_salt electrolysis,US,neodynium,0.82467
+0,pyrometallurgical,US,neodynium dysprosium iron alloy,0.8415
+0,sulfuric acid digestion,AU,dysprosium_oxide,0.002176
+0,sulfuric acid digestion,AU,neodynium_oxide,0.44982
+0,sulfuric acid digestion,CN,dysprosium_oxide,0.002264
+0,sulfuric acid digestion,CN,neodynium_oxide,0.46818
+0,sulfuric acid digestion,EE,dysprosium_oxide,0.00218
+0,sulfuric acid digestion,EE,neodynium_oxide,0.833
+0,sulfuric acid digestion,MY,dysprosium_oxide,0.0022
+0,sulfuric acid digestion,MY,neodynium_oxide,0.455
+0,sulfuric acid digestion,US,dysprosium_oxide,0.002198
+0,sulfuric acid digestion,US,neodynium_oxide,0.45441
+0,use phase,US,hp_magnet,0.99
+1,beneficiation,AU,flurocarbonate,0.065003
+1,beneficiation,AU,phosphate,0.344715
+1,beneficiation,CN,flurocarbonate,0.067657
+1,beneficiation,CN,phosphate,0.358785
+1,beneficiation,US,flurocarbonate,0.065667
+1,beneficiation,US,phosphate,0.348232
+1,chemical transformation,CN,neodynium dysprosium iron alloy,1.0
+1,chemical transformation,EE,neodynium dysprosium iron alloy,1.0
+1,chemical transformation,JP,neodynium dysprosium iron alloy,1.0
+1,chemical transformation,US,neodynium dysprosium iron alloy,0.99495
+1,clay mining,AU,ion adsorption clay,0.9849
+1,clay mining,BR,ion adsorption clay,0.965
+1,clay mining,CN,ion adsorption clay,1.0
+1,clay mining,MM,ion adsorption clay,0.925
+1,clay refining,AU,dysprosium_oxide,0.445175
+1,clay refining,AU,neodynium_oxide,0.396915
+1,clay refining,BR,dysprosium_oxide,0.425
+1,clay refining,BR,neodynium_oxide,0.405
+1,clay refining,CN,dysprosium_oxide,0.463345
+1,clay refining,CN,neodynium_oxide,0.413115
+1,clay refining,MM,dysprosium_oxide,0.385
+1,clay refining,MM,neodynium_oxide,0.325
+1,cryogenic,US,neodynium dysprosium iron alloy,0.79596
+1,direct reuse,US,hp_magnet,0.99495
+1,hydrochloric acid digestion,AU,dysprosium_oxide,0.002186
+1,hydrochloric acid digestion,AU,neodynium_oxide,0.452069
+1,hydrochloric acid digestion,CN,dysprosium_oxide,0.002276
+1,hydrochloric acid digestion,CN,neodynium_oxide,0.470521
+1,hydrochloric acid digestion,EE,dysprosium_oxide,0.0021805
+1,hydrochloric acid digestion,EE,neodynium_oxide,0.838
+1,hydrochloric acid digestion,MY,dysprosium_oxide,0.0022005
+1,hydrochloric acid digestion,MY,neodynium_oxide,0.46
+1,hydrochloric acid digestion,US,dysprosium_oxide,0.002209
+1,hydrochloric acid digestion,US,neodynium_oxide,0.456682
+1,hydrometallurgical,US,neodynium dysprosium iron alloy,0.895455
+1,magnet manufacturing,CN,hp_magnet,0.716545
+1,magnet manufacturing,EE,hp_magnet,0.704
+1,magnet manufacturing,JP,hp_magnet,0.702495
+1,magnet manufacturing,US,hp_magnet,0.69547
+1,magnet-to-magnet recycling,US,hp_magnet,0.99495
+1,magnet_market_mix,US,hp_magnet,0.99495
+1,metallothermic reduction,CN,dysprosium,0.800603
+1,metallothermic reduction,EE,dysprosium,0.786
+1,metallothermic reduction,JP,dysprosium,0.784905
+1,metallothermic reduction,US,dysprosium,0.777056
+1,mining,AU,bastnasite,0.9849
+1,mining,AU,monazaite,0.9849
+1,mining,BR,bastnasite,0.98
+1,mining,BR,monazaite,0.98
+1,mining,CA,bastnasite,0.983
+1,mining,CA,monazaite,0.983
+1,mining,CN,bastnasite,1.0
+1,mining,CN,monazaite,1.0
+1,mining,US,bastnasite,0.99495
+1,mining,US,monazaite,0.99495
+1,molten_salt electrolysis,CN,neodynium,0.853908
+1,molten_salt electrolysis,EE,neodynium,0.838
+1,molten_salt electrolysis,JP,neodynium,0.837165
+1,molten_salt electrolysis,US,neodynium,0.828793
+1,pyrometallurgical,US,neodynium dysprosium iron alloy,0.845707
+1,sulfuric acid digestion,AU,dysprosium_oxide,0.002186
+1,sulfuric acid digestion,AU,neodynium_oxide,0.452069
+1,sulfuric acid digestion,CN,dysprosium_oxide,0.002276
+1,sulfuric acid digestion,CN,neodynium_oxide,0.470521
+1,sulfuric acid digestion,EE,dysprosium_oxide,0.0021805
+1,sulfuric acid digestion,EE,neodynium_oxide,0.838
+1,sulfuric acid digestion,MY,dysprosium_oxide,0.0022005
+1,sulfuric acid digestion,MY,neodynium_oxide,0.46
+1,sulfuric acid digestion,US,dysprosium_oxide,0.002209
+1,sulfuric acid digestion,US,neodynium_oxide,0.456682
+1,use phase,US,hp_magnet,0.99495
+2,beneficiation,AU,flurocarbonate,0.065327
+2,beneficiation,AU,phosphate,0.34643
+2,beneficiation,CN,flurocarbonate,0.067993
+2,beneficiation,CN,phosphate,0.36057
+2,beneficiation,US,flurocarbonate,0.065993
+2,beneficiation,US,phosphate,0.349965
+2,chemical transformation,CN,neodynium dysprosium iron alloy,1.0
+2,chemical transformation,EE,neodynium dysprosium iron alloy,1.0
+2,chemical transformation,JP,neodynium dysprosium iron alloy,1.0
+2,chemical transformation,US,neodynium dysprosium iron alloy,0.9999
+2,clay mining,AU,ion adsorption clay,0.9898
+2,clay mining,BR,ion adsorption clay,0.97
+2,clay mining,CN,ion adsorption clay,1.0
+2,clay mining,MM,ion adsorption clay,0.93
+2,clay refining,AU,dysprosium_oxide,0.44739
+2,clay refining,AU,neodynium_oxide,0.398889
+2,clay refining,BR,dysprosium_oxide,0.43
+2,clay refining,BR,neodynium_oxide,0.41
+2,clay refining,CN,dysprosium_oxide,0.46565
+2,clay refining,CN,neodynium_oxide,0.415171
+2,clay refining,MM,dysprosium_oxide,0.39
+2,clay refining,MM,neodynium_oxide,0.33
+2,cryogenic,US,neodynium dysprosium iron alloy,0.79992
+2,direct reuse,US,hp_magnet,0.9999
+2,hydrochloric acid digestion,AU,dysprosium_oxide,0.002197
+2,hydrochloric acid digestion,AU,neodynium_oxide,0.454318
+2,hydrochloric acid digestion,CN,dysprosium_oxide,0.002287
+2,hydrochloric acid digestion,CN,neodynium_oxide,0.472862
+2,hydrochloric acid digestion,EE,dysprosium_oxide,0.002181
+2,hydrochloric acid digestion,EE,neodynium_oxide,0.843
+2,hydrochloric acid digestion,MY,dysprosium_oxide,0.002201
+2,hydrochloric acid digestion,MY,neodynium_oxide,0.465
+2,hydrochloric acid digestion,US,dysprosium_oxide,0.00222
+2,hydrochloric acid digestion,US,neodynium_oxide,0.458954
+2,hydrometallurgical,US,neodynium dysprosium iron alloy,0.89991
+2,magnet manufacturing,CN,hp_magnet,0.72011
+2,magnet manufacturing,EE,hp_magnet,0.709
+2,magnet manufacturing,JP,hp_magnet,0.70599
+2,magnet manufacturing,US,hp_magnet,0.69893
+2,magnet-to-magnet recycling,US,hp_magnet,0.9999
+2,magnet_market_mix,US,hp_magnet,0.9999
+2,metallothermic reduction,CN,dysprosium,0.804586
+2,metallothermic reduction,EE,dysprosium,0.791
+2,metallothermic reduction,JP,dysprosium,0.78881
+2,metallothermic reduction,US,dysprosium,0.780922
+2,mining,AU,bastnasite,0.9898
+2,mining,AU,monazaite,0.9898
+2,mining,BR,bastnasite,0.985
+2,mining,BR,monazaite,0.985
+2,mining,CA,bastnasite,0.988
+2,mining,CA,monazaite,0.988
+2,mining,CN,bastnasite,1.0
+2,mining,CN,monazaite,1.0
+2,mining,US,bastnasite,0.9999
+2,mining,US,monazaite,0.9999
+2,molten_salt electrolysis,CN,neodynium,0.858157
+2,molten_salt electrolysis,EE,neodynium,0.843
+2,molten_salt electrolysis,JP,neodynium,0.84133
+2,molten_salt electrolysis,US,neodynium,0.832917
+2,pyrometallurgical,US,neodynium dysprosium iron alloy,0.849915
+2,sulfuric acid digestion,AU,dysprosium_oxide,0.002197
+2,sulfuric acid digestion,AU,neodynium_oxide,0.454318
+2,sulfuric acid digestion,CN,dysprosium_oxide,0.002287
+2,sulfuric acid digestion,CN,neodynium_oxide,0.472862
+2,sulfuric acid digestion,EE,dysprosium_oxide,0.002181
+2,sulfuric acid digestion,EE,neodynium_oxide,0.843
+2,sulfuric acid digestion,MY,dysprosium_oxide,0.002201
+2,sulfuric acid digestion,MY,neodynium_oxide,0.465
+2,sulfuric acid digestion,US,dysprosium_oxide,0.00222
+2,sulfuric acid digestion,US,neodynium_oxide,0.458954
+2,use phase,US,hp_magnet,0.9999
+3,beneficiation,AU,flurocarbonate,0.06565
+3,beneficiation,AU,phosphate,0.348145
+3,beneficiation,CN,flurocarbonate,0.06833
+3,beneficiation,CN,phosphate,0.362355
+3,beneficiation,US,flurocarbonate,0.06632
+3,beneficiation,US,phosphate,0.351697
+3,chemical transformation,CN,neodynium dysprosium iron alloy,1.0
+3,chemical transformation,EE,neodynium dysprosium iron alloy,1.0
+3,chemical transformation,JP,neodynium dysprosium iron alloy,1.0
+3,chemical transformation,US,neodynium dysprosium iron alloy,1.0
+3,clay mining,AU,ion adsorption clay,0.9947
+3,clay mining,BR,ion adsorption clay,0.975
+3,clay mining,CN,ion adsorption clay,1.0
+3,clay mining,MM,ion adsorption clay,0.935
+3,clay refining,AU,dysprosium_oxide,0.449604
+3,clay refining,AU,neodynium_oxide,0.400864
+3,clay refining,BR,dysprosium_oxide,0.435
+3,clay refining,BR,neodynium_oxide,0.415
+3,clay refining,CN,dysprosium_oxide,0.467956
+3,clay refining,CN,neodynium_oxide,0.417226
+3,clay refining,MM,dysprosium_oxide,0.395
+3,clay refining,MM,neodynium_oxide,0.335
+3,cryogenic,US,neodynium dysprosium iron alloy,0.80388
+3,direct reuse,US,hp_magnet,1.0
+3,hydrochloric acid digestion,AU,dysprosium_oxide,0.002208
+3,hydrochloric acid digestion,AU,neodynium_oxide,0.456567
+3,hydrochloric acid digestion,CN,dysprosium_oxide,0.002298
+3,hydrochloric acid digestion,CN,neodynium_oxide,0.475203
+3,hydrochloric acid digestion,EE,dysprosium_oxide,0.0021815
+3,hydrochloric acid digestion,EE,neodynium_oxide,0.848
+3,hydrochloric acid digestion,MY,dysprosium_oxide,0.0022015
+3,hydrochloric acid digestion,MY,neodynium_oxide,0.47
+3,hydrochloric acid digestion,US,dysprosium_oxide,0.002231
+3,hydrochloric acid digestion,US,neodynium_oxide,0.461226
+3,hydrometallurgical,US,neodynium dysprosium iron alloy,0.904365
+3,magnet manufacturing,CN,hp_magnet,0.723675
+3,magnet manufacturing,EE,hp_magnet,0.714
+3,magnet manufacturing,JP,hp_magnet,0.709485
+3,magnet manufacturing,US,hp_magnet,0.70239
+3,magnet-to-magnet recycling,US,hp_magnet,1.0
+3,magnet_market_mix,US,hp_magnet,1.0
+3,metallothermic reduction,CN,dysprosium,0.808569
+3,metallothermic reduction,EE,dysprosium,0.796
+3,metallothermic reduction,JP,dysprosium,0.792715
+3,metallothermic reduction,US,dysprosium,0.784788
+3,mining,AU,bastnasite,0.9947
+3,mining,AU,monazaite,0.9947
+3,mining,BR,bastnasite,0.99
+3,mining,BR,monazaite,0.99
+3,mining,CA,bastnasite,0.993
+3,mining,CA,monazaite,0.993
+3,mining,CN,bastnasite,1.0
+3,mining,CN,monazaite,1.0
+3,mining,US,bastnasite,1.0
+3,mining,US,monazaite,1.0
+3,molten_salt electrolysis,CN,neodynium,0.862405
+3,molten_salt electrolysis,EE,neodynium,0.848
+3,molten_salt electrolysis,JP,neodynium,0.845495
+3,molten_salt electrolysis,US,neodynium,0.83704
+3,pyrometallurgical,US,neodynium dysprosium iron alloy,0.854122
+3,sulfuric acid digestion,AU,dysprosium_oxide,0.002208
+3,sulfuric acid digestion,AU,neodynium_oxide,0.456567
+3,sulfuric acid digestion,CN,dysprosium_oxide,0.002298
+3,sulfuric acid digestion,CN,neodynium_oxide,0.475203
+3,sulfuric acid digestion,EE,dysprosium_oxide,0.0021815
+3,sulfuric acid digestion,EE,neodynium_oxide,0.848
+3,sulfuric acid digestion,MY,dysprosium_oxide,0.0022015
+3,sulfuric acid digestion,MY,neodynium_oxide,0.47
+3,sulfuric acid digestion,US,dysprosium_oxide,0.002231
+3,sulfuric acid digestion,US,neodynium_oxide,0.461226
+3,use phase,US,hp_magnet,1.0
+4,beneficiation,AU,flurocarbonate,0.065974
+4,beneficiation,AU,phosphate,0.34986
+4,beneficiation,CN,flurocarbonate,0.068666
+4,beneficiation,CN,phosphate,0.36414
+4,beneficiation,US,flurocarbonate,0.066647
+4,beneficiation,US,phosphate,0.35343
+4,chemical transformation,CN,neodynium dysprosium iron alloy,1.0
+4,chemical transformation,EE,neodynium dysprosium iron alloy,1.0
+4,chemical transformation,JP,neodynium dysprosium iron alloy,1.0
+4,chemical transformation,US,neodynium dysprosium iron alloy,1.0
+4,clay mining,AU,ion adsorption clay,0.9996
+4,clay mining,BR,ion adsorption clay,0.98
+4,clay mining,CN,ion adsorption clay,1.0
+4,clay mining,MM,ion adsorption clay,0.94
+4,clay refining,AU,dysprosium_oxide,0.451819
+4,clay refining,AU,neodynium_oxide,0.402839
+4,clay refining,BR,dysprosium_oxide,0.44
+4,clay refining,BR,neodynium_oxide,0.42
+4,clay refining,CN,dysprosium_oxide,0.470261
+4,clay refining,CN,neodynium_oxide,0.419281
+4,clay refining,MM,dysprosium_oxide,0.4
+4,clay refining,MM,neodynium_oxide,0.34
+4,cryogenic,US,neodynium dysprosium iron alloy,0.80784
+4,direct reuse,US,hp_magnet,1.0
+4,hydrochloric acid digestion,AU,dysprosium_oxide,0.002219
+4,hydrochloric acid digestion,AU,neodynium_oxide,0.458816
+4,hydrochloric acid digestion,CN,dysprosium_oxide,0.00231
+4,hydrochloric acid digestion,CN,neodynium_oxide,0.477544
+4,hydrochloric acid digestion,EE,dysprosium_oxide,0.002182
+4,hydrochloric acid digestion,EE,neodynium_oxide,0.853
+4,hydrochloric acid digestion,MY,dysprosium_oxide,0.002202
+4,hydrochloric acid digestion,MY,neodynium_oxide,0.475
+4,hydrochloric acid digestion,US,dysprosium_oxide,0.002242
+4,hydrochloric acid digestion,US,neodynium_oxide,0.463498
+4,hydrometallurgical,US,neodynium dysprosium iron alloy,0.90882
+4,magnet manufacturing,CN,hp_magnet,0.72724
+4,magnet manufacturing,EE,hp_magnet,0.719
+4,magnet manufacturing,JP,hp_magnet,0.71298
+4,magnet manufacturing,US,hp_magnet,0.70585
+4,magnet-to-magnet recycling,US,hp_magnet,1.0
+4,magnet_market_mix,US,hp_magnet,1.0
+4,metallothermic reduction,CN,dysprosium,0.812552
+4,metallothermic reduction,EE,dysprosium,0.801
+4,metallothermic reduction,JP,dysprosium,0.79662
+4,metallothermic reduction,US,dysprosium,0.788654
+4,mining,AU,bastnasite,0.9996
+4,mining,AU,monazaite,0.9996
+4,mining,BR,bastnasite,0.995
+4,mining,BR,monazaite,0.995
+4,mining,CA,bastnasite,0.998
+4,mining,CA,monazaite,0.998
+4,mining,CN,bastnasite,1.0
+4,mining,CN,monazaite,1.0
+4,mining,US,bastnasite,1.0
+4,mining,US,monazaite,1.0
+4,molten_salt electrolysis,CN,neodynium,0.866653
+4,molten_salt electrolysis,EE,neodynium,0.853
+4,molten_salt electrolysis,JP,neodynium,0.84966
+4,molten_salt electrolysis,US,neodynium,0.841163
+4,pyrometallurgical,US,neodynium dysprosium iron alloy,0.85833
+4,sulfuric acid digestion,AU,dysprosium_oxide,0.002219
+4,sulfuric acid digestion,AU,neodynium_oxide,0.458816
+4,sulfuric acid digestion,CN,dysprosium_oxide,0.00231
+4,sulfuric acid digestion,CN,neodynium_oxide,0.477544
+4,sulfuric acid digestion,EE,dysprosium_oxide,0.002182
+4,sulfuric acid digestion,EE,neodynium_oxide,0.853
+4,sulfuric acid digestion,MY,dysprosium_oxide,0.002202
+4,sulfuric acid digestion,MY,neodynium_oxide,0.475
+4,sulfuric acid digestion,US,dysprosium_oxide,0.002242
+4,sulfuric acid digestion,US,neodynium_oxide,0.463498
+4,use phase,US,hp_magnet,1.0

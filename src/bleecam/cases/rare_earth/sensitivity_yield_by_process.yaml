@@ -1,0 +1,25 @@
+# Per-PROCESS yield sensitivity for the Rare-Earth case.
+# Disaggregates the aggregate "Yield" hotspot into one factor per process stage,
+# using a `where` row-filter on the process column. The ranking answers the
+# decision-grade question: which process's yield most drives the objective — i.e.
+# where a yield-improvement RD&D investment pays off most.
+#   bleecam-sensitivity scenarios/ree_baseline.yaml \
+#     --factors src/bleecam/cases/rare_earth/sensitivity_yield_by_process.yaml \
+#     --delta 0.1 --json ree_yield_by_process_cost.json
+# (repeat with ree_baseline_gwp.yaml / ree_baseline_social.yaml for the other objectives)
+factors:
+  - {label: "Yield · mining",                     file: Yield_Factor.csv, column: yield, where: {process: mining}}
+  - {label: "Yield · beneficiation",              file: Yield_Factor.csv, column: yield, where: {process: beneficiation}}
+  - {label: "Yield · clay mining",                file: Yield_Factor.csv, column: yield, where: {process: clay mining}}
+  - {label: "Yield · clay refining",              file: Yield_Factor.csv, column: yield, where: {process: clay refining}}
+  - {label: "Yield · sulfuric acid digestion",    file: Yield_Factor.csv, column: yield, where: {process: sulfuric acid digestion}}
+  - {label: "Yield · hydrochloric acid digestion", file: Yield_Factor.csv, column: yield, where: {process: hydrochloric acid digestion}}
+  - {label: "Yield · molten_salt electrolysis",   file: Yield_Factor.csv, column: yield, where: {process: molten_salt electrolysis}}
+  - {label: "Yield · metallothermic reduction",   file: Yield_Factor.csv, column: yield, where: {process: metallothermic reduction}}
+  - {label: "Yield · chemical transformation",    file: Yield_Factor.csv, column: yield, where: {process: chemical transformation}}
+  - {label: "Yield · magnet manufacturing",       file: Yield_Factor.csv, column: yield, where: {process: magnet manufacturing}}
+  - {label: "Yield · direct reuse",               file: Yield_Factor.csv, column: yield, where: {process: direct reuse}}
+  - {label: "Yield · magnet-to-magnet recycling", file: Yield_Factor.csv, column: yield, where: {process: magnet-to-magnet recycling}}
+  - {label: "Yield · hydrometallurgical",         file: Yield_Factor.csv, column: yield, where: {process: hydrometallurgical}}
+  - {label: "Yield · pyrometallurgical",          file: Yield_Factor.csv, column: yield, where: {process: pyrometallurgical}}
+  - {label: "Yield · cryogenic",                  file: Yield_Factor.csv, column: yield, where: {process: cryogenic}}

@@ -1,0 +1,11 @@
+formats:
+  python:
+    - "*.py"
+python:
+  patterns:
+    - "src/**/*.py"
+    - "tests/**/*.py"
+  extensions:
+    - py
+  comment: "#"
+  header: copyright_header.txt

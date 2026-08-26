@@ -1,0 +1,25 @@
+# REE — reproduce TJ's Chinese heavy-REE decline overrides via the LIBRARY.
+#
+# TJ hardcoded 8 capacity edits inside REE.py main(). Four of them are RESTRICTIVE
+# (Chinese dysprosium capacity ramping down 100% -> 5% over the horizon). Because
+# those REE capacities are constant across periods, capacity_ramp reproduces them
+# EXACTLY: cap = baseline x factor[t], same as TJ's baseline_t0 x factor[t].
+#
+# Run:  bleecam-run scenarios/ree_china_decline.yaml     (REE solves with ipopt)
+#
+# NOT included here (see notes): TJ's US recycling build-out (0 -> 1000 t) and the
+# allied EE/JP scale-up (x8 / x4.5) are capacity EXPANSIONS — you cannot raise a
+# ceiling by ADDING a constraint, so they need a data-level "capacity build-out"
+# lever (a planned addition). And Canada exclusion needs a location-wildcard.
+case: rare_earth
+data_dir: src/bleecam/cases/rare_earth/data
+objective: cost
+constraints:
+  - id: capacity_ramp
+    params: {process: "metallothermic reduction", location: CN, material: dysprosium, factors: [1.0, 0.8, 0.5, 0.2, 0.05]}
+  - id: capacity_ramp
+    params: {process: "sulfuric acid digestion", location: CN, material: dysprosium_oxide, factors: [1.0, 0.8, 0.5, 0.2, 0.05]}
+  - id: capacity_ramp
+    params: {process: "clay refining", location: CN, material: dysprosium_oxide, factors: [1.0, 0.8, 0.5, 0.2, 0.05]}
+  - id: capacity_ramp
+    params: {process: "hydrochloric acid digestion", location: CN, material: dysprosium_oxide, factors: [1.0, 0.8, 0.5, 0.2, 0.05]}

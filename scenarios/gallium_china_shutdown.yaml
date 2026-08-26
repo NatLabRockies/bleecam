@@ -1,0 +1,25 @@
+# BLEECAM scenario — Chinese gallium capacity ramp-down (supply shock), cost-optimized.
+#
+# View the library:   bleecam-lib list
+# Run this scenario:  bleecam-run scenarios/gallium_china_shutdown.yaml
+#
+# It ramps down Chinese wafer-fabrication and 6N gallium refining capacity over the
+# horizon (100% -> 5% of baseline), forcing the optimizer off the least-cost
+# China-centered pathway. Compare its total cost against the unconstrained baseline.
+
+case: gallium
+data_dir: src/bleecam/cases/gallium/data/gallium
+objective: cost
+
+constraints:
+  - id: capacity_ramp
+    params:
+      process: "Wafer manufacturing"
+      location: "CN"
+      factors: [1.0, 0.8, 0.5, 0.2, 0.05, 0.05]
+
+  - id: capacity_ramp
+    params:
+      process: "High-purity gallium refining"
+      location: "CN"
+      factors: [1.0, 0.8, 0.5, 0.2, 0.05, 0.05]

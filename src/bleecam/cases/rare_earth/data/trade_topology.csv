@@ -1,0 +1,193 @@
+process_from,loc_from,process_to,loc_to,material,notes
+chemical transformation,CN,magnet manufacturing,EE,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,CN,magnet manufacturing,JP,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,CN,magnet manufacturing,US,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,EE,magnet manufacturing,CN,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,EE,magnet manufacturing,JP,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,EE,magnet manufacturing,US,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,JP,magnet manufacturing,EE,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,JP,magnet manufacturing,US,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,US,magnet manufacturing,EE,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+chemical transformation,US,magnet manufacturing,JP,neodynium dysprosium iron alloy,Alloy trade to magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,metallothermic reduction,CN,dysprosium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,metallothermic reduction,EE,dysprosium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,metallothermic reduction,JP,dysprosium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,metallothermic reduction,US,dysprosium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,molten_salt electrolysis,CN,neodynium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,molten_salt electrolysis,JP,neodynium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,AU,molten_salt electrolysis,US,neodynium_oxide,AU Lynas oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,BR,metallothermic reduction,EE,dysprosium_oxide,BR Serra Verde oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,BR,metallothermic reduction,US,dysprosium_oxide,BR Serra Verde oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,BR,molten_salt electrolysis,EE,neodynium_oxide,BR Serra Verde oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,BR,molten_salt electrolysis,US,neodynium_oxide,BR Serra Verde oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,CN,metallothermic reduction,EE,dysprosium_oxide,CN oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,CN,metallothermic reduction,JP,dysprosium_oxide,CN oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,CN,metallothermic reduction,US,dysprosium_oxide,CN oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,CN,molten_salt electrolysis,EE,neodynium_oxide,CN oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,CN,molten_salt electrolysis,JP,neodynium_oxide,CN oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,CN,molten_salt electrolysis,US,neodynium_oxide,CN oxide exports. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,MM,metallothermic reduction,CN,dysprosium_oxide,MM clay→CN MR only (border geography). Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,MM,molten_salt electrolysis,CN,neodynium_oxide,MM clay→CN MSE only (border geography). Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,AU,metallothermic reduction,JP,dysprosium_oxide,AU HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,AU,metallothermic reduction,US,dysprosium_oxide,AU HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,AU,molten_salt electrolysis,JP,neodynium_oxide,AU HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,AU,molten_salt electrolysis,US,neodynium_oxide,AU HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,CN,metallothermic reduction,EE,dysprosium_oxide,CN HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,CN,metallothermic reduction,JP,dysprosium_oxide,CN HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,CN,metallothermic reduction,US,dysprosium_oxide,CN HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,CN HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,CN,molten_salt electrolysis,JP,neodynium_oxide,CN HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,CN,molten_salt electrolysis,US,neodynium_oxide,CN HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,EE,metallothermic reduction,JP,dysprosium_oxide,EE HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,EE,metallothermic reduction,US,dysprosium_oxide,EE HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,EE,molten_salt electrolysis,JP,neodynium_oxide,EE HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,EE,molten_salt electrolysis,US,neodynium_oxide,EE HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,metallothermic reduction,CN,dysprosium_oxide,MY HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,metallothermic reduction,EE,dysprosium_oxide,MY HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,metallothermic reduction,JP,dysprosium_oxide,MY HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,metallothermic reduction,US,dysprosium_oxide,MY HCAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,molten_salt electrolysis,CN,neodynium_oxide,MY HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,molten_salt electrolysis,EE,neodynium_oxide,MY HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,molten_salt electrolysis,JP,neodynium_oxide,MY HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,molten_salt electrolysis,US,neodynium_oxide,MY HCAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,US,molten_salt electrolysis,JP,neodynium_oxide,US HCAD→JP MSE. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrometallurgical,US,magnet manufacturing,JP,neodynium dysprosium iron alloy,US EoL hydrometallurgical alloy → foreign magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+magnet manufacturing,CN,magnet_market_mix,US,hp_magnet,Magnet imports to US market. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+magnet manufacturing,EE,magnet_market_mix,US,hp_magnet,Magnet imports to US market. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+magnet manufacturing,JP,magnet_market_mix,US,hp_magnet,Magnet imports to US market. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,CN,chemical transformation,EE,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,CN,chemical transformation,JP,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,CN,chemical transformation,US,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,EE,chemical transformation,JP,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,EE,chemical transformation,US,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,JP,chemical transformation,US,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,US,chemical transformation,EE,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,US,chemical transformation,JP,dysprosium,Dy metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,AU,beneficiation,CN,bastnasite,AU ore to CN/US (historical + emerging). Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,AU,beneficiation,US,bastnasite,AU ore to CN/US (historical + emerging). Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,AU,beneficiation,US,monazaite,AU ore to CN/US (historical + emerging). Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,CA,beneficiation,US,bastnasite,CA→US USMCA ore trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,CA,beneficiation,US,monazaite,CA→US USMCA ore trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,CN,chemical transformation,EE,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,CN,chemical transformation,JP,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,CN,chemical transformation,US,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,EE,chemical transformation,JP,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,EE,chemical transformation,US,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,JP,chemical transformation,US,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,US,chemical transformation,EE,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+molten_salt electrolysis,US,chemical transformation,JP,neodynium,Nd metal trade to CT. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+pyrometallurgical,US,magnet manufacturing,EE,neodynium dysprosium iron alloy,US EoL pyrometallurgical alloy → foreign magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+pyrometallurgical,US,magnet manufacturing,JP,neodynium dysprosium iron alloy,US EoL pyrometallurgical alloy → foreign magnet mfg. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,AU,metallothermic reduction,JP,dysprosium_oxide,AU SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,AU,metallothermic reduction,US,dysprosium_oxide,AU SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,AU,molten_salt electrolysis,CN,neodynium_oxide,AU SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,AU,molten_salt electrolysis,JP,neodynium_oxide,AU SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,AU,molten_salt electrolysis,US,neodynium_oxide,AU SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,CN,metallothermic reduction,EE,dysprosium_oxide,CN SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,CN,metallothermic reduction,JP,dysprosium_oxide,CN SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,CN,metallothermic reduction,US,dysprosium_oxide,CN SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,CN,molten_salt electrolysis,EE,neodynium_oxide,CN SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,CN,molten_salt electrolysis,JP,neodynium_oxide,CN SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,CN,molten_salt electrolysis,US,neodynium_oxide,CN SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,EE,metallothermic reduction,JP,dysprosium_oxide,EE SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,EE,metallothermic reduction,US,dysprosium_oxide,EE SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,EE,molten_salt electrolysis,JP,neodynium_oxide,EE SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,EE,molten_salt electrolysis,US,neodynium_oxide,EE SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,metallothermic reduction,CN,dysprosium_oxide,MY SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,metallothermic reduction,EE,dysprosium_oxide,MY SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,metallothermic reduction,JP,dysprosium_oxide,MY SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,metallothermic reduction,US,dysprosium_oxide,MY SAD→MR oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,molten_salt electrolysis,CN,neodynium_oxide,MY SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,molten_salt electrolysis,EE,neodynium_oxide,MY SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,molten_salt electrolysis,JP,neodynium_oxide,MY SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,molten_salt electrolysis,US,neodynium_oxide,MY SAD→MSE oxide trade. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,US,metallothermic reduction,JP,dysprosium_oxide,US SAD→JP MR. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,US,molten_salt electrolysis,JP,neodynium_oxide,US SAD→JP MSE. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,MM,hydrochloric acid digestion,CN,dysprosium_oxide,MM→CN co-product DyOx; KIA-mediated; cost row existed. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,MY,metallothermic reduction,EE,neodynium_oxide,MY→EE co-product oxide; co-flow lock requires both oxides on arc. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,EE,metallothermic reduction,JP,neodynium_oxide,EE→JP co-product oxide; co-flow lock requires both oxides on arc. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,MY,metallothermic reduction,JP,neodynium_oxide,MY→JP co-product oxide; co-flow lock requires both oxides on arc. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,BR,metallothermic reduction,JP,dysprosium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,BR,molten_salt electrolysis,JP,neodynium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+clay refining,MM,chemical transformation,CN,neodynium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+cryogenic,US,chemical transformation,CN,neodynium dysprosium iron alloy,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+cryogenic,US,chemical transformation,JP,neodynium dysprosium iron alloy,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,US,metallothermic reduction,CN,dysprosium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,US,metallothermic reduction,EE,dysprosium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,US,molten_salt electrolysis,EE,neodynium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+metallothermic reduction,US,magnet manufacturing,JP,dysprosium,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,AU,beneficiation,MY,bastnasite,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,AU,beneficiation,AU,bastnasite,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,AU,beneficiation,MY,monazaite,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,CA,beneficiation,CN,bastnasite,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+mining,CN,chemical transformation,JP,neodynium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+sulfuric acid digestion,US,metallothermic reduction,US,dysprosium_oxide,Both Claude and GPT agreed this arc is commercially active. Sources: USGS Mineral Commodity Summaries (Rare Earth Elements); U.S. Department of Energy.
+hydrochloric acid digestion,AU,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,AU,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,CN,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,CN,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,CN,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,EE,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,EE,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,MY,metallothermic reduction,CN,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,MY,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,MY,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,US,metallothermic reduction,CN,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,US,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] NdOx unused co-product on HCAD→MR arc
+hydrochloric acid digestion,AU,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,AU,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,CN,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,CN,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,EE,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,EE,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,MY,molten_salt electrolysis,CN,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,MY,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,MY,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,MY,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,US,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+hydrochloric acid digestion,US,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] DyOx unused co-product on HCAD→MSE arc
+clay refining,AU,metallothermic reduction,CN,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,AU,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,AU,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,AU,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,AU,molten_salt electrolysis,CN,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,AU,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,AU,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,BR,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,BR,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,BR,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,BR,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,BR,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,BR,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,CN,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,CN,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,CN,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,CN,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,CN,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,CN,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+clay refining,MM,metallothermic reduction,CN,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+clay refining,MM,molten_salt electrolysis,CN,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,AU,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,AU,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,AU,molten_salt electrolysis,CN,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,AU,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,AU,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,CN,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,CN,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,CN,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,CN,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,CN,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,CN,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,EE,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,EE,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,EE,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,MY,metallothermic reduction,CN,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,MY,metallothermic reduction,US,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,MY,metallothermic reduction,EE,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,MY,molten_salt electrolysis,CN,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,MY,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,MY,molten_salt electrolysis,US,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,MY,molten_salt electrolysis,EE,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc
+sulfuric acid digestion,US,metallothermic reduction,JP,neodynium_oxide,[co-flow co-rider] paired with existing DyOx arc
+sulfuric acid digestion,US,molten_salt electrolysis,JP,dysprosium_oxide,[co-flow co-rider] paired with existing NdOx arc

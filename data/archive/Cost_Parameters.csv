@@ -1,0 +1,656 @@
+time_period,source,location,material,destination,destination_location,processing cost,transportation cost,tariff_cost,notes
+0,beneficiation,AU,flurocarbonate,,,4.8,0.28,0.0,Domestic processing cost
+0,beneficiation,AU,phosphate,,,5.6,0.3,0.0,Domestic processing cost
+0,beneficiation,CN,flurocarbonate,,,3.8,0.25,0.0,Domestic processing cost
+0,beneficiation,CN,phosphate,,,4.5,0.27,0.0,Domestic processing cost
+0,beneficiation,US,flurocarbonate,,,5.5,0.3,0.0,Domestic processing cost
+0,beneficiation,US,phosphate,,,6.5,0.32,0.0,Domestic processing cost
+0,chemical transformation,CN,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+0,chemical transformation,CN,neodynium dysprosium iron alloy,,,5.5,0.25,0.0,Domestic processing cost
+0,chemical transformation,EE,neodynium dysprosium iron alloy,,,1.074,1.089,0.0,Neo alloy production EE
+0,chemical transformation,JP,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+0,chemical transformation,JP,neodynium dysprosium iron alloy,,,6.8,0.28,0.0,Domestic processing cost
+0,chemical transformation,US,neodynium dysprosium iron alloy,,,7.0,0.3,0.0,Domestic processing cost
+0,clay mining,AU,ion adsorption clay,,,650.0,0.1404,0.0,Domestic processing cost
+0,clay mining,BR,ion adsorption clay,,,63.0,0.0126,0.0,Brazil IAC; similar to MM structure but with higher compliance cost
+0,clay mining,CN,ion adsorption clay,,,500.0,0.117,0.0,Domestic processing cost
+0,clay mining,MM,ion adsorption clay,,,70.0,0.014,0.0,Myanmar in-situ leach; 1/7 of CN cost due to labor+no regulation
+0,clay refining,AU,dysprosium_oxide,,,650.0,1.1064,0.0,Domestic processing cost
+0,clay refining,AU,neodynium_oxide,,,650.0,0.8748,0.0,Domestic processing cost
+0,clay refining,BR,dysprosium_oxide,metallothermic reduction,EE,0.0,3.0,0.0,BR→EE DyOx; 0 tariff
+0,clay refining,BR,dysprosium_oxide,metallothermic reduction,US,0.0,2.5,0.0,BR→US DyOx; 0 tariff
+0,clay refining,BR,dysprosium_oxide,,,63.0,0.1161,0.0,Brazil clay refining DyOx
+0,clay refining,BR,neodynium_oxide,molten_salt electrolysis,EE,0.0,3.0,0.0,BR→EE NdOx
+0,clay refining,BR,neodynium_oxide,molten_salt electrolysis,US,0.0,2.5,0.0,BR→US NdOx; 0 tariff
+0,clay refining,BR,neodynium_oxide,,,63.0,0.1161,0.0,Brazil clay refining
+0,clay refining,CN,dysprosium_oxide,,,500.0,0.922,0.0,Domestic processing cost
+0,clay refining,CN,neodynium_oxide,,,500.0,0.729,0.0,Domestic processing cost
+0,clay refining,MM,dysprosium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+0,clay refining,MM,dysprosium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; fixed-price KIA agreement; no tariff
+0,clay refining,MM,dysprosium_oxide,,,70.0,0.129,0.0,Myanmar crude processing; low cost
+0,clay refining,MM,neodynium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+0,clay refining,MM,neodynium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; KIA-mediated trade
+0,clay refining,MM,neodynium_oxide,,,70.0,0.129,0.0,Myanmar crude processing
+0,cryogenic,US,neodynium dysprosium iron alloy,,,3.8,0.28,0.0,Domestic processing cost
+0,direct reuse,US,hp_magnet,,,0.5,0.2,0.0,Domestic processing cost
+0,hydrochloric acid digestion,AU,dysprosium_oxide,,,8.4,0.32,0.0,Domestic processing cost
+0,hydrochloric acid digestion,AU,neodynium_oxide,,,7.8,0.3,0.0,Domestic processing cost
+0,hydrochloric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+0,hydrochloric acid digestion,CN,dysprosium_oxide,,,7.2,0.3,0.0,Domestic processing cost
+0,hydrochloric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+0,hydrochloric acid digestion,CN,neodynium_oxide,,,6.5,0.28,0.0,Domestic processing cost
+0,hydrochloric acid digestion,EE,dysprosium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD HREE
+0,hydrochloric acid digestion,EE,neodynium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD
+0,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+0,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+0,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+0,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+0,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+0,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+0,hydrochloric acid digestion,MY,dysprosium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD HREE
+0,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+0,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+0,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+0,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+0,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+0,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+0,hydrochloric acid digestion,MY,neodynium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD
+0,hydrochloric acid digestion,US,dysprosium_oxide,,,9.2,0.34,0.0,Domestic processing cost
+0,hydrochloric acid digestion,US,neodynium_oxide,,,8.5,0.32,0.0,Domestic processing cost
+0,hydrometallurgical,US,neodynium dysprosium iron alloy,,,4.5,0.3,0.0,Domestic processing cost
+0,magnet manufacturing,CN,hp_magnet,magnet_market_mix,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+0,magnet manufacturing,CN,hp_magnet,,,6.5,0.28,0.0,Domestic processing cost
+0,magnet manufacturing,EE,hp_magnet,magnet_market_mix,JP,0.0,2.5,0.0,EE→JP
+0,magnet manufacturing,EE,hp_magnet,magnet_market_mix,US,0.0,3.0,2.0,EE→US hp_magnet; 0 tariff MFN; ocean+transatlantic freight
+0,magnet manufacturing,EE,hp_magnet,,,7.8,0.3,0.0,Neo Narva NdFeB plant
+0,magnet manufacturing,JP,hp_magnet,magnet_market_mix,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+0,magnet manufacturing,JP,hp_magnet,,,7.5,0.3,0.0,Domestic processing cost
+0,magnet manufacturing,US,hp_magnet,,,8.5,0.32,0.0,Domestic processing cost
+0,magnet-to-magnet recycling,US,hp_magnet,,,0.36,0.225,0.0,Domestic processing cost
+0,magnet_market_mix,US,hp_magnet,,,0.8172,0.705,0.0,Domestic processing cost
+0,metallothermic reduction,CN,dysprosium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+0,metallothermic reduction,CN,dysprosium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+0,metallothermic reduction,CN,dysprosium,,,7.5,0.22,0.0,Domestic processing cost
+0,metallothermic reduction,EE,dysprosium,,,1.0785,0.5445,0.0,Neo Silmet MR
+0,metallothermic reduction,JP,dysprosium,,,10.0,0.28,0.0,Domestic processing cost
+0,metallothermic reduction,US,dysprosium,,,11.5,0.32,0.0,Domestic processing cost
+0,mining,AU,bastnasite,,,3.8,0.28,0.0,Domestic processing cost
+0,mining,AU,monazaite,,,0.5915,0.4896,0.0,Domestic processing cost
+0,mining,BR,bastnasite,beneficiation,US,0.0,2.5,0.0,BR→US ore; MFN 0 tariff HS2530
+0,mining,BR,bastnasite,,,0.4095,0.3672,0.0,Brazil Serra Verde; lower labor cost
+0,mining,BR,monazaite,beneficiation,US,0.0,2.5,0.0,BR→US monazite
+0,mining,BR,monazaite,,,0.4095,0.3672,0.0,Brazil monazite
+0,mining,CA,bastnasite,beneficiation,US,0.0,1.2,0.0,CA→US ore; USMCA 0 tariff
+0,mining,CA,bastnasite,,,0.819,0.7344,0.0,Canada placeholder; N.American mining costs
+0,mining,CA,monazaite,beneficiation,US,0.0,1.2,0.0,CA→US monazite; USMCA
+0,mining,CA,monazaite,,,0.819,0.7344,0.0,Canada monazite
+0,mining,CN,bastnasite,,,3.2,0.25,0.0,Domestic processing cost
+0,mining,CN,monazaite,,,0.455,0.408,0.0,Domestic processing cost
+0,mining,US,bastnasite,,,4.0,0.3,0.0,Domestic processing cost
+0,mining,US,monazaite,,,0.819,0.612,0.0,Domestic processing cost
+0,molten_salt electrolysis,CN,neodynium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+0,molten_salt electrolysis,CN,neodynium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+0,molten_salt electrolysis,CN,neodynium,,,6.0,0.2,0.0,Domestic processing cost
+0,molten_salt electrolysis,EE,neodynium,,,0.6705,0.273,0.0,Neo Silmet MSE; EU energy
+0,molten_salt electrolysis,JP,neodynium,,,8.5,0.25,0.0,Domestic processing cost
+0,molten_salt electrolysis,US,neodynium,,,9.5,0.3,0.0,Domestic processing cost
+0,pyrometallurgical,US,neodynium dysprosium iron alloy,,,5.5,0.32,0.0,Domestic processing cost
+0,sulfuric acid digestion,AU,dysprosium_oxide,,,11.2,0.32,0.0,Domestic processing cost
+0,sulfuric acid digestion,AU,neodynium_oxide,,,10.5,0.3,0.0,Domestic processing cost
+0,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+0,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+0,sulfuric acid digestion,CN,dysprosium_oxide,,,9.5,0.3,0.0,Domestic processing cost
+0,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+0,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+0,sulfuric acid digestion,CN,neodynium_oxide,,,8.8,0.28,0.0,Domestic processing cost
+0,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+0,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+0,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+0,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+0,sulfuric acid digestion,EE,dysprosium_oxide,,,0.795,0.7635,0.0,Neo Silmet HREE
+0,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+0,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+0,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+0,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+0,sulfuric acid digestion,EE,neodynium_oxide,,,0.795,0.7635,0.0,Neo Silmet; EU-grade costs
+0,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,dysprosium_oxide,,,0.636,0.6108,0.0,Lynas LAMP HREE circuit
+0,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+0,sulfuric acid digestion,MY,neodynium_oxide,,,0.636,0.6108,0.0,Lynas LAMP Kuantan; 1.2x CN cost
+0,sulfuric acid digestion,US,dysprosium_oxide,,,0.954,0.7635,0.0,Domestic processing cost
+0,sulfuric acid digestion,US,neodynium_oxide,,,1.1826,0.717,0.0,Domestic processing cost
+0,use phase,US,hp_magnet,,,0.0,0.0,0.0,Domestic processing cost
+1,beneficiation,AU,flurocarbonate,,,4.8,0.28,0.0,Domestic processing cost
+1,beneficiation,AU,phosphate,,,5.6,0.3,0.0,Domestic processing cost
+1,beneficiation,CN,flurocarbonate,,,3.8,0.25,0.0,Domestic processing cost
+1,beneficiation,CN,phosphate,,,4.5,0.27,0.0,Domestic processing cost
+1,beneficiation,US,flurocarbonate,,,5.5,0.3,0.0,Domestic processing cost
+1,beneficiation,US,phosphate,,,6.5,0.32,0.0,Domestic processing cost
+1,chemical transformation,CN,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+1,chemical transformation,CN,neodynium dysprosium iron alloy,,,5.5,0.25,0.0,Domestic processing cost
+1,chemical transformation,EE,neodynium dysprosium iron alloy,,,1.074,1.089,0.0,Neo alloy production EE
+1,chemical transformation,JP,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+1,chemical transformation,JP,neodynium dysprosium iron alloy,,,6.8,0.28,0.0,Domestic processing cost
+1,chemical transformation,US,neodynium dysprosium iron alloy,,,7.0,0.3,0.0,Domestic processing cost
+1,clay mining,AU,ion adsorption clay,,,650.0,0.1404,0.0,Domestic processing cost
+1,clay mining,BR,ion adsorption clay,,,63.0,0.0126,0.0,Brazil IAC; similar to MM structure but with higher compliance cost
+1,clay mining,CN,ion adsorption clay,,,500.0,0.117,0.0,Domestic processing cost
+1,clay mining,MM,ion adsorption clay,,,70.0,0.014,0.0,Myanmar in-situ leach; 1/7 of CN cost due to labor+no regulation
+1,clay refining,AU,dysprosium_oxide,,,650.0,1.1064,0.0,Domestic processing cost
+1,clay refining,AU,neodynium_oxide,,,650.0,0.8748,0.0,Domestic processing cost
+1,clay refining,BR,dysprosium_oxide,metallothermic reduction,EE,0.0,3.0,0.0,BR→EE DyOx; 0 tariff
+1,clay refining,BR,dysprosium_oxide,metallothermic reduction,US,0.0,2.5,0.0,BR→US DyOx; 0 tariff
+1,clay refining,BR,dysprosium_oxide,,,63.0,0.1161,0.0,Brazil clay refining DyOx
+1,clay refining,BR,neodynium_oxide,molten_salt electrolysis,EE,0.0,3.0,0.0,BR→EE NdOx
+1,clay refining,BR,neodynium_oxide,molten_salt electrolysis,US,0.0,2.5,0.0,BR→US NdOx; 0 tariff
+1,clay refining,BR,neodynium_oxide,,,63.0,0.1161,0.0,Brazil clay refining
+1,clay refining,CN,dysprosium_oxide,,,500.0,0.922,0.0,Domestic processing cost
+1,clay refining,CN,neodynium_oxide,,,500.0,0.729,0.0,Domestic processing cost
+1,clay refining,MM,dysprosium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+1,clay refining,MM,dysprosium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; fixed-price KIA agreement; no tariff
+1,clay refining,MM,dysprosium_oxide,,,70.0,0.129,0.0,Myanmar crude processing; low cost
+1,clay refining,MM,neodynium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+1,clay refining,MM,neodynium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; KIA-mediated trade
+1,clay refining,MM,neodynium_oxide,,,70.0,0.129,0.0,Myanmar crude processing
+1,cryogenic,US,neodynium dysprosium iron alloy,,,3.8,0.28,0.0,Domestic processing cost
+1,direct reuse,US,hp_magnet,,,0.5,0.2,0.0,Domestic processing cost
+1,hydrochloric acid digestion,AU,dysprosium_oxide,,,8.4,0.32,0.0,Domestic processing cost
+1,hydrochloric acid digestion,AU,neodynium_oxide,,,7.8,0.3,0.0,Domestic processing cost
+1,hydrochloric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+1,hydrochloric acid digestion,CN,dysprosium_oxide,,,7.2,0.3,0.0,Domestic processing cost
+1,hydrochloric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+1,hydrochloric acid digestion,CN,neodynium_oxide,,,6.5,0.28,0.0,Domestic processing cost
+1,hydrochloric acid digestion,EE,dysprosium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD HREE
+1,hydrochloric acid digestion,EE,neodynium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD
+1,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+1,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+1,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+1,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+1,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+1,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+1,hydrochloric acid digestion,MY,dysprosium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD HREE
+1,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+1,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+1,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+1,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+1,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+1,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+1,hydrochloric acid digestion,MY,neodynium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD
+1,hydrochloric acid digestion,US,dysprosium_oxide,,,9.2,0.34,0.0,Domestic processing cost
+1,hydrochloric acid digestion,US,neodynium_oxide,,,8.5,0.32,0.0,Domestic processing cost
+1,hydrometallurgical,US,neodynium dysprosium iron alloy,,,4.5,0.3,0.0,Domestic processing cost
+1,magnet manufacturing,CN,hp_magnet,magnet_market_mix,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+1,magnet manufacturing,CN,hp_magnet,,,6.5,0.28,0.0,Domestic processing cost
+1,magnet manufacturing,EE,hp_magnet,magnet_market_mix,JP,0.0,2.5,0.0,EE→JP
+1,magnet manufacturing,EE,hp_magnet,magnet_market_mix,US,0.0,3.0,2.0,EE→US hp_magnet; 0 tariff MFN; ocean+transatlantic freight
+1,magnet manufacturing,EE,hp_magnet,,,7.8,0.3,0.0,Neo Narva NdFeB plant
+1,magnet manufacturing,JP,hp_magnet,magnet_market_mix,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+1,magnet manufacturing,JP,hp_magnet,,,7.5,0.3,0.0,Domestic processing cost
+1,magnet manufacturing,US,hp_magnet,,,8.5,0.32,0.0,Domestic processing cost
+1,magnet-to-magnet recycling,US,hp_magnet,,,0.36,0.225,0.0,Domestic processing cost
+1,magnet_market_mix,US,hp_magnet,,,0.8172,0.705,0.0,Domestic processing cost
+1,metallothermic reduction,CN,dysprosium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+1,metallothermic reduction,CN,dysprosium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+1,metallothermic reduction,CN,dysprosium,,,7.5,0.22,0.0,Domestic processing cost
+1,metallothermic reduction,EE,dysprosium,,,1.0785,0.5445,0.0,Neo Silmet MR
+1,metallothermic reduction,JP,dysprosium,,,10.0,0.28,0.0,Domestic processing cost
+1,metallothermic reduction,US,dysprosium,,,11.5,0.32,0.0,Domestic processing cost
+1,mining,AU,bastnasite,,,3.8,0.28,0.0,Domestic processing cost
+1,mining,AU,monazaite,,,0.5915,0.4896,0.0,Domestic processing cost
+1,mining,BR,bastnasite,beneficiation,US,0.0,2.5,0.0,BR→US ore; MFN 0 tariff HS2530
+1,mining,BR,bastnasite,,,0.4095,0.3672,0.0,Brazil Serra Verde; lower labor cost
+1,mining,BR,monazaite,beneficiation,US,0.0,2.5,0.0,BR→US monazite
+1,mining,BR,monazaite,,,0.4095,0.3672,0.0,Brazil monazite
+1,mining,CA,bastnasite,beneficiation,US,0.0,1.2,0.0,CA→US ore; USMCA 0 tariff
+1,mining,CA,bastnasite,,,0.819,0.7344,0.0,Canada placeholder; N.American mining costs
+1,mining,CA,monazaite,beneficiation,US,0.0,1.2,0.0,CA→US monazite; USMCA
+1,mining,CA,monazaite,,,0.819,0.7344,0.0,Canada monazite
+1,mining,CN,bastnasite,,,3.2,0.25,0.0,Domestic processing cost
+1,mining,CN,monazaite,,,0.455,0.408,0.0,Domestic processing cost
+1,mining,US,bastnasite,,,4.0,0.3,0.0,Domestic processing cost
+1,mining,US,monazaite,,,0.819,0.612,0.0,Domestic processing cost
+1,molten_salt electrolysis,CN,neodynium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+1,molten_salt electrolysis,CN,neodynium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+1,molten_salt electrolysis,CN,neodynium,,,6.0,0.2,0.0,Domestic processing cost
+1,molten_salt electrolysis,EE,neodynium,,,0.6705,0.273,0.0,Neo Silmet MSE; EU energy
+1,molten_salt electrolysis,JP,neodynium,,,8.5,0.25,0.0,Domestic processing cost
+1,molten_salt electrolysis,US,neodynium,,,9.5,0.3,0.0,Domestic processing cost
+1,pyrometallurgical,US,neodynium dysprosium iron alloy,,,5.5,0.32,0.0,Domestic processing cost
+1,sulfuric acid digestion,AU,dysprosium_oxide,,,11.2,0.32,0.0,Domestic processing cost
+1,sulfuric acid digestion,AU,neodynium_oxide,,,10.5,0.3,0.0,Domestic processing cost
+1,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+1,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+1,sulfuric acid digestion,CN,dysprosium_oxide,,,9.5,0.3,0.0,Domestic processing cost
+1,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+1,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+1,sulfuric acid digestion,CN,neodynium_oxide,,,8.8,0.28,0.0,Domestic processing cost
+1,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+1,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+1,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+1,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+1,sulfuric acid digestion,EE,dysprosium_oxide,,,0.795,0.7635,0.0,Neo Silmet HREE
+1,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+1,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+1,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+1,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+1,sulfuric acid digestion,EE,neodynium_oxide,,,0.795,0.7635,0.0,Neo Silmet; EU-grade costs
+1,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,dysprosium_oxide,,,0.636,0.6108,0.0,Lynas LAMP HREE circuit
+1,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+1,sulfuric acid digestion,MY,neodynium_oxide,,,0.636,0.6108,0.0,Lynas LAMP Kuantan; 1.2x CN cost
+1,sulfuric acid digestion,US,dysprosium_oxide,,,0.954,0.7635,0.0,Domestic processing cost
+1,sulfuric acid digestion,US,neodynium_oxide,,,1.1826,0.717,0.0,Domestic processing cost
+1,use phase,US,hp_magnet,,,0.0,0.0,0.0,Domestic processing cost
+2,beneficiation,AU,flurocarbonate,,,4.8,0.28,0.0,Domestic processing cost
+2,beneficiation,AU,phosphate,,,5.6,0.3,0.0,Domestic processing cost
+2,beneficiation,CN,flurocarbonate,,,3.8,0.25,0.0,Domestic processing cost
+2,beneficiation,CN,phosphate,,,4.5,0.27,0.0,Domestic processing cost
+2,beneficiation,US,flurocarbonate,,,5.5,0.3,0.0,Domestic processing cost
+2,beneficiation,US,phosphate,,,6.5,0.32,0.0,Domestic processing cost
+2,chemical transformation,CN,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+2,chemical transformation,CN,neodynium dysprosium iron alloy,,,5.5,0.25,0.0,Domestic processing cost
+2,chemical transformation,EE,neodynium dysprosium iron alloy,,,1.074,1.089,0.0,Neo alloy production EE
+2,chemical transformation,JP,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+2,chemical transformation,JP,neodynium dysprosium iron alloy,,,6.8,0.28,0.0,Domestic processing cost
+2,chemical transformation,US,neodynium dysprosium iron alloy,,,7.0,0.3,0.0,Domestic processing cost
+2,clay mining,AU,ion adsorption clay,,,650.0,0.1404,0.0,Domestic processing cost
+2,clay mining,BR,ion adsorption clay,,,63.0,0.0126,0.0,Brazil IAC; similar to MM structure but with higher compliance cost
+2,clay mining,CN,ion adsorption clay,,,500.0,0.117,0.0,Domestic processing cost
+2,clay mining,MM,ion adsorption clay,,,70.0,0.014,0.0,Myanmar in-situ leach; 1/7 of CN cost due to labor+no regulation
+2,clay refining,AU,dysprosium_oxide,,,650.0,1.1064,0.0,Domestic processing cost
+2,clay refining,AU,neodynium_oxide,,,650.0,0.8748,0.0,Domestic processing cost
+2,clay refining,BR,dysprosium_oxide,metallothermic reduction,EE,0.0,3.0,0.0,BR→EE DyOx; 0 tariff
+2,clay refining,BR,dysprosium_oxide,metallothermic reduction,US,0.0,2.5,0.0,BR→US DyOx; 0 tariff
+2,clay refining,BR,dysprosium_oxide,,,63.0,0.1161,0.0,Brazil clay refining DyOx
+2,clay refining,BR,neodynium_oxide,molten_salt electrolysis,EE,0.0,3.0,0.0,BR→EE NdOx
+2,clay refining,BR,neodynium_oxide,molten_salt electrolysis,US,0.0,2.5,0.0,BR→US NdOx; 0 tariff
+2,clay refining,BR,neodynium_oxide,,,63.0,0.1161,0.0,Brazil clay refining
+2,clay refining,CN,dysprosium_oxide,,,500.0,0.922,0.0,Domestic processing cost
+2,clay refining,CN,neodynium_oxide,,,500.0,0.729,0.0,Domestic processing cost
+2,clay refining,MM,dysprosium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+2,clay refining,MM,dysprosium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; fixed-price KIA agreement; no tariff
+2,clay refining,MM,dysprosium_oxide,,,70.0,0.129,0.0,Myanmar crude processing; low cost
+2,clay refining,MM,neodynium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+2,clay refining,MM,neodynium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; KIA-mediated trade
+2,clay refining,MM,neodynium_oxide,,,70.0,0.129,0.0,Myanmar crude processing
+2,cryogenic,US,neodynium dysprosium iron alloy,,,3.8,0.28,0.0,Domestic processing cost
+2,direct reuse,US,hp_magnet,,,0.5,0.2,0.0,Domestic processing cost
+2,hydrochloric acid digestion,AU,dysprosium_oxide,,,8.4,0.32,0.0,Domestic processing cost
+2,hydrochloric acid digestion,AU,neodynium_oxide,,,7.8,0.3,0.0,Domestic processing cost
+2,hydrochloric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+2,hydrochloric acid digestion,CN,dysprosium_oxide,,,7.2,0.3,0.0,Domestic processing cost
+2,hydrochloric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+2,hydrochloric acid digestion,CN,neodynium_oxide,,,6.5,0.28,0.0,Domestic processing cost
+2,hydrochloric acid digestion,EE,dysprosium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD HREE
+2,hydrochloric acid digestion,EE,neodynium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD
+2,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+2,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+2,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+2,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+2,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+2,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+2,hydrochloric acid digestion,MY,dysprosium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD HREE
+2,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+2,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+2,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+2,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+2,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+2,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+2,hydrochloric acid digestion,MY,neodynium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD
+2,hydrochloric acid digestion,US,dysprosium_oxide,,,9.2,0.34,0.0,Domestic processing cost
+2,hydrochloric acid digestion,US,neodynium_oxide,,,8.5,0.32,0.0,Domestic processing cost
+2,hydrometallurgical,US,neodynium dysprosium iron alloy,,,4.5,0.3,0.0,Domestic processing cost
+2,magnet manufacturing,CN,hp_magnet,magnet_market_mix,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+2,magnet manufacturing,CN,hp_magnet,,,6.5,0.28,0.0,Domestic processing cost
+2,magnet manufacturing,EE,hp_magnet,magnet_market_mix,JP,0.0,2.5,0.0,EE→JP
+2,magnet manufacturing,EE,hp_magnet,magnet_market_mix,US,0.0,3.0,2.0,EE→US hp_magnet; 0 tariff MFN; ocean+transatlantic freight
+2,magnet manufacturing,EE,hp_magnet,,,7.8,0.3,0.0,Neo Narva NdFeB plant
+2,magnet manufacturing,JP,hp_magnet,magnet_market_mix,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+2,magnet manufacturing,JP,hp_magnet,,,7.5,0.3,0.0,Domestic processing cost
+2,magnet manufacturing,US,hp_magnet,,,8.5,0.32,0.0,Domestic processing cost
+2,magnet-to-magnet recycling,US,hp_magnet,,,0.36,0.225,0.0,Domestic processing cost
+2,magnet_market_mix,US,hp_magnet,,,0.8172,0.705,0.0,Domestic processing cost
+2,metallothermic reduction,CN,dysprosium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+2,metallothermic reduction,CN,dysprosium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+2,metallothermic reduction,CN,dysprosium,,,7.5,0.22,0.0,Domestic processing cost
+2,metallothermic reduction,EE,dysprosium,,,1.0785,0.5445,0.0,Neo Silmet MR
+2,metallothermic reduction,JP,dysprosium,,,10.0,0.28,0.0,Domestic processing cost
+2,metallothermic reduction,US,dysprosium,,,11.5,0.32,0.0,Domestic processing cost
+2,mining,AU,bastnasite,,,3.8,0.28,0.0,Domestic processing cost
+2,mining,AU,monazaite,,,0.5915,0.4896,0.0,Domestic processing cost
+2,mining,BR,bastnasite,beneficiation,US,0.0,2.5,0.0,BR→US ore; MFN 0 tariff HS2530
+2,mining,BR,bastnasite,,,0.4095,0.3672,0.0,Brazil Serra Verde; lower labor cost
+2,mining,BR,monazaite,beneficiation,US,0.0,2.5,0.0,BR→US monazite
+2,mining,BR,monazaite,,,0.4095,0.3672,0.0,Brazil monazite
+2,mining,CA,bastnasite,beneficiation,US,0.0,1.2,0.0,CA→US ore; USMCA 0 tariff
+2,mining,CA,bastnasite,,,0.819,0.7344,0.0,Canada placeholder; N.American mining costs
+2,mining,CA,monazaite,beneficiation,US,0.0,1.2,0.0,CA→US monazite; USMCA
+2,mining,CA,monazaite,,,0.819,0.7344,0.0,Canada monazite
+2,mining,CN,bastnasite,,,3.2,0.25,0.0,Domestic processing cost
+2,mining,CN,monazaite,,,0.455,0.408,0.0,Domestic processing cost
+2,mining,US,bastnasite,,,4.0,0.3,0.0,Domestic processing cost
+2,mining,US,monazaite,,,0.819,0.612,0.0,Domestic processing cost
+2,molten_salt electrolysis,CN,neodynium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+2,molten_salt electrolysis,CN,neodynium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+2,molten_salt electrolysis,CN,neodynium,,,6.0,0.2,0.0,Domestic processing cost
+2,molten_salt electrolysis,EE,neodynium,,,0.6705,0.273,0.0,Neo Silmet MSE; EU energy
+2,molten_salt electrolysis,JP,neodynium,,,8.5,0.25,0.0,Domestic processing cost
+2,molten_salt electrolysis,US,neodynium,,,9.5,0.3,0.0,Domestic processing cost
+2,pyrometallurgical,US,neodynium dysprosium iron alloy,,,5.5,0.32,0.0,Domestic processing cost
+2,sulfuric acid digestion,AU,dysprosium_oxide,,,11.2,0.32,0.0,Domestic processing cost
+2,sulfuric acid digestion,AU,neodynium_oxide,,,10.5,0.3,0.0,Domestic processing cost
+2,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+2,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+2,sulfuric acid digestion,CN,dysprosium_oxide,,,9.5,0.3,0.0,Domestic processing cost
+2,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+2,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+2,sulfuric acid digestion,CN,neodynium_oxide,,,8.8,0.28,0.0,Domestic processing cost
+2,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+2,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+2,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+2,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+2,sulfuric acid digestion,EE,dysprosium_oxide,,,0.795,0.7635,0.0,Neo Silmet HREE
+2,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+2,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+2,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+2,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+2,sulfuric acid digestion,EE,neodynium_oxide,,,0.795,0.7635,0.0,Neo Silmet; EU-grade costs
+2,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,dysprosium_oxide,,,0.636,0.6108,0.0,Lynas LAMP HREE circuit
+2,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+2,sulfuric acid digestion,MY,neodynium_oxide,,,0.636,0.6108,0.0,Lynas LAMP Kuantan; 1.2x CN cost
+2,sulfuric acid digestion,US,dysprosium_oxide,,,0.954,0.7635,0.0,Domestic processing cost
+2,sulfuric acid digestion,US,neodynium_oxide,,,1.1826,0.717,0.0,Domestic processing cost
+2,use phase,US,hp_magnet,,,0.0,0.0,0.0,Domestic processing cost
+3,beneficiation,AU,flurocarbonate,,,4.8,0.28,0.0,Domestic processing cost
+3,beneficiation,AU,phosphate,,,5.6,0.3,0.0,Domestic processing cost
+3,beneficiation,CN,flurocarbonate,,,3.8,0.25,0.0,Domestic processing cost
+3,beneficiation,CN,phosphate,,,4.5,0.27,0.0,Domestic processing cost
+3,beneficiation,US,flurocarbonate,,,5.5,0.3,0.0,Domestic processing cost
+3,beneficiation,US,phosphate,,,6.5,0.32,0.0,Domestic processing cost
+3,chemical transformation,CN,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+3,chemical transformation,CN,neodynium dysprosium iron alloy,,,5.5,0.25,0.0,Domestic processing cost
+3,chemical transformation,EE,neodynium dysprosium iron alloy,,,1.074,1.089,0.0,Neo alloy production EE
+3,chemical transformation,JP,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+3,chemical transformation,JP,neodynium dysprosium iron alloy,,,6.8,0.28,0.0,Domestic processing cost
+3,chemical transformation,US,neodynium dysprosium iron alloy,,,7.0,0.3,0.0,Domestic processing cost
+3,clay mining,AU,ion adsorption clay,,,650.0,0.1404,0.0,Domestic processing cost
+3,clay mining,BR,ion adsorption clay,,,63.0,0.0126,0.0,Brazil IAC; similar to MM structure but with higher compliance cost
+3,clay mining,CN,ion adsorption clay,,,500.0,0.117,0.0,Domestic processing cost
+3,clay mining,MM,ion adsorption clay,,,70.0,0.014,0.0,Myanmar in-situ leach; 1/7 of CN cost due to labor+no regulation
+3,clay refining,AU,dysprosium_oxide,,,650.0,1.1064,0.0,Domestic processing cost
+3,clay refining,AU,neodynium_oxide,,,650.0,0.8748,0.0,Domestic processing cost
+3,clay refining,BR,dysprosium_oxide,metallothermic reduction,EE,0.0,3.0,0.0,BR→EE DyOx; 0 tariff
+3,clay refining,BR,dysprosium_oxide,metallothermic reduction,US,0.0,2.5,0.0,BR→US DyOx; 0 tariff
+3,clay refining,BR,dysprosium_oxide,,,63.0,0.1161,0.0,Brazil clay refining DyOx
+3,clay refining,BR,neodynium_oxide,molten_salt electrolysis,EE,0.0,3.0,0.0,BR→EE NdOx
+3,clay refining,BR,neodynium_oxide,molten_salt electrolysis,US,0.0,2.5,0.0,BR→US NdOx; 0 tariff
+3,clay refining,BR,neodynium_oxide,,,63.0,0.1161,0.0,Brazil clay refining
+3,clay refining,CN,dysprosium_oxide,,,500.0,0.922,0.0,Domestic processing cost
+3,clay refining,CN,neodynium_oxide,,,500.0,0.729,0.0,Domestic processing cost
+3,clay refining,MM,dysprosium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+3,clay refining,MM,dysprosium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; fixed-price KIA agreement; no tariff
+3,clay refining,MM,dysprosium_oxide,,,70.0,0.129,0.0,Myanmar crude processing; low cost
+3,clay refining,MM,neodynium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+3,clay refining,MM,neodynium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; KIA-mediated trade
+3,clay refining,MM,neodynium_oxide,,,70.0,0.129,0.0,Myanmar crude processing
+3,cryogenic,US,neodynium dysprosium iron alloy,,,3.8,0.28,0.0,Domestic processing cost
+3,direct reuse,US,hp_magnet,,,0.5,0.2,0.0,Domestic processing cost
+3,hydrochloric acid digestion,AU,dysprosium_oxide,,,8.4,0.32,0.0,Domestic processing cost
+3,hydrochloric acid digestion,AU,neodynium_oxide,,,7.8,0.3,0.0,Domestic processing cost
+3,hydrochloric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+3,hydrochloric acid digestion,CN,dysprosium_oxide,,,7.2,0.3,0.0,Domestic processing cost
+3,hydrochloric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+3,hydrochloric acid digestion,CN,neodynium_oxide,,,6.5,0.28,0.0,Domestic processing cost
+3,hydrochloric acid digestion,EE,dysprosium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD HREE
+3,hydrochloric acid digestion,EE,neodynium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD
+3,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+3,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+3,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+3,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+3,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+3,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+3,hydrochloric acid digestion,MY,dysprosium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD HREE
+3,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+3,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+3,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+3,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+3,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+3,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+3,hydrochloric acid digestion,MY,neodynium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD
+3,hydrochloric acid digestion,US,dysprosium_oxide,,,9.2,0.34,0.0,Domestic processing cost
+3,hydrochloric acid digestion,US,neodynium_oxide,,,8.5,0.32,0.0,Domestic processing cost
+3,hydrometallurgical,US,neodynium dysprosium iron alloy,,,4.5,0.3,0.0,Domestic processing cost
+3,magnet manufacturing,CN,hp_magnet,magnet_market_mix,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+3,magnet manufacturing,CN,hp_magnet,,,6.5,0.28,0.0,Domestic processing cost
+3,magnet manufacturing,EE,hp_magnet,magnet_market_mix,JP,0.0,2.5,0.0,EE→JP
+3,magnet manufacturing,EE,hp_magnet,magnet_market_mix,US,0.0,3.0,2.0,EE→US hp_magnet; 0 tariff MFN; ocean+transatlantic freight
+3,magnet manufacturing,EE,hp_magnet,,,7.8,0.3,0.0,Neo Narva NdFeB plant
+3,magnet manufacturing,JP,hp_magnet,magnet_market_mix,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+3,magnet manufacturing,JP,hp_magnet,,,7.5,0.3,0.0,Domestic processing cost
+3,magnet manufacturing,US,hp_magnet,,,8.5,0.32,0.0,Domestic processing cost
+3,magnet-to-magnet recycling,US,hp_magnet,,,0.36,0.225,0.0,Domestic processing cost
+3,magnet_market_mix,US,hp_magnet,,,0.8172,0.705,0.0,Domestic processing cost
+3,metallothermic reduction,CN,dysprosium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+3,metallothermic reduction,CN,dysprosium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+3,metallothermic reduction,CN,dysprosium,,,7.5,0.22,0.0,Domestic processing cost
+3,metallothermic reduction,EE,dysprosium,,,1.0785,0.5445,0.0,Neo Silmet MR
+3,metallothermic reduction,JP,dysprosium,,,10.0,0.28,0.0,Domestic processing cost
+3,metallothermic reduction,US,dysprosium,,,11.5,0.32,0.0,Domestic processing cost
+3,mining,AU,bastnasite,,,3.8,0.28,0.0,Domestic processing cost
+3,mining,AU,monazaite,,,0.5915,0.4896,0.0,Domestic processing cost
+3,mining,BR,bastnasite,beneficiation,US,0.0,2.5,0.0,BR→US ore; MFN 0 tariff HS2530
+3,mining,BR,bastnasite,,,0.4095,0.3672,0.0,Brazil Serra Verde; lower labor cost
+3,mining,BR,monazaite,beneficiation,US,0.0,2.5,0.0,BR→US monazite
+3,mining,BR,monazaite,,,0.4095,0.3672,0.0,Brazil monazite
+3,mining,CA,bastnasite,beneficiation,US,0.0,1.2,0.0,CA→US ore; USMCA 0 tariff
+3,mining,CA,bastnasite,,,0.819,0.7344,0.0,Canada placeholder; N.American mining costs
+3,mining,CA,monazaite,beneficiation,US,0.0,1.2,0.0,CA→US monazite; USMCA
+3,mining,CA,monazaite,,,0.819,0.7344,0.0,Canada monazite
+3,mining,CN,bastnasite,,,3.2,0.25,0.0,Domestic processing cost
+3,mining,CN,monazaite,,,0.455,0.408,0.0,Domestic processing cost
+3,mining,US,bastnasite,,,4.0,0.3,0.0,Domestic processing cost
+3,mining,US,monazaite,,,0.819,0.612,0.0,Domestic processing cost
+3,molten_salt electrolysis,CN,neodynium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+3,molten_salt electrolysis,CN,neodynium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+3,molten_salt electrolysis,CN,neodynium,,,6.0,0.2,0.0,Domestic processing cost
+3,molten_salt electrolysis,EE,neodynium,,,0.6705,0.273,0.0,Neo Silmet MSE; EU energy
+3,molten_salt electrolysis,JP,neodynium,,,8.5,0.25,0.0,Domestic processing cost
+3,molten_salt electrolysis,US,neodynium,,,9.5,0.3,0.0,Domestic processing cost
+3,pyrometallurgical,US,neodynium dysprosium iron alloy,,,5.5,0.32,0.0,Domestic processing cost
+3,sulfuric acid digestion,AU,dysprosium_oxide,,,11.2,0.32,0.0,Domestic processing cost
+3,sulfuric acid digestion,AU,neodynium_oxide,,,10.5,0.3,0.0,Domestic processing cost
+3,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+3,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+3,sulfuric acid digestion,CN,dysprosium_oxide,,,9.5,0.3,0.0,Domestic processing cost
+3,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+3,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+3,sulfuric acid digestion,CN,neodynium_oxide,,,8.8,0.28,0.0,Domestic processing cost
+3,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+3,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+3,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+3,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+3,sulfuric acid digestion,EE,dysprosium_oxide,,,0.795,0.7635,0.0,Neo Silmet HREE
+3,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+3,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+3,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+3,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+3,sulfuric acid digestion,EE,neodynium_oxide,,,0.795,0.7635,0.0,Neo Silmet; EU-grade costs
+3,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,dysprosium_oxide,,,0.636,0.6108,0.0,Lynas LAMP HREE circuit
+3,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+3,sulfuric acid digestion,MY,neodynium_oxide,,,0.636,0.6108,0.0,Lynas LAMP Kuantan; 1.2x CN cost
+3,sulfuric acid digestion,US,dysprosium_oxide,,,0.954,0.7635,0.0,Domestic processing cost
+3,sulfuric acid digestion,US,neodynium_oxide,,,1.1826,0.717,0.0,Domestic processing cost
+3,use phase,US,hp_magnet,,,0.0,0.0,0.0,Domestic processing cost
+4,beneficiation,AU,flurocarbonate,,,4.8,0.28,0.0,Domestic processing cost
+4,beneficiation,AU,phosphate,,,5.6,0.3,0.0,Domestic processing cost
+4,beneficiation,CN,flurocarbonate,,,3.8,0.25,0.0,Domestic processing cost
+4,beneficiation,CN,phosphate,,,4.5,0.27,0.0,Domestic processing cost
+4,beneficiation,US,flurocarbonate,,,5.5,0.3,0.0,Domestic processing cost
+4,beneficiation,US,phosphate,,,6.5,0.32,0.0,Domestic processing cost
+4,chemical transformation,CN,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+4,chemical transformation,CN,neodynium dysprosium iron alloy,,,5.5,0.25,0.0,Domestic processing cost
+4,chemical transformation,EE,neodynium dysprosium iron alloy,,,1.074,1.089,0.0,Neo alloy production EE
+4,chemical transformation,JP,neodynium dysprosium iron alloy,magnet manufacturing,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+4,chemical transformation,JP,neodynium dysprosium iron alloy,,,6.8,0.28,0.0,Domestic processing cost
+4,chemical transformation,US,neodynium dysprosium iron alloy,,,7.0,0.3,0.0,Domestic processing cost
+4,clay mining,AU,ion adsorption clay,,,650.0,0.1404,0.0,Domestic processing cost
+4,clay mining,BR,ion adsorption clay,,,63.0,0.0126,0.0,Brazil IAC; similar to MM structure but with higher compliance cost
+4,clay mining,CN,ion adsorption clay,,,500.0,0.117,0.0,Domestic processing cost
+4,clay mining,MM,ion adsorption clay,,,70.0,0.014,0.0,Myanmar in-situ leach; 1/7 of CN cost due to labor+no regulation
+4,clay refining,AU,dysprosium_oxide,,,650.0,1.1064,0.0,Domestic processing cost
+4,clay refining,AU,neodynium_oxide,,,650.0,0.8748,0.0,Domestic processing cost
+4,clay refining,BR,dysprosium_oxide,metallothermic reduction,EE,0.0,3.0,0.0,BR→EE DyOx; 0 tariff
+4,clay refining,BR,dysprosium_oxide,metallothermic reduction,US,0.0,2.5,0.0,BR→US DyOx; 0 tariff
+4,clay refining,BR,dysprosium_oxide,,,63.0,0.1161,0.0,Brazil clay refining DyOx
+4,clay refining,BR,neodynium_oxide,molten_salt electrolysis,EE,0.0,3.0,0.0,BR→EE NdOx
+4,clay refining,BR,neodynium_oxide,molten_salt electrolysis,US,0.0,2.5,0.0,BR→US NdOx; 0 tariff
+4,clay refining,BR,neodynium_oxide,,,63.0,0.1161,0.0,Brazil clay refining
+4,clay refining,CN,dysprosium_oxide,,,500.0,0.922,0.0,Domestic processing cost
+4,clay refining,CN,neodynium_oxide,,,500.0,0.729,0.0,Domestic processing cost
+4,clay refining,MM,dysprosium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+4,clay refining,MM,dysprosium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; fixed-price KIA agreement; no tariff
+4,clay refining,MM,dysprosium_oxide,,,70.0,0.129,0.0,Myanmar crude processing; low cost
+4,clay refining,MM,neodynium_oxide,hydrochloric acid digestion,CN,0.0,0.5,0.0,MM→CN HCAD
+4,clay refining,MM,neodynium_oxide,sulfuric acid digestion,CN,0.0,0.5,0.0,MM→CN; KIA-mediated trade
+4,clay refining,MM,neodynium_oxide,,,70.0,0.129,0.0,Myanmar crude processing
+4,cryogenic,US,neodynium dysprosium iron alloy,,,3.8,0.28,0.0,Domestic processing cost
+4,direct reuse,US,hp_magnet,,,0.5,0.2,0.0,Domestic processing cost
+4,hydrochloric acid digestion,AU,dysprosium_oxide,,,8.4,0.32,0.0,Domestic processing cost
+4,hydrochloric acid digestion,AU,neodynium_oxide,,,7.8,0.3,0.0,Domestic processing cost
+4,hydrochloric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+4,hydrochloric acid digestion,CN,dysprosium_oxide,,,7.2,0.3,0.0,Domestic processing cost
+4,hydrochloric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+4,hydrochloric acid digestion,CN,neodynium_oxide,,,6.5,0.28,0.0,Domestic processing cost
+4,hydrochloric acid digestion,EE,dysprosium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD HREE
+4,hydrochloric acid digestion,EE,neodynium_oxide,,,0.912,0.723,0.0,Neo Silmet HCAD
+4,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+4,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+4,hydrochloric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+4,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+4,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+4,hydrochloric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+4,hydrochloric acid digestion,MY,dysprosium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD HREE
+4,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight
+4,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight
+4,hydrochloric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight
+4,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight
+4,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight
+4,hydrochloric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight
+4,hydrochloric acid digestion,MY,neodynium_oxide,,,0.7296,0.5784,0.0,Lynas LAMP HCAD
+4,hydrochloric acid digestion,US,dysprosium_oxide,,,9.2,0.34,0.0,Domestic processing cost
+4,hydrochloric acid digestion,US,neodynium_oxide,,,8.5,0.32,0.0,Domestic processing cost
+4,hydrometallurgical,US,neodynium dysprosium iron alloy,,,4.5,0.3,0.0,Domestic processing cost
+4,magnet manufacturing,CN,hp_magnet,magnet_market_mix,US,0.0,0.0,27.0,Tariff on CN->US cross-border flow
+4,magnet manufacturing,CN,hp_magnet,,,6.5,0.28,0.0,Domestic processing cost
+4,magnet manufacturing,EE,hp_magnet,magnet_market_mix,JP,0.0,2.5,0.0,EE→JP
+4,magnet manufacturing,EE,hp_magnet,magnet_market_mix,US,0.0,3.0,2.0,EE→US hp_magnet; 0 tariff MFN; ocean+transatlantic freight
+4,magnet manufacturing,EE,hp_magnet,,,7.8,0.3,0.0,Neo Narva NdFeB plant
+4,magnet manufacturing,JP,hp_magnet,magnet_market_mix,US,0.0,0.0,2.0,Tariff on JP->US cross-border flow
+4,magnet manufacturing,JP,hp_magnet,,,7.5,0.3,0.0,Domestic processing cost
+4,magnet manufacturing,US,hp_magnet,,,8.5,0.32,0.0,Domestic processing cost
+4,magnet-to-magnet recycling,US,hp_magnet,,,0.36,0.225,0.0,Domestic processing cost
+4,magnet_market_mix,US,hp_magnet,,,0.8172,0.705,0.0,Domestic processing cost
+4,metallothermic reduction,CN,dysprosium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+4,metallothermic reduction,CN,dysprosium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+4,metallothermic reduction,CN,dysprosium,,,7.5,0.22,0.0,Domestic processing cost
+4,metallothermic reduction,EE,dysprosium,,,1.0785,0.5445,0.0,Neo Silmet MR
+4,metallothermic reduction,JP,dysprosium,,,10.0,0.28,0.0,Domestic processing cost
+4,metallothermic reduction,US,dysprosium,,,11.5,0.32,0.0,Domestic processing cost
+4,mining,AU,bastnasite,,,3.8,0.28,0.0,Domestic processing cost
+4,mining,AU,monazaite,,,0.5915,0.4896,0.0,Domestic processing cost
+4,mining,BR,bastnasite,beneficiation,US,0.0,2.5,0.0,BR→US ore; MFN 0 tariff HS2530
+4,mining,BR,bastnasite,,,0.4095,0.3672,0.0,Brazil Serra Verde; lower labor cost
+4,mining,BR,monazaite,beneficiation,US,0.0,2.5,0.0,BR→US monazite
+4,mining,BR,monazaite,,,0.4095,0.3672,0.0,Brazil monazite
+4,mining,CA,bastnasite,beneficiation,US,0.0,1.2,0.0,CA→US ore; USMCA 0 tariff
+4,mining,CA,bastnasite,,,0.819,0.7344,0.0,Canada placeholder; N.American mining costs
+4,mining,CA,monazaite,beneficiation,US,0.0,1.2,0.0,CA→US monazite; USMCA
+4,mining,CA,monazaite,,,0.819,0.7344,0.0,Canada monazite
+4,mining,CN,bastnasite,,,3.2,0.25,0.0,Domestic processing cost
+4,mining,CN,monazaite,,,0.455,0.408,0.0,Domestic processing cost
+4,mining,US,bastnasite,,,4.0,0.3,0.0,Domestic processing cost
+4,mining,US,monazaite,,,0.819,0.612,0.0,Domestic processing cost
+4,molten_salt electrolysis,CN,neodynium,chemical transformation,JP,0.0,0.0,3.0,Tariff on CN->JP cross-border flow
+4,molten_salt electrolysis,CN,neodynium,chemical transformation,US,0.0,0.0,5.0,Tariff on CN->US cross-border flow
+4,molten_salt electrolysis,CN,neodynium,,,6.0,0.2,0.0,Domestic processing cost
+4,molten_salt electrolysis,EE,neodynium,,,0.6705,0.273,0.0,Neo Silmet MSE; EU energy
+4,molten_salt electrolysis,JP,neodynium,,,8.5,0.25,0.0,Domestic processing cost
+4,molten_salt electrolysis,US,neodynium,,,9.5,0.3,0.0,Domestic processing cost
+4,pyrometallurgical,US,neodynium dysprosium iron alloy,,,5.5,0.32,0.0,Domestic processing cost
+4,sulfuric acid digestion,AU,dysprosium_oxide,,,11.2,0.32,0.0,Domestic processing cost
+4,sulfuric acid digestion,AU,neodynium_oxide,,,10.5,0.3,0.0,Domestic processing cost
+4,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+4,sulfuric acid digestion,CN,dysprosium_oxide,metallothermic reduction,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+4,sulfuric acid digestion,CN,dysprosium_oxide,,,9.5,0.3,0.0,Domestic processing cost
+4,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,JP,0.0,0.0,1.5,Tariff on CN->JP cross-border flow
+4,sulfuric acid digestion,CN,neodynium_oxide,molten_salt electrolysis,US,0.0,0.0,2.5,Tariff on CN->US cross-border flow
+4,sulfuric acid digestion,CN,neodynium_oxide,,,8.8,0.28,0.0,Domestic processing cost
+4,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+4,sulfuric acid digestion,EE,dysprosium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+4,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP DyOx; 0 tariff
+4,sulfuric acid digestion,EE,dysprosium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US DyOx; 0 tariff
+4,sulfuric acid digestion,EE,dysprosium_oxide,,,0.795,0.7635,0.0,Neo Silmet HREE
+4,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+4,sulfuric acid digestion,EE,neodynium_oxide,metallothermic reduction,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+4,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,JP,0.0,2.0,0.0,EE→JP REO; 0 tariff
+4,sulfuric acid digestion,EE,neodynium_oxide,molten_salt electrolysis,US,0.0,2.0,0.0,EE→US REO; 0 tariff
+4,sulfuric acid digestion,EE,neodynium_oxide,,,0.795,0.7635,0.0,Neo Silmet; EU-grade costs
+4,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,dysprosium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,dysprosium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,dysprosium_oxide,,,0.636,0.6108,0.0,Lynas LAMP HREE circuit
+4,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,neodynium_oxide,metallothermic reduction,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,EE,0.0,1.5,0.0,MY→EE ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,JP,0.0,1.5,0.0,MY→JP ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,neodynium_oxide,molten_salt electrolysis,US,0.0,1.5,0.0,MY→US ocean freight; 0 tariff MFN
+4,sulfuric acid digestion,MY,neodynium_oxide,,,0.636,0.6108,0.0,Lynas LAMP Kuantan; 1.2x CN cost
+4,sulfuric acid digestion,US,dysprosium_oxide,,,0.954,0.7635,0.0,Domestic processing cost
+4,sulfuric acid digestion,US,neodynium_oxide,,,1.1826,0.717,0.0,Domestic processing cost
+4,use phase,US,hp_magnet,,,0.0,0.0,0.0,Domestic processing cost

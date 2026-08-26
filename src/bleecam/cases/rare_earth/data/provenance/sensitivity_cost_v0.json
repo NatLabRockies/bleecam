@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "title": "REE OAT elasticity screen — COST objective, at data v0",
+    "method": "one-at-a-time (OAT) elasticity; each factor perturbed +10% in a temp copy, re-solved (ipopt)",
+    "elasticity": "percent change in the objective per percent change in the input; sign = direction",
+    "scenario": "scenarios/ree_baseline.yaml",
+    "factor_spec": "src/bleecam/cases/rare_earth/sensitivity_factors.yaml",
+    "data_version": "v0 (see BASELINE_v0.md)",
+    "note": "Cost hotspots: Yield (compounds across the multi-stage chain) and Processing cost. Env/social/recovery are ~0 for COST and register only under the GWP / SLCA screens.",
+    "regenerate": "bleecam-sensitivity scenarios/ree_baseline.yaml --delta 0.1 --json <path>"
+  },
+  "objective": "cost",
+  "delta": 0.1,
+  "baseline_objective": 410101.8342074822,
+  "factors": [
+    {"factor": "Yield", "file": "Yield_Factor.csv", "column": "yield", "elasticity": -1.7953411707709677, "obj_change_pct": -17.953411707709677},
+    {"factor": "Processing cost", "file": "Cost_Parameters.csv", "column": "processing cost", "elasticity": 0.8735089330541036, "obj_change_pct": 8.735089330541037},
+    {"factor": "Capacity", "file": "Capacity_Template.csv", "column": "capacity", "elasticity": -0.18135070858764551, "obj_change_pct": -1.8135070858764553},
+    {"factor": "Magnet demand", "file": "Demand_Input_Template.csv", "column": "hp_magnet_demand", "elasticity": 0.048942207307839186, "obj_change_pct": 0.4894220730783919},
+    {"factor": "Tariffs", "file": "Cost_Parameters.csv", "column": "tariff_cost", "elasticity": 0.03174085413163233, "obj_change_pct": 0.31740854131632334},
+    {"factor": "Transport cost", "file": "Cost_Parameters.csv", "column": "transportation cost", "elasticity": 0.024128668599824946, "obj_change_pct": 0.24128668599824946},
+    {"factor": "Shipping cost", "file": "Shipping_Costs.csv", "column": "shipping_cost_usd_per_kg", "elasticity": 0.0016932200699087034, "obj_change_pct": 0.016932200699087036},
+    {"factor": "Child-labor factors", "file": "Social_LCA_template.csv", "column": "SLCA_EF - Child labor impact (worker hour/kg)", "elasticity": -3.0749290637303757e-10, "obj_change_pct": -3.074929063730376e-09},
+    {"factor": "Recovery rate", "file": "Recovery_Rates.csv", "column": "recovery_rate", "elasticity": 2.4466695223769974e-11, "obj_change_pct": 2.4466695223769975e-10},
+    {"factor": "GWP factors", "file": "EF_template.csv", "column": "EF_weighted__Global Warming Potential (Gwp1000)", "elasticity": -1.419346514895578e-15, "obj_change_pct": -1.419346514895578e-14}
+  ]
+}

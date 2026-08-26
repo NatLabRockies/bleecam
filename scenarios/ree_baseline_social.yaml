@@ -1,0 +1,7 @@
+# REE baseline minimizing the child-labour S-LCA objective ('slca') — base point
+# for the social sensitivity screen. Solves with ipopt.
+#   bleecam-sensitivity scenarios/ree_baseline_social.yaml --delta 0.1 --json ree_social_sensitivity.json
+case: rare_earth
+data_dir: src/bleecam/cases/rare_earth/data
+objective: slca
+constraints: []

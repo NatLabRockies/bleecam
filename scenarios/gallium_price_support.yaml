@@ -1,0 +1,26 @@
+# Producer price-support scenario (economic lever).
+#
+# Policy question: China runs a low export price that undercuts US wafer
+# producers. If the US guarantees domestic GaN/GaAs wafer producers a competitive
+# effective price (a per-kg subsidy topping them up to `target_price`), does
+# domestic production enter the least-cost solution, and what subsidy does it cost?
+#
+# Run:  bleecam-run scenarios/gallium_price_support.yaml
+# The summary reports objective_value (buyer cost), subsidy_usd (policy outlay),
+# and resource_cost_usd (= buyer cost + subsidy, the true unsubsidized cost).
+case: gallium
+data_dir: src/bleecam/cases/gallium/data/gallium
+objective: cost
+constraints:
+  - id: price_support
+    params:
+      material: GaN_wafer
+      location: US
+      process: "Wafer manufacturing"
+      target_price: 1200        # $/kg the US guarantees domestic producers
+  - id: price_support
+    params:
+      material: GaAs_wafer
+      location: US
+      process: "Wafer manufacturing"
+      target_price: 1200

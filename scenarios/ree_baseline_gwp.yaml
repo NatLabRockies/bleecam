@@ -1,0 +1,7 @@
+# REE baseline minimizing GWP (life-cycle emissions) — base point for the GWP
+# sensitivity screen. Solves with ipopt.
+#   bleecam-sensitivity scenarios/ree_baseline_gwp.yaml --delta 0.1 --json ree_gwp_sensitivity.json
+case: rare_earth
+data_dir: src/bleecam/cases/rare_earth/data
+objective: gwp
+constraints: []

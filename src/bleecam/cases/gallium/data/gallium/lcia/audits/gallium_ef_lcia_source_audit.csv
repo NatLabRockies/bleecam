@@ -1,0 +1,11 @@
+source_column,meaning,used_in_ef_conversion,notes
+scope,LiAISON scope label; total_life_cycle is used for optimizer emission factors,yes_filter,Filtered to scope == total_life_cycle. Scope1/Scope2 rows retained only in source package.
+process,LiAISON foreground process name,yes_key,Mapped directly to BLEECAM source.
+process_location,BLEECAM topology process location used during topology-expanded LiAISON run,yes_key,Mapped directly to BLEECAM location.
+flow,Production flow / topology output material,yes_key,Mapped directly to BLEECAM material.
+lcia_method,LCIA method family from LiAISON output,yes_pivot_column,TRACI2.1 normalized to EF_TRACI; RECIPE normalized to EF_RECIPE.
+lcia_category,LCIA impact category name,yes_pivot_column,Used after method prefix in wide EF column names.
+value,LCIA result value per kg topology material output,yes_value,Static node-level step-wise factor; duplicate identical labels collapsed by first value.
+unit,LCIA result unit,yes_traceability,Units summarized in optional unit column and detailed in LCIA source file.
+database,Brightway/premise database label from LiAISON run,yes_traceability,Recorded in comments/source lineage.
+raw_file,Sanitized pointer to raw LiAISON output file,yes_traceability,Used in lcia_source_file traceability column.

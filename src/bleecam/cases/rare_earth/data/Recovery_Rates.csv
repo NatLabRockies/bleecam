@@ -1,0 +1,26 @@
+time_period,source,source_location,destination,destination_location,material,recovery_rate,notes
+0,use phase,US,cryogenic,US,hp_magnet,0.7,EoL recovery rate — cryogenic
+0,use phase,US,direct reuse,US,hp_magnet,0.95,EoL recovery rate — direct reuse
+0,use phase,US,hydrometallurgical,US,hp_magnet,0.8,EoL recovery rate — hydrometallurgical
+0,use phase,US,magnet-to-magnet recycling,US,hp_magnet,0.85,EoL recovery rate — magnet-to-magnet recycling
+0,use phase,US,pyrometallurgical,US,hp_magnet,0.75,EoL recovery rate — pyrometallurgical
+1,use phase,US,cryogenic,US,hp_magnet,0.705,EoL recovery rate — cryogenic
+1,use phase,US,direct reuse,US,hp_magnet,0.955,EoL recovery rate — direct reuse
+1,use phase,US,hydrometallurgical,US,hp_magnet,0.805,EoL recovery rate — hydrometallurgical
+1,use phase,US,magnet-to-magnet recycling,US,hp_magnet,0.855,EoL recovery rate — magnet-to-magnet recycling
+1,use phase,US,pyrometallurgical,US,hp_magnet,0.755,EoL recovery rate — pyrometallurgical
+2,use phase,US,cryogenic,US,hp_magnet,0.71,EoL recovery rate — cryogenic
+2,use phase,US,direct reuse,US,hp_magnet,0.96,EoL recovery rate — direct reuse
+2,use phase,US,hydrometallurgical,US,hp_magnet,0.81,EoL recovery rate — hydrometallurgical
+2,use phase,US,magnet-to-magnet recycling,US,hp_magnet,0.86,EoL recovery rate — magnet-to-magnet recycling
+2,use phase,US,pyrometallurgical,US,hp_magnet,0.76,EoL recovery rate — pyrometallurgical
+3,use phase,US,cryogenic,US,hp_magnet,0.715,EoL recovery rate — cryogenic
+3,use phase,US,direct reuse,US,hp_magnet,0.965,EoL recovery rate — direct reuse
+3,use phase,US,hydrometallurgical,US,hp_magnet,0.815,EoL recovery rate — hydrometallurgical
+3,use phase,US,magnet-to-magnet recycling,US,hp_magnet,0.865,EoL recovery rate — magnet-to-magnet recycling
+3,use phase,US,pyrometallurgical,US,hp_magnet,0.765,EoL recovery rate — pyrometallurgical
+4,use phase,US,cryogenic,US,hp_magnet,0.72,EoL recovery rate — cryogenic
+4,use phase,US,direct reuse,US,hp_magnet,0.97,EoL recovery rate — direct reuse
+4,use phase,US,hydrometallurgical,US,hp_magnet,0.82,EoL recovery rate — hydrometallurgical
+4,use phase,US,magnet-to-magnet recycling,US,hp_magnet,0.87,EoL recovery rate — magnet-to-magnet recycling
+4,use phase,US,pyrometallurgical,US,hp_magnet,0.77,EoL recovery rate — pyrometallurgical

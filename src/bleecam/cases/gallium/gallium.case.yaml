@@ -1,0 +1,38 @@
+# BLEECAM case configuration — Gallium (GaAs / GaN wafer supply chain).
+# Declarative replacement for the hand-written declarations in config_ga.py.
+# Processes / materials / locations are DERIVED FROM THE DATA (not listed here).
+case: gallium
+description: Gallium (GaAs / GaN wafer) supply chain
+units: kg
+time_periods: 6            # periods 0..5
+flow_scale: 1.0
+
+demand:
+  location: US
+  materials: [GaAs_wafer, GaN_wafer]
+  source_process: wafer_market_mix
+  sink_process: wafer_demand
+  flow: wafer_demand
+  slack_penalty: 1.0e9     # $/kg penalty on unmet demand
+
+solver:
+  # Gallium is a pure LP — prefer HiGHS (exact, fast). ipopt is an NLP solver and
+  # can stall ("Max Iterations Exceeded") on this linear model, so it is only a
+  # fallback here. (REE is nonlinear and keeps ipopt first, in its own config.)
+  candidates: [appsi_highs, highs, ipopt, appsi_ipopt, glpk, cbc]
+  flow_tolerance: 1.0e-7
+
+baseline_scenario: baseline_Ga
+
+data:
+  dir: data/gallium
+  results_csv: gallium_model_results.csv
+  files:
+    cost: cost_parameters_ga.csv
+    shipping: shipping_costs_ga.csv
+    demand: demand_ga.csv
+    capacity: capacity_template_ga.csv
+    yield: yield_ga.csv
+    trade_topology: trade_topology_ga.csv
+    emission_factors: EF_Template.csv
+    social_lca: social_lca_template_ga.csv

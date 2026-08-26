@@ -1,0 +1,711 @@
+time_period,source,location,material,SLCA_EF - Child labor impact (worker hour/kg),SLCA_EF - Forced labor impact (worker hour/kg),SLCA_EF - Fatal injury impact (worker hour/kg),SLCA_EF - Non-fatal injury impact (worker hour/kg),SLCA_EF - Unemployment impact (worker hour/kg)
+0,beneficiation,AU,flurocarbonate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+0,beneficiation,BR,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,CA,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,CN,flurocarbonate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+0,beneficiation,EE,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,JP,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,MM,flurocarbonate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+0,beneficiation,MY,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,US,flurocarbonate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+0,beneficiation,AU,phosphate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+0,beneficiation,BR,phosphate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,CA,phosphate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,CN,phosphate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+0,beneficiation,EE,phosphate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,JP,phosphate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,MM,phosphate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+0,beneficiation,MY,phosphate,Not available,Not available,Not available,Not available,Not available
+0,beneficiation,US,phosphate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+0,chemical transformation,AU,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,chemical transformation,BR,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,chemical transformation,CA,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,chemical transformation,CN,neodynium dysprosium iron alloy,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+0,chemical transformation,EE,neodynium dysprosium iron alloy,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+0,chemical transformation,JP,neodynium dysprosium iron alloy,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+0,chemical transformation,MM,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,chemical transformation,MY,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,chemical transformation,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,clay mining,AU,ion adsorption clay,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+0,clay mining,BR,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+0,clay mining,CA,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+0,clay mining,CN,ion adsorption clay,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+0,clay mining,EE,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+0,clay mining,JP,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+0,clay mining,MM,ion adsorption clay,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+0,clay mining,MY,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+0,clay mining,US,ion adsorption clay,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+0,clay refining,AU,dysprosium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+0,clay refining,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,CN,dysprosium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+0,clay refining,EE,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,MM,dysprosium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+0,clay refining,MY,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,US,dysprosium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+0,clay refining,AU,neodynium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+0,clay refining,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,CN,neodynium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+0,clay refining,EE,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,MM,neodynium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+0,clay refining,MY,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,clay refining,US,neodynium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+0,hydrochloric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+0,hydrochloric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+0,hydrochloric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+0,hydrochloric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+0,hydrochloric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+0,hydrochloric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,hydrochloric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+0,hydrochloric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,magnet manufacturing,AU,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,magnet manufacturing,BR,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,magnet manufacturing,CA,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,magnet manufacturing,CN,hp_magnet,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+0,magnet manufacturing,EE,hp_magnet,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+0,magnet manufacturing,JP,hp_magnet,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+0,magnet manufacturing,MM,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,magnet manufacturing,MY,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,magnet manufacturing,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,AU,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,BR,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,CA,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,CN,dysprosium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+0,metallothermic reduction,EE,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,JP,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,MM,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,MY,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,metallothermic reduction,US,dysprosium,Not available,Not available,Not available,Not available,Not available
+0,mining,AU,bastnasite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+0,mining,BR,bastnasite,Not available,Not available,Not available,Not available,Not available
+0,mining,CA,bastnasite,Not available,Not available,Not available,Not available,Not available
+0,mining,CN,bastnasite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+0,mining,EE,bastnasite,Not available,Not available,Not available,Not available,Not available
+0,mining,JP,bastnasite,Not available,Not available,Not available,Not available,Not available
+0,mining,MM,bastnasite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+0,mining,MY,bastnasite,Not available,Not available,Not available,Not available,Not available
+0,mining,US,bastnasite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+0,mining,AU,monazaite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+0,mining,BR,monazaite,Not available,Not available,Not available,Not available,Not available
+0,mining,CA,monazaite,Not available,Not available,Not available,Not available,Not available
+0,mining,CN,monazaite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+0,mining,EE,monazaite,Not available,Not available,Not available,Not available,Not available
+0,mining,JP,monazaite,Not available,Not available,Not available,Not available,Not available
+0,mining,MM,monazaite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+0,mining,MY,monazaite,Not available,Not available,Not available,Not available,Not available
+0,mining,US,monazaite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+0,molten_salt electrolysis,AU,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,BR,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,CA,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,CN,neodynium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+0,molten_salt electrolysis,EE,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,JP,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,MM,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,MY,neodynium,Not available,Not available,Not available,Not available,Not available
+0,molten_salt electrolysis,US,neodynium,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+0,sulfuric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+0,sulfuric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+0,sulfuric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+0,sulfuric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+0,sulfuric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,sulfuric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+0,sulfuric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+0,cryogenic,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,direct reuse,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,hydrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,magnet-to-magnet recycling,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,magnet_market_mix,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+0,pyrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+0,use phase,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,AU,flurocarbonate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+1,beneficiation,BR,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,CA,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,CN,flurocarbonate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+1,beneficiation,EE,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,JP,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,MM,flurocarbonate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+1,beneficiation,MY,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,US,flurocarbonate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+1,beneficiation,AU,phosphate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+1,beneficiation,BR,phosphate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,CA,phosphate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,CN,phosphate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+1,beneficiation,EE,phosphate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,JP,phosphate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,MM,phosphate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+1,beneficiation,MY,phosphate,Not available,Not available,Not available,Not available,Not available
+1,beneficiation,US,phosphate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+1,chemical transformation,AU,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,chemical transformation,BR,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,chemical transformation,CA,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,chemical transformation,CN,neodynium dysprosium iron alloy,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+1,chemical transformation,EE,neodynium dysprosium iron alloy,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+1,chemical transformation,JP,neodynium dysprosium iron alloy,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+1,chemical transformation,MM,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,chemical transformation,MY,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,chemical transformation,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,clay mining,AU,ion adsorption clay,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+1,clay mining,BR,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+1,clay mining,CA,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+1,clay mining,CN,ion adsorption clay,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+1,clay mining,EE,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+1,clay mining,JP,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+1,clay mining,MM,ion adsorption clay,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+1,clay mining,MY,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+1,clay mining,US,ion adsorption clay,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+1,clay refining,AU,dysprosium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+1,clay refining,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,CN,dysprosium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+1,clay refining,EE,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,MM,dysprosium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+1,clay refining,MY,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,US,dysprosium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+1,clay refining,AU,neodynium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+1,clay refining,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,CN,neodynium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+1,clay refining,EE,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,MM,neodynium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+1,clay refining,MY,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,clay refining,US,neodynium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+1,hydrochloric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+1,hydrochloric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+1,hydrochloric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+1,hydrochloric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+1,hydrochloric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+1,hydrochloric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,hydrochloric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+1,hydrochloric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,magnet manufacturing,AU,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,magnet manufacturing,BR,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,magnet manufacturing,CA,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,magnet manufacturing,CN,hp_magnet,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+1,magnet manufacturing,EE,hp_magnet,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+1,magnet manufacturing,JP,hp_magnet,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+1,magnet manufacturing,MM,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,magnet manufacturing,MY,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,magnet manufacturing,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,AU,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,BR,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,CA,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,CN,dysprosium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+1,metallothermic reduction,EE,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,JP,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,MM,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,MY,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,metallothermic reduction,US,dysprosium,Not available,Not available,Not available,Not available,Not available
+1,mining,AU,bastnasite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+1,mining,BR,bastnasite,Not available,Not available,Not available,Not available,Not available
+1,mining,CA,bastnasite,Not available,Not available,Not available,Not available,Not available
+1,mining,CN,bastnasite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+1,mining,EE,bastnasite,Not available,Not available,Not available,Not available,Not available
+1,mining,JP,bastnasite,Not available,Not available,Not available,Not available,Not available
+1,mining,MM,bastnasite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+1,mining,MY,bastnasite,Not available,Not available,Not available,Not available,Not available
+1,mining,US,bastnasite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+1,mining,AU,monazaite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+1,mining,BR,monazaite,Not available,Not available,Not available,Not available,Not available
+1,mining,CA,monazaite,Not available,Not available,Not available,Not available,Not available
+1,mining,CN,monazaite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+1,mining,EE,monazaite,Not available,Not available,Not available,Not available,Not available
+1,mining,JP,monazaite,Not available,Not available,Not available,Not available,Not available
+1,mining,MM,monazaite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+1,mining,MY,monazaite,Not available,Not available,Not available,Not available,Not available
+1,mining,US,monazaite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+1,molten_salt electrolysis,AU,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,BR,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,CA,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,CN,neodynium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+1,molten_salt electrolysis,EE,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,JP,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,MM,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,MY,neodynium,Not available,Not available,Not available,Not available,Not available
+1,molten_salt electrolysis,US,neodynium,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+1,sulfuric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+1,sulfuric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+1,sulfuric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+1,sulfuric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+1,sulfuric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,sulfuric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+1,sulfuric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+1,cryogenic,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,direct reuse,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,hydrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,magnet-to-magnet recycling,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,magnet_market_mix,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+1,pyrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+1,use phase,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,AU,flurocarbonate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+2,beneficiation,BR,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,CA,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,CN,flurocarbonate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+2,beneficiation,EE,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,JP,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,MM,flurocarbonate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+2,beneficiation,MY,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,US,flurocarbonate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+2,beneficiation,AU,phosphate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+2,beneficiation,BR,phosphate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,CA,phosphate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,CN,phosphate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+2,beneficiation,EE,phosphate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,JP,phosphate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,MM,phosphate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+2,beneficiation,MY,phosphate,Not available,Not available,Not available,Not available,Not available
+2,beneficiation,US,phosphate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+2,chemical transformation,AU,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,chemical transformation,BR,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,chemical transformation,CA,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,chemical transformation,CN,neodynium dysprosium iron alloy,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+2,chemical transformation,EE,neodynium dysprosium iron alloy,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+2,chemical transformation,JP,neodynium dysprosium iron alloy,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+2,chemical transformation,MM,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,chemical transformation,MY,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,chemical transformation,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,clay mining,AU,ion adsorption clay,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+2,clay mining,BR,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+2,clay mining,CA,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+2,clay mining,CN,ion adsorption clay,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+2,clay mining,EE,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+2,clay mining,JP,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+2,clay mining,MM,ion adsorption clay,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+2,clay mining,MY,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+2,clay mining,US,ion adsorption clay,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+2,clay refining,AU,dysprosium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+2,clay refining,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,CN,dysprosium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+2,clay refining,EE,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,MM,dysprosium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+2,clay refining,MY,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,US,dysprosium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+2,clay refining,AU,neodynium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+2,clay refining,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,CN,neodynium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+2,clay refining,EE,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,MM,neodynium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+2,clay refining,MY,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,clay refining,US,neodynium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+2,hydrochloric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+2,hydrochloric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+2,hydrochloric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+2,hydrochloric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+2,hydrochloric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+2,hydrochloric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,hydrochloric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+2,hydrochloric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,magnet manufacturing,AU,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,magnet manufacturing,BR,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,magnet manufacturing,CA,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,magnet manufacturing,CN,hp_magnet,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+2,magnet manufacturing,EE,hp_magnet,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+2,magnet manufacturing,JP,hp_magnet,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+2,magnet manufacturing,MM,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,magnet manufacturing,MY,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,magnet manufacturing,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,AU,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,BR,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,CA,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,CN,dysprosium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+2,metallothermic reduction,EE,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,JP,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,MM,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,MY,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,metallothermic reduction,US,dysprosium,Not available,Not available,Not available,Not available,Not available
+2,mining,AU,bastnasite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+2,mining,BR,bastnasite,Not available,Not available,Not available,Not available,Not available
+2,mining,CA,bastnasite,Not available,Not available,Not available,Not available,Not available
+2,mining,CN,bastnasite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+2,mining,EE,bastnasite,Not available,Not available,Not available,Not available,Not available
+2,mining,JP,bastnasite,Not available,Not available,Not available,Not available,Not available
+2,mining,MM,bastnasite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+2,mining,MY,bastnasite,Not available,Not available,Not available,Not available,Not available
+2,mining,US,bastnasite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+2,mining,AU,monazaite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+2,mining,BR,monazaite,Not available,Not available,Not available,Not available,Not available
+2,mining,CA,monazaite,Not available,Not available,Not available,Not available,Not available
+2,mining,CN,monazaite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+2,mining,EE,monazaite,Not available,Not available,Not available,Not available,Not available
+2,mining,JP,monazaite,Not available,Not available,Not available,Not available,Not available
+2,mining,MM,monazaite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+2,mining,MY,monazaite,Not available,Not available,Not available,Not available,Not available
+2,mining,US,monazaite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+2,molten_salt electrolysis,AU,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,BR,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,CA,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,CN,neodynium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+2,molten_salt electrolysis,EE,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,JP,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,MM,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,MY,neodynium,Not available,Not available,Not available,Not available,Not available
+2,molten_salt electrolysis,US,neodynium,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+2,sulfuric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+2,sulfuric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+2,sulfuric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+2,sulfuric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+2,sulfuric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,sulfuric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+2,sulfuric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+2,cryogenic,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,direct reuse,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,hydrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,magnet-to-magnet recycling,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,magnet_market_mix,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+2,pyrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+2,use phase,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,AU,flurocarbonate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+3,beneficiation,BR,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,CA,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,CN,flurocarbonate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+3,beneficiation,EE,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,JP,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,MM,flurocarbonate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+3,beneficiation,MY,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,US,flurocarbonate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+3,beneficiation,AU,phosphate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+3,beneficiation,BR,phosphate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,CA,phosphate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,CN,phosphate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+3,beneficiation,EE,phosphate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,JP,phosphate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,MM,phosphate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+3,beneficiation,MY,phosphate,Not available,Not available,Not available,Not available,Not available
+3,beneficiation,US,phosphate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+3,chemical transformation,AU,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,chemical transformation,BR,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,chemical transformation,CA,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,chemical transformation,CN,neodynium dysprosium iron alloy,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+3,chemical transformation,EE,neodynium dysprosium iron alloy,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+3,chemical transformation,JP,neodynium dysprosium iron alloy,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+3,chemical transformation,MM,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,chemical transformation,MY,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,chemical transformation,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,clay mining,AU,ion adsorption clay,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+3,clay mining,BR,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+3,clay mining,CA,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+3,clay mining,CN,ion adsorption clay,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+3,clay mining,EE,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+3,clay mining,JP,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+3,clay mining,MM,ion adsorption clay,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+3,clay mining,MY,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+3,clay mining,US,ion adsorption clay,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+3,clay refining,AU,dysprosium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+3,clay refining,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,CN,dysprosium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+3,clay refining,EE,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,MM,dysprosium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+3,clay refining,MY,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,US,dysprosium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+3,clay refining,AU,neodynium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+3,clay refining,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,CN,neodynium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+3,clay refining,EE,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,MM,neodynium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+3,clay refining,MY,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,clay refining,US,neodynium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+3,hydrochloric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+3,hydrochloric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+3,hydrochloric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+3,hydrochloric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+3,hydrochloric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+3,hydrochloric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,hydrochloric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+3,hydrochloric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,magnet manufacturing,AU,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,magnet manufacturing,BR,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,magnet manufacturing,CA,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,magnet manufacturing,CN,hp_magnet,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+3,magnet manufacturing,EE,hp_magnet,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+3,magnet manufacturing,JP,hp_magnet,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+3,magnet manufacturing,MM,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,magnet manufacturing,MY,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,magnet manufacturing,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,AU,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,BR,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,CA,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,CN,dysprosium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+3,metallothermic reduction,EE,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,JP,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,MM,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,MY,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,metallothermic reduction,US,dysprosium,Not available,Not available,Not available,Not available,Not available
+3,mining,AU,bastnasite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+3,mining,BR,bastnasite,Not available,Not available,Not available,Not available,Not available
+3,mining,CA,bastnasite,Not available,Not available,Not available,Not available,Not available
+3,mining,CN,bastnasite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+3,mining,EE,bastnasite,Not available,Not available,Not available,Not available,Not available
+3,mining,JP,bastnasite,Not available,Not available,Not available,Not available,Not available
+3,mining,MM,bastnasite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+3,mining,MY,bastnasite,Not available,Not available,Not available,Not available,Not available
+3,mining,US,bastnasite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+3,mining,AU,monazaite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+3,mining,BR,monazaite,Not available,Not available,Not available,Not available,Not available
+3,mining,CA,monazaite,Not available,Not available,Not available,Not available,Not available
+3,mining,CN,monazaite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+3,mining,EE,monazaite,Not available,Not available,Not available,Not available,Not available
+3,mining,JP,monazaite,Not available,Not available,Not available,Not available,Not available
+3,mining,MM,monazaite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+3,mining,MY,monazaite,Not available,Not available,Not available,Not available,Not available
+3,mining,US,monazaite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+3,molten_salt electrolysis,AU,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,BR,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,CA,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,CN,neodynium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+3,molten_salt electrolysis,EE,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,JP,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,MM,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,MY,neodynium,Not available,Not available,Not available,Not available,Not available
+3,molten_salt electrolysis,US,neodynium,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+3,sulfuric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+3,sulfuric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+3,sulfuric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+3,sulfuric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+3,sulfuric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,sulfuric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+3,sulfuric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+3,cryogenic,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,direct reuse,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,hydrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,magnet-to-magnet recycling,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,magnet_market_mix,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+3,pyrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+3,use phase,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,AU,flurocarbonate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+4,beneficiation,BR,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,CA,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,CN,flurocarbonate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+4,beneficiation,EE,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,JP,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,MM,flurocarbonate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+4,beneficiation,MY,flurocarbonate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,US,flurocarbonate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+4,beneficiation,AU,phosphate,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+4,beneficiation,BR,phosphate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,CA,phosphate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,CN,phosphate,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+4,beneficiation,EE,phosphate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,JP,phosphate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,MM,phosphate,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+4,beneficiation,MY,phosphate,Not available,Not available,Not available,Not available,Not available
+4,beneficiation,US,phosphate,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+4,chemical transformation,AU,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,chemical transformation,BR,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,chemical transformation,CA,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,chemical transformation,CN,neodynium dysprosium iron alloy,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+4,chemical transformation,EE,neodynium dysprosium iron alloy,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+4,chemical transformation,JP,neodynium dysprosium iron alloy,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+4,chemical transformation,MM,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,chemical transformation,MY,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,chemical transformation,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,clay mining,AU,ion adsorption clay,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+4,clay mining,BR,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+4,clay mining,CA,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+4,clay mining,CN,ion adsorption clay,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+4,clay mining,EE,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+4,clay mining,JP,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+4,clay mining,MM,ion adsorption clay,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+4,clay mining,MY,ion adsorption clay,Not available,Not available,Not available,Not available,Not available
+4,clay mining,US,ion adsorption clay,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+4,clay refining,AU,dysprosium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+4,clay refining,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,CN,dysprosium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+4,clay refining,EE,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,MM,dysprosium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+4,clay refining,MY,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,US,dysprosium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+4,clay refining,AU,neodynium_oxide,2.59E-05,2.59E-05,2.59E-05,0.000259219,-0.000259219
+4,clay refining,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,CN,neodynium_oxide,0.000162012,0.001620119,0.000162012,0.000162012,-0.001620119
+4,clay refining,EE,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,MM,neodynium_oxide,0.000259219,0.025921902,2.59E-05,2.59E-05,-2.59E-05
+4,clay refining,MY,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,clay refining,US,neodynium_oxide,2.16E-06,2.16E-06,2.16E-06,0.000216016,-2.16E-05
+4,hydrochloric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+4,hydrochloric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+4,hydrochloric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+4,hydrochloric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+4,hydrochloric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+4,hydrochloric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,hydrochloric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+4,hydrochloric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,magnet manufacturing,AU,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,magnet manufacturing,BR,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,magnet manufacturing,CA,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,magnet manufacturing,CN,hp_magnet,4.45E-05,0.000444986,4.45E-05,4.45E-05,-0.000444986
+4,magnet manufacturing,EE,hp_magnet,9.57E-07,9.57E-07,9.57E-07,9.57E-07,-9.57E-05
+4,magnet manufacturing,JP,hp_magnet,2.39E-06,2.39E-06,2.39E-06,2.39E-06,-2.39E-06
+4,magnet manufacturing,MM,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,magnet manufacturing,MY,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,magnet manufacturing,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,AU,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,BR,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,CA,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,CN,dysprosium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+4,metallothermic reduction,EE,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,JP,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,MM,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,MY,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,metallothermic reduction,US,dysprosium,Not available,Not available,Not available,Not available,Not available
+4,mining,AU,bastnasite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+4,mining,BR,bastnasite,Not available,Not available,Not available,Not available,Not available
+4,mining,CA,bastnasite,Not available,Not available,Not available,Not available,Not available
+4,mining,CN,bastnasite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+4,mining,EE,bastnasite,Not available,Not available,Not available,Not available,Not available
+4,mining,JP,bastnasite,Not available,Not available,Not available,Not available,Not available
+4,mining,MM,bastnasite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+4,mining,MY,bastnasite,Not available,Not available,Not available,Not available,Not available
+4,mining,US,bastnasite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+4,mining,AU,monazaite,6.33E-07,6.33E-07,6.33E-07,6.33E-06,-6.33E-06
+4,mining,BR,monazaite,Not available,Not available,Not available,Not available,Not available
+4,mining,CA,monazaite,Not available,Not available,Not available,Not available,Not available
+4,mining,CN,monazaite,3.96E-06,3.96E-05,3.96E-06,3.96E-06,-3.96E-05
+4,mining,EE,monazaite,Not available,Not available,Not available,Not available,Not available
+4,mining,JP,monazaite,Not available,Not available,Not available,Not available,Not available
+4,mining,MM,monazaite,6.33E-06,0.00063307,6.33E-07,6.33E-07,-6.33E-07
+4,mining,MY,monazaite,Not available,Not available,Not available,Not available,Not available
+4,mining,US,monazaite,5.28E-08,5.28E-08,5.28E-08,5.28E-06,-5.28E-07
+4,molten_salt electrolysis,AU,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,BR,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,CA,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,CN,neodynium,0.000255319,0.002553191,0.000255319,0.000255319,-0.002553191
+4,molten_salt electrolysis,EE,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,JP,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,MM,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,MY,neodynium,Not available,Not available,Not available,Not available,Not available
+4,molten_salt electrolysis,US,neodynium,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,AU,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,BR,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,CA,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,CN,dysprosium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+4,sulfuric acid digestion,EE,dysprosium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+4,sulfuric acid digestion,JP,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,MM,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,MY,dysprosium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+4,sulfuric acid digestion,US,dysprosium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,AU,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,BR,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,CA,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,CN,neodynium_oxide,0.000709289,0.007092891,0.000709289,0.000709289,-0.007092891
+4,sulfuric acid digestion,EE,neodynium_oxide,4.17E-05,0.000417229,4.17E-05,0.000417229,-0.000417229
+4,sulfuric acid digestion,JP,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,MM,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,sulfuric acid digestion,MY,neodynium_oxide,4.17E-05,0.000417229,0.004172289,0.417228853,-0.000417229
+4,sulfuric acid digestion,US,neodynium_oxide,Not available,Not available,Not available,Not available,Not available
+4,cryogenic,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,direct reuse,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,hydrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,magnet-to-magnet recycling,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,magnet_market_mix,US,hp_magnet,Not available,Not available,Not available,Not available,Not available
+4,pyrometallurgical,US,neodynium dysprosium iron alloy,Not available,Not available,Not available,Not available,Not available
+4,use phase,US,hp_magnet,Not available,Not available,Not available,Not available,Not available

@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bleecam"
+version = "0.1.0b1"
+description = "Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
+authors = [
+  { name = "Sherif Khalifa" },
+]
+keywords = ["critical minerals", "life cycle assessment", "supply chain optimization", "techno-economic analysis"]
+dependencies = [
+  "pyomo>=6.7.0",
+  "pandas>=2.0.0",
+  "numpy>=1.24.0",
+  "openpyxl>=3.1.0",
+  "scipy>=1.10.0",
+  "pyaugmecon>=1.0.0",
+  "pyyaml>=6.0",
+  # Bundled LP/MILP solver (pip wheel, no system binary). Used by the linear
+  # cases (e.g. gallium) so a working solver is always available out of the box.
+  # The nonlinear rare-earth case additionally needs ipopt (installed separately).
+  "highspy>=1.7.0",
+]
+
+[project.optional-dependencies]
+viz = [
+  "matplotlib>=3.6",
+  "pycirclize>=1.0",
+  "Pillow>=9.0",
+]
+test = [
+  "pytest>=7.4",
+  "SALib>=1.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/NatLabRockies/bleecam"
+
+[project.scripts]
+bleecam-ree = "bleecam.cases.rare_earth.REE:main"
+bleecam-ga = "bleecam.cases.gallium.gallium_pyomo:main"
+bleecam-ga-pareto = "bleecam.cases.gallium.gallium_pareto:main"
+bleecam-run = "bleecam.core.scenario:main"
+bleecam-lib = "bleecam.core.criticality.cli:main"
+bleecam-sensitivity = "bleecam.core.sensitivity:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["bleecam*"]
+
+[tool.setuptools.package-data]
+"bleecam" = ["cases/**/data/**/*"]
+
+[tool.pytest.ini_options]
+# The repo directory is itself named "bleecam"; without importlib mode pytest
+# puts the repo's parent on sys.path and `import bleecam` resolves to the repo
+# root (a namespace dir) instead of src/bleecam. importlib mode + pythonpath
+# make the src-layout package resolve deterministically.
+addopts = "-ra --import-mode=importlib"
+testpaths = ["tests"]
+pythonpath = ["src"]
