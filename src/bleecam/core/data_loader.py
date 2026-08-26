@@ -10,7 +10,8 @@ builder consumes — the same maps a case's bespoke loader produces, minus any
 material-specific business rules. This is what lets a NEW material (e.g. copper)
 be loaded with no per-case loader: fill the case YAML + drop in the CSVs.
 
-Standard CSV schema (same columns the Gallium package uses):
+Standard CSV schema (same columns the Gallium package uses)::
+
   trade_topology : process_from, loc_from, process_to, loc_to, material
   demand         : time_period, location, material, demand_kg   (+ optional scenario, flow)
   capacity       : time_period, process, location, material, capacity
@@ -18,6 +19,7 @@ Standard CSV schema (same columns the Gallium package uses):
                    destination_location, processing cost, transportation cost, tariff_cost
   yield          : time_period, process, location, material, yield
   shipping       : time_period, loc_from, loc_to, shipping_cost_usd_per_kg
+
 Environmental (EF_*) and social (SLCA*) factor tables are attached via the
 engine-agnostic contract in :mod:`bleecam.core.lca_import`.
 """

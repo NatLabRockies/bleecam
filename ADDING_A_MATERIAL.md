@@ -107,4 +107,4 @@ rare earths) add a thin case constraints module for the special chemistry, and s
 inherit the optimization, the library, multi-objective analysis, and LCA integration.
 
 Questions or a mineral you'd like to see supported? See
-[`CONTRIBUTING.md`](CONTRIBUTING.md).
+[`CONTRIBUTING.md`](https://github.com/NatLabRockies/bleecam/blob/main/CONTRIBUTING.md).

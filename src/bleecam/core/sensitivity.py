@@ -12,6 +12,7 @@ to prioritise the data audit — ahead of a full variance-based (Sobol) analysis
 which needs the credible input ranges the audit produces.
 
 Design:
+
 - **Non-destructive.** Perturbation scales a column in a *temp copy* of the data;
   the original input files are never touched.
 - **Case-agnostic.** A factor is ``(file, column)`` and is applied through each

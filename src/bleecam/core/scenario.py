@@ -5,7 +5,7 @@
 """Run a BLEECAM scenario from a YAML file — no Python required.
 
 A scenario file declares the case, data, objective, and a list of criticality
-constraints (by id, with parameters) to compose onto the model:
+constraints (by id, with parameters) to compose onto the model::
 
     case: gallium
     data_dir: src/bleecam/cases/gallium/data/gallium
