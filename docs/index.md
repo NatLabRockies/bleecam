@@ -1,27 +1,27 @@
 # BLEECAM Documentation
 
-**Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials**
+Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials
 
 :::{admonition} Public beta — v0.1.0-beta.1
 :class: warning
-BLEECAM is released as a **beta** for transparency and community feedback. Public
+BLEECAM is released as a beta for transparency and community feedback. Public
 APIs, input data (the "golden inputs"), and numerical results may change between
-releases without notice. All outputs are **illustrative analytical results, not
-decision-grade guidance** for policy, investment, or operations — see the
+releases without notice. All outputs are illustrative analytical results, not
+decision-grade guidance for policy, investment, or operations — see the
 [Disclaimer](disclaimer). Please report problems and suggestions via
 [GitHub Issues](https://github.com/NatLabRockies/bleecam/issues).
 :::
 
-BLEECAM is an **optimization-driven benchmarking and evaluation framework** for
+BLEECAM is an optimization-driven benchmarking and evaluation framework for
 global critical-mineral and material (CMM) supply chains, developed at the
-**National Laboratory of the Rockies (NLR)** with funding from the
-**U.S. Department of Energy's Advanced Materials and Manufacturing Technologies
-Office (DOE AMMTO)**.
+National Laboratory of the Rockies (NLR) with funding from the
+U.S. Department of Energy's Advanced Materials and Manufacturing Technologies
+Office (DOE AMMTO).
 
 Given a scenario — baseline, disruption, or policy — BLEECAM *solves* for the
 supply-chain configuration that best meets demand under real-world constraints
-(capacity, trade topology, tariffs, yields), and reports integrated **economic
-(TEA/LCC)**, **environmental (LCA-derived)**, and **social (S-LCA)** metrics,
+(capacity, trade topology, tariffs, yields), and reports integrated economic
+(TEA/LCC), environmental (LCA-derived), and social (S-LCA) metrics,
 including the multi-objective trade-off frontier.
 
 ::::{grid} 1 1 2 2
@@ -54,11 +54,11 @@ Benchmark a different mineral — a case YAML and CSVs, no engine changes.
 
 ## What BLEECAM is — and is not
 
-BLEECAM is **LCA-integrating, not an LCA tool.** It *consumes* life-cycle impact
+BLEECAM is LCA-integrating, not an LCA tool. It *consumes* life-cycle impact
 factors as one of its three metric dimensions; it performs no inventory modeling
 and no impact characterization. Those factors arrive through a documented
-emission-factor contract, from the first-party **LiAISON** engine or any tool
-(e.g. **openLCA**) that emits to that contract. The optimization is the
+emission-factor contract, from the first-party LiAISON engine or any tool
+(e.g. openLCA) that emits to that contract. The optimization is the
 differentiator; the benchmarking is what it delivers.
 
 ```{toctree}
@@ -69,6 +69,14 @@ differentiator; the benchmarking is what it delivers.
 installation
 quickstart
 concepts
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Tutorials
+:hidden:
+
+tutorials/index
 ```
 
 ```{toctree}

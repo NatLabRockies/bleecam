@@ -28,12 +28,12 @@ different needs:
 * - Case
   - Model type
   - Solver
-* - **Gallium** (and other linear cases)
+* - Gallium (and other linear cases)
   - LP / MILP
-  - **HiGHS** — bundled as the `highspy` pip wheel, no system binary required. Works out of the box.
-* - **Rare earth** (nonlinear terms) and **Pareto** runs
+  - HiGHS — bundled as the `highspy` pip wheel, no system binary required. Works out of the box.
+* - Rare earth (nonlinear terms) and Pareto runs
   - NLP
-  - **ipopt** — installed separately (it is not a pip wheel).
+  - ipopt — installed separately (it is not a pip wheel).
 ```
 
 The simplest way to obtain `ipopt` is via conda:

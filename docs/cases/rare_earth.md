@@ -1,6 +1,6 @@
 # Case study: rare-earth magnets
 
-The rare-earth case models the supply chain for **NdFeB permanent magnets**
+The rare-earth case models the supply chain for NdFeB permanent magnets
 (neodymium and dysprosium), from ore through finished magnet delivered to U.S.
 demand. It is the richer of the two shipped cases and exercises the nonlinear
 solver path.
@@ -51,7 +51,7 @@ Inputs live in `src/bleecam/cases/rare_earth/data/`:
 bleecam-ree --data src/bleecam/cases/rare_earth/data
 ```
 
-The rare-earth model includes nonlinear terms, so it uses **ipopt**
+The rare-earth model includes nonlinear terms, so it uses ipopt
 (see [Installation → Solvers](../installation.md#solvers)). The run reports the
 cost-optimized configuration and its economic, environmental, and social metrics.
 

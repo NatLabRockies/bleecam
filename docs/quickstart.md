@@ -32,7 +32,7 @@ bleecam-ga-pareto \
 
 ## Run a scenario — no code
 
-A **scenario** is a small YAML that names a case and applies policy levers from
+A scenario is a small YAML that names a case and applies policy levers from
 the criticality-constraint library. Nothing is hard-coded in Python.
 
 ```bash

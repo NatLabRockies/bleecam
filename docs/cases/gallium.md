@@ -1,12 +1,12 @@
 # Case study: gallium
 
-The gallium case models the supply chain for **GaAs / GaN semiconductor wafers**,
+The gallium case models the supply chain for GaAs / GaN semiconductor wafers,
 from bauxite through high-purity gallium to finished wafers delivered to U.S.
 demand. It is a linear case and solves quickly with the bundled HiGHS solver.
 
 ## Supply chain
 
-Gallium is a **byproduct** metal, so the chain begins in aluminium (and zinc)
+Gallium is a byproduct metal, so the chain begins in aluminium (and zinc)
 production and proceeds through purification, precursor chemistry, and wafer
 fabrication:
 
@@ -16,7 +16,7 @@ bauxite → alumina (Bayer process) → crude gallium (≈4N)
         → GaAs / GaN wafers → demand (US)
 ```
 
-A secondary **zinc-residue** route to crude gallium is also represented. Materials
+A secondary zinc-residue route to crude gallium is also represented. Materials
 tracked span bauxite, alumina/Bayer liquor, crude and high-purity gallium,
 precursors, and the finished wafers.
 
@@ -41,7 +41,7 @@ Inputs live in `src/bleecam/cases/gallium/data/gallium/`:
 
 :::{admonition} Tariffs are not modeled in the gallium case
 :class: warning
-Unlike the rare-earth case, gallium arc costs carry **no tariff term** in this beta
+Unlike the rare-earth case, gallium arc costs carry no tariff term in this beta
 (tariffs are zero). Cost-optimal routing therefore reflects processing and shipping
 economics only. Keep this in mind when comparing gallium routing to real-world trade
 policy.
@@ -57,7 +57,7 @@ bleecam-ga --input-dir src/bleecam/cases/gallium/data/gallium --solver auto
 ## Multi-objective (Pareto) frontier
 
 The gallium case supports a 3-objective trade-off surface
-(cost × GWP × a social metric) via AUGMECON2. This path needs **ipopt**:
+(cost × GWP × a social metric) via AUGMECON2. This path needs ipopt:
 
 ```bash
 bleecam-ga-pareto \
