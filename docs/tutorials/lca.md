@@ -133,9 +133,7 @@ is NLR's open-source LCA framework, built on Brightway2. It links a foreground
 inventory to a background database (ecoinvent) automatically, and can run
 prospective LCA — updating the background with Integrated Assessment Model
 scenarios through PREMISE to produce temporally explicit impact factors. It is the
-first-party engine behind BLEECAM's environmental data (lead developer Tapajyoti
-Ghosh, who is also a BLEECAM contributor; method described in Ghosh et al.,
-*Environmental Science & Technology*, 2023).
+first-party engine behind BLEECAM's environmental data. 
 
 ### Requirements
 
