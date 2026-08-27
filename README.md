@@ -83,7 +83,7 @@ src/bleecam/
   shared/   # generic reporting / visualization helpers
 ```
 
-BLEECAM uses a ProMMiS-style `src/` layout on a Pyomo optimization core. Cases supply data and case-specific structure; the shared `core/` provides the optimization, objective, and LCA-contract machinery.
+BLEECAM uses a `src/` layout on a Pyomo optimization core. Cases supply data and case-specific structure; the shared `core/` provides the optimization, objective, and LCA-contract machinery.
 
 ---
 
