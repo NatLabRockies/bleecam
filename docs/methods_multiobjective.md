@@ -16,7 +16,7 @@ flow, summed over the supply chain.
 - **Social** — S-LCA indicators (child labor, forced labor, fatal / non-fatal
   injury), in worker-hours per kg.
 
-## The degeneracy problem (state this plainly)
+## The degeneracy problem 
 
 **Minimizing a single impact directly is ill-posed for a supply-chain network.**
 Every arc whose source node has a zero (or missing) impact factor is *free* under
