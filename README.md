@@ -12,8 +12,11 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Status: Beta](https://img.shields.io/badge/status-beta-orange.svg)](DISCLAIMER.md)
 [![Version: 0.1.0-beta.1](https://img.shields.io/badge/version-0.1.0--beta.1-orange.svg)](https://github.com/NatLabRockies/bleecam/releases)
+[![Documentation Status](https://readthedocs.org/projects/bleecam/badge/?version=latest)](https://bleecam.readthedocs.io/en/latest/)
 
 > **BLEECAM™ is a multi-objective optimization framework that benchmarks global critical-mineral supply chains across economic, environmental, and social dimensions — it evaluates and optimizes whole supply-chain *scenarios*, not single products.**
+
+📖 **Documentation:** **<https://bleecam.readthedocs.io>**
 
 > [!WARNING]
 > **Public beta — `v0.1.0-beta.1`.** BLEECAM is released as a **beta** for transparency and community feedback. Public APIs, input data (the "golden inputs"), and numerical results may change between releases without notice. All outputs are **illustrative analytical results, not decision-grade guidance** for policy, investment, or operations — see the [DISCLAIMER](DISCLAIMER.md). Please report problems and suggestions via [GitHub Issues](https://github.com/NatLabRockies/bleecam/issues).
