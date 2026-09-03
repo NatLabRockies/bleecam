@@ -1,27 +1,43 @@
 cff-version: 1.2.0
 message: "If you use BLEECAM in your work, please cite it as below."
-title: "BLEECAM: Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials"
+title: "BLEECAM™ (Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials) [SWR-25-125]"
 abstract: >-
-  BLEECAM is a multi-objective optimization framework that benchmarks and optimizes
-  global critical-mineral and advanced-material supply-chain scenarios across economic
-  (TEA/LCC), environmental (LCA-derived), and social (S-LCA) dimensions, including the
-  multi-objective trade-off frontier. Developed at the National Laboratory of the
-  Rockies (NLR) with funding from the U.S. Department of Energy's Advanced Materials
-  and Manufacturing Technologies Office (DOE AMMTO).
+  BLEECAM is an open-source, integrated decision-support tool for evaluating the
+  impacts, risks, and trade-offs across U.S. and global materials supply chains. It
+  integrates multi-objective supply-chain optimization, system dynamics, network
+  design, life-cycle assessment (LCA), techno-economic modeling (TEA/LCC), and social
+  impact assessment (S-LCA) to evaluate how supply chains evolve over time, geography,
+  and deployment scenarios. Developed at the National Laboratory of the Rockies (NLR)
+  with funding from the U.S. Department of Energy's Office of Critical Minerals and
+  Energy Innovation (CMEI) and Advanced Materials and Manufacturing Technologies
+  Office (AMMTO).
 type: software
 version: "0.1.0-beta.1"
-date-released: "2026-08-26"
+doi: "10.11578/dc.20260831.2"
+date-released: "2026-04-29"
 license: AGPL-3.0-or-later
 repository-code: "https://github.com/NatLabRockies/bleecam"
 url: "https://github.com/NatLabRockies/bleecam"
+identifiers:
+  - type: doi
+    value: "10.11578/dc.20260831.2"
+    description: "DOE CODE software record (Code ID 191130)"
 authors:
-  - family-names: Khalifa
+  - family-names: "Khalifa Hassan"
     given-names: Sherif
+    affiliation: "National Laboratory of the Rockies (NLR)"
+  - family-names: Ghosh
+    given-names: Tapajyoti
+    affiliation: "National Laboratory of the Rockies (NLR)"
+  - family-names: Walzberg
+    given-names: Julien
     affiliation: "National Laboratory of the Rockies (NLR)"
 keywords:
   - critical minerals
+  - decision support
   - life cycle assessment
   - techno-economic analysis
+  - supply chain analytics
   - supply chain optimization
   - multi-objective optimization
   - rare earth elements
