@@ -13,6 +13,7 @@
 [![Status: Beta](https://img.shields.io/badge/status-beta-orange.svg)](DISCLAIMER.md)
 [![Version: 0.1.0-beta.1](https://img.shields.io/badge/version-0.1.0--beta.1-orange.svg)](https://github.com/NatLabRockies/bleecam/releases)
 [![Documentation Status](https://readthedocs.org/projects/bleecam/badge/?version=latest)](https://bleecam.readthedocs.io/en/latest/)
+[![DOI](https://img.shields.io/badge/DOI-10.11578%2Fdc.20260831.2-blue.svg)](https://doi.org/10.11578/dc.20260831.2)
 
 > **BLEECAM™ is a multi-objective optimization framework that benchmarks global critical-mineral supply chains across economic, environmental, and social dimensions — it evaluates and optimizes whole supply-chain *scenarios*, not single products.**
 
@@ -142,6 +143,28 @@ These evolve with DOE AMMTO feedback.
 ## Contributors
 
 Sherif Khalifa, Tapajyoti Ghosh, Julien Walzberg, Luca Brown
+
+---
+
+## Citation
+
+BLEECAM is registered in DOE CODE with a citable DOI: [**10.11578/dc.20260831.2**](https://doi.org/10.11578/dc.20260831.2) (Code ID 191130). If you use BLEECAM in your work, please cite it. A machine-readable [`CITATION.cff`](CITATION.cff) is included.
+
+> Khalifa Hassan, Sherif, Ghosh, Tapajyoti, and Walzberg, Julien. *BLEECAM™ (Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials) [SWR-25-125].* Computer Software. USDOE Office of Critical Minerals and Energy Innovation (CMEI); Advanced Materials and Manufacturing Technologies Office (AMMTO). 29 Apr. 2026. https://doi.org/10.11578/dc.20260831.2
+
+```bibtex
+@misc{bleecam_2026,
+  title        = {{BLEECAM™ (Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials) [SWR-25-125]}},
+  author       = {Khalifa Hassan, Sherif and Ghosh, Tapajyoti and Walzberg, Julien},
+  doi          = {10.11578/dc.20260831.2},
+  url          = {https://github.com/NatLabRockies/bleecam},
+  howpublished = {Computer software, DOE CODE (Code ID 191130)},
+  year         = {2026},
+  month        = apr,
+  note         = {USDOE Office of Critical Minerals and Energy Innovation (CMEI); AMMTO},
+  license      = {AGPL-3.0-or-later}
+}
+```
 
 ---
 
