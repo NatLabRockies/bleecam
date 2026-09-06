@@ -87,19 +87,31 @@ src/bleecam/
   shared/   # generic reporting / visualization helpers
 ```
 
-BLEECAM uses a `src/` layout on a Pyomo optimization core. Cases supply data and case-specific structure; the shared `core/` provides the optimization, objective, and LCA-contract machinery.
+BLEECAM uses a ProMMiS-style `src/` layout on a Pyomo optimization core. Cases supply data and case-specific structure; the shared `core/` provides the optimization, objective, and LCA-contract machinery.
 
 ---
 
 ## Installation
 
+Two steps: install the package, then make sure a math-programming **solver** is available (BLEECAM cannot solve a model without one).
+
+**1. Install the package** (Python ≥ 3.10):
+
 ```bash
-python -m pip install -e .            # core install (Pyomo, pandas, ...)
-python -m pip install -e ".[viz]"     # + plotting
-python -m pip install -e ".[test]"    # + pytest, SALib
+python -m pip install bleecam==0.1.0b1        # current beta (pinned)
+# or the latest release:  python -m pip install bleecam
+# extras:  python -m pip install "bleecam[viz,test]"   # plotting + tests
 ```
 
-A math-programming solver is required (ipopt as used in published results; HiGHS / GLPK / CBC also supported via auto-selection).
+This includes the bundled **HiGHS** solver (`highspy`), so the linear cases (e.g. gallium) work out of the box.
+
+**2. Install a solver.** HiGHS (above) covers the linear/LP cases. The nonlinear **rare-earth case and Pareto runs require `ipopt`**, installed separately:
+
+```bash
+conda install -c conda-forge ipopt
+```
+
+Any Pyomo-visible solver on your `PATH` (GLPK, CBC, …) is also auto-selected. For development, install editable from a clone instead: `git clone … && python -m pip install -e ".[viz,test]"`. Full details in the [installation guide](https://bleecam.readthedocs.io/en/latest/installation.html).
 
 ## Quickstart
 
