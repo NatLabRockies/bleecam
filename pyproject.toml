@@ -13,6 +13,17 @@ authors = [
   { name = "Sherif Khalifa" },
 ]
 keywords = ["critical minerals", "life cycle assessment", "supply chain optimization", "techno-economic analysis"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "Operating System :: OS Independent",
+]
 dependencies = [
   "pyomo>=6.7.0",
   "pandas>=2.0.0",
@@ -55,6 +66,16 @@ include = ["bleecam*"]
 
 [tool.setuptools.package-data]
 "bleecam" = ["cases/**/data/**/*"]
+
+# Keep build artifacts and internal backups out of the distributed package.
+# pollutant_flow.csv is a large LCA build artifact used only by the optional
+# dashboard (which degrades gracefully without it); *.preban_backup.csv are
+# internal working backups. Neither is loaded by the model at runtime.
+[tool.setuptools.exclude-package-data]
+"bleecam" = [
+  "cases/**/pollutant_flow.csv",
+  "cases/**/*.preban_backup.csv",
+]
 
 [tool.pytest.ini_options]
 # The repo directory is itself named "bleecam"; without importlib mode pytest
