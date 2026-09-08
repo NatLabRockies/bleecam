@@ -162,12 +162,12 @@ Sherif Khalifa, Tapajyoti Ghosh, Julien Walzberg, Luca Brown
 
 BLEECAM is registered in DOE CODE with a citable DOI: [**10.11578/dc.20260831.2**](https://doi.org/10.11578/dc.20260831.2) (Code ID 191130). If you use BLEECAM in your work, please cite it. A machine-readable [`CITATION.cff`](CITATION.cff) is included.
 
-> Khalifa Hassan, Sherif, Ghosh, Tapajyoti, and Walzberg, Julien. *BLEECAM™ (Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials) [SWR-25-125].* Computer Software. USDOE Office of Critical Minerals and Energy Innovation (CMEI); Advanced Materials and Manufacturing Technologies Office (AMMTO). 29 Apr. 2026. https://doi.org/10.11578/dc.20260831.2
+> Khalifa, Sherif A., Ghosh, Tapajyoti, and Walzberg, Julien. *BLEECAM™ (Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials) [SWR-25-125].* Computer Software. USDOE Office of Critical Minerals and Energy Innovation (CMEI); Advanced Materials and Manufacturing Technologies Office (AMMTO). 29 Apr. 2026. https://doi.org/10.11578/dc.20260831.2
 
 ```bibtex
 @misc{bleecam_2026,
   title        = {{BLEECAM™ (Benchmarking Life Cycle Environmental, Economic, and Social Metrics for Critical and Advanced Minerals and Materials) [SWR-25-125]}},
-  author       = {Khalifa Hassan, Sherif and Ghosh, Tapajyoti and Walzberg, Julien},
+  author       = {Khalifa, Sherif A. and Ghosh, Tapajyoti and Walzberg, Julien},
   doi          = {10.11578/dc.20260831.2},
   url          = {https://github.com/NatLabRockies/bleecam},
   howpublished = {Computer software, DOE CODE (Code ID 191130)},

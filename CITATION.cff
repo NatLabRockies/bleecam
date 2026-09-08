@@ -23,8 +23,8 @@ identifiers:
     value: "10.11578/dc.20260831.2"
     description: "DOE CODE software record (Code ID 191130)"
 authors:
-  - family-names: "Khalifa Hassan"
-    given-names: Sherif
+  - family-names: Khalifa
+    given-names: Sherif A.
     affiliation: "National Laboratory of the Rockies (NLR)"
   - family-names: Ghosh
     given-names: Tapajyoti

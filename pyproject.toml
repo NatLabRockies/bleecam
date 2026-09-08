@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "AGPL-3.0-or-later" }
 authors = [
-  { name = "Sherif Khalifa" },
+  { name = "Sherif A. Khalifa" },
 ]
 keywords = ["critical minerals", "life cycle assessment", "supply chain optimization", "techno-economic analysis"]
 classifiers = [
