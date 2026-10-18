@@ -180,6 +180,10 @@ BLEECAM is registered in DOE CODE with a citable DOI: [**10.11578/dc.20260831.2*
 
 ---
 
+## Integrations
+
+- [`examples/reeds`](examples/reeds) — prototype linking NLR's ReEDS capacity-expansion model to BLEECAM, showing how power-sector energy-mix scenarios drive upstream critical-mineral (rare-earth) demand. *Method demonstration — see its README for status and caveats.*
+
 ## License
 
 BLEECAM is distributed under the **GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)** — see [LICENSE](LICENSE).
