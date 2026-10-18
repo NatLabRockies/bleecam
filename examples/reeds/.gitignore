@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+
+# BLEECAM run artifacts — NEVER COMMIT.
+# Each BLEECAM run copies BLEECAM's full input tree into outputs/.../data/, including the
+# ~69 MB pollutant_flow.csv. These are regenerable and bloat the repo to ~288 MB.
+outputs/**/data/
+outputs/**/run_*/
+outputs/run_*/
+outputs/real/run_*/
+outputs/real_run_log.txt
+
+# Large regenerable / raw files anywhere
+**/pollutant_flow.csv
+**/model_results_multilocation.csv
+**/lcia_results.csv
+**/combined_lcia_data.csv
+*.xlsx
+
+# Kept on purpose (do NOT ignore): src/, tests/, data/ contracts,
+# outputs/comparison_*.csv, outputs/*.png figures, and the report.

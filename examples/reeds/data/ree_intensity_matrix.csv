@@ -1,0 +1,7 @@
+technology,ndfeb_kg_per_MW,nd_frac,pr_frac,dy_frac,note,source
+wind-ofs,600,0.23,0.05,0.03,"Offshore wind: mostly direct-drive PMSG; high NdFeB per MW","PLACEHOLDER — Carrara et al. 2020 (JRC); IEA 2021/2022 critical minerals"
+wind-ons,120,0.23,0.05,0.03,"Onshore wind: blended drivetrain (~20-40% PMSG, rest geared/DFIG)","PLACEHOLDER — Carrara et al. 2020 (JRC)"
+upv,0,0,0,0,"Solar PV REE content ~0 (Ag/Si/Te/In/Ga drive PV, not REE)","n/a — out of REE boundary"
+battery,0,0,0,0,"Battery storage ~0 REE (Li/Co/Ni/graphite/Mn)","n/a — out of REE boundary"
+gas-cc,0,0,0,0,"Trace REE in generators; negligible at this boundary","n/a"
+nuclear,0,0,0,0,"Trace REE; negligible at this boundary","n/a"
