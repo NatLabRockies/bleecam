@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bleecam-reeds"
+version = "0.0.1"
+description = "Linkage prototype: ReEDS power-sector capacity scenarios -> BLEECAM critical-mineral (REE) supply-chain demand and impacts."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "AGPL-3.0-or-later" }
+authors = [
+  { name = "Sherif A. Khalifa" },
+]
+keywords = ["ReEDS", "BLEECAM", "critical minerals", "rare earth", "capacity expansion", "energy transition"]
+dependencies = [
+  "bleecam>=0.1.0b1",   # the supply-chain optimizer (public beta on PyPI)
+  "pandas>=2.0.0",
+  "numpy>=1.24.0",
+  "matplotlib>=3.6",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[project.urls]
+BLEECAM = "https://github.com/NatLabRockies/bleecam"
+ReEDS = "https://github.com/ReEDS-Model/ReEDS"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["reeds2bleecam*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
